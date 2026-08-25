@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or source data, please cite this software release and the associated manuscript."
+type: software
+title: "Code for cross-platform mapping of a regenerative-like epithelial programme in colorectal liver metastases"
+version: 1.0.0
+date-released: 2026-08-25
+repository-code: "https://github.com/Elliott0114/crc-metastatic-growth-pattern-atlas"
+abstract: >-
+  Patient-level analysis code, fixed programme definition, analysis specifications
+  and panel-level source data for a cross-platform study of replacement-type
+  colorectal liver metastases.
+keywords:
+  - colorectal liver metastasis
+  - histopathological growth pattern
+  - spatial transcriptomics
+  - single-cell RNA sequencing
+  - epithelial plasticity
+authors:
+  - family-names: Lv
+    given-names: Yiming
+    orcid: "https://orcid.org/0000-0003-4835-0336"
+  - family-names: Jia
+    given-names: Xiya
+  - family-names: Chen
+    given-names: Runzhi
+  - family-names: Chen
+    given-names: Yiyi
+    orcid: "https://orcid.org/0000-0001-9766-6631"
+  - family-names: Yin
+    given-names: Sijie
+  - family-names: Dai
+    given-names: Sheng
+    orcid: "https://orcid.org/0000-0002-5387-8517"

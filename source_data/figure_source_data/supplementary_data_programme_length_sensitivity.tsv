@@ -1,0 +1,9 @@
+dataset	programme	programme_size	family	n_defined	n_measured	effect	exact_p_one_sided	exact_p_two_sided	n_units
+"GSE151165 bulk tumour"	"Top 25 REC genes"	25	"programme length"	25	23	0.614140715670322	0.0013986013986014	0.0021978021978022	15
+"GSE294385 paired lesion regions"	"Top 25 REC genes"	25	"programme length"	25	24	0.344033462712025	0.009765625	0.01953125	11
+"GSE151165 bulk tumour"	"Top 50 REC genes"	50	"programme length"	50	48	0.505162955238302	0.0003996003996004	0.000599400599400599	15
+"GSE294385 paired lesion regions"	"Top 50 REC genes"	50	"programme length"	50	45	0.333381083189169	0.009765625	0.01953125	11
+"GSE151165 bulk tumour"	"Top 75 REC genes"	75	"programme length"	75	73	0.521629057153493	0.0001998001998002	0.0001998001998002	15
+"GSE294385 paired lesion regions"	"Top 75 REC genes"	75	"programme length"	75	68	0.305082458912268	0.0087890625	0.017578125	11
+"GSE151165 bulk tumour"	"Top 100 REC genes"	100	"programme length"	100	95	0.501804594305267	0.000599400599400599	0.0013986013986014	15
+"GSE294385 paired lesion regions"	"Top 100 REC genes"	100	"programme length"	100	90	0.374136044795839	0.001953125	0.00390625	11

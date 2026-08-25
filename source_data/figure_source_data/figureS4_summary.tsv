@@ -1,0 +1,7 @@
+sample	patient	hgp	image_path	pixels_per_micrometre	n_retained_spots	n_liver_like	n_near_interface_tumour	n_deep_tumour	n_other_tumour_side
+Sample3	PT55	dHGP	E-MTAB-12043/Sample3/outs/spatial/tissue_hires_image.png	0.295651822720259	4801	1601	1366	235	0
+Sample7	PT61	dHGP	E-MTAB-12043/Sample7/outs/spatial/tissue_hires_image.png	0.300831983662977	3437	1146	862	284	0
+Sample4	PT68	dHGP	E-MTAB-12043/Sample4/outs/spatial/tissue_hires_image.png	0.292250322306454	4476	1492	603	885	4
+Sample1	PT36	rHGP	E-MTAB-12043/Sample1/outs/spatial/tissue_hires_image.png	0.286272871486312	3827	1276	772	504	0
+Sample5	PT44	rHGP	E-MTAB-12043/Sample5/outs/spatial/tissue_hires_image.png	0.299327984063237	2484	828	476	349	3
+Sample6	PT54	rHGP	E-MTAB-12043/Sample6/outs/spatial/tissue_hires_image.png	0.297148525794211	2604	868	255	608	5

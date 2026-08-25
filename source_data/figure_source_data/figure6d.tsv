@@ -1,0 +1,9 @@
+dataset	component	n_defined	n_measured	effect	exact_p_two_sided	positive_units	n_units	dataset_label	p_label	component_reader
+GSE151165 bulk tumour	REC non-hypoxia component	42	40	0.505305509746993	0.000599400599400599	NA	15	HGP-labelled bulk	P = 6.0e-04	Non-MP6 REC
+component
+GSE294385 paired lesion regions	REC non-hypoxia component	42	38	0.282158511465904	0.025390625	9	11	Macro vs micro	P = 0.025	Non-MP6 REC
+component
+GSE151165 bulk tumour	REC–hypoxia overlap	8	8	0.50445018269485	0.15044955044955	NA	15	HGP-labelled bulk	P = 0.150	REC–MP6
+overlap
+GSE294385 paired lesion regions	REC–hypoxia overlap	8	7	0.611446472544038	0.0244140625	8	11	Macro vs micro	P = 0.024	REC–MP6
+overlap

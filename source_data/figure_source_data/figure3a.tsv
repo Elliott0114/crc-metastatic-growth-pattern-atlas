@@ -1,0 +1,16 @@
+sample	endpoint_name	score	hgp	class
+KR-003	rec_equal_gene	-0.0574370587031787	dHGP	D_T
+KR-005	rec_equal_gene	-0.16636082470291	dHGP	D_T
+KR-007	rec_equal_gene	0.0611666284191428	dHGP	D_T
+KR-011	rec_equal_gene	-0.00660617768546347	dHGP	D_T
+KR-015	rec_equal_gene	-0.707111014708624	dHGP	D_T
+KR-017	rec_equal_gene	-0.0153011762830826	dHGP	D_T
+KR-025	rec_equal_gene	-0.446634727716177	dHGP	D_T
+KR-027	rec_equal_gene	-0.20385027210697	dHGP	D_T
+KR-064	rec_equal_gene	-0.276452015370625	dHGP	D_T
+KR-009	rec_equal_gene	0.385834265841951	rHGP	R_T
+KR-013	rec_equal_gene	0.191840092485549	rHGP	R_T
+KR-019	rec_equal_gene	0.203504136487977	rHGP	R_T
+KR-021	rec_equal_gene	0.00479617006839469	rHGP	R_T
+KR-031	rec_equal_gene	0.519556092039788	rHGP	R_T
+KR-066	rec_equal_gene	0.513055881934227	rHGP	R_T
