@@ -1,0 +1,9 @@
+dataset	normalization	model	n_patients	n_profiles	n_genes	design_rank	design_columns	residual_df	condition_number	estimable
+all_pairs	TMM	unadjusted	11	22	14331	12	12	10	14.4731512346708	TRUE
+all_pairs	TMM	source_adjusted	11	22	14331	15	15	7	71.1628247068095	TRUE
+all_pairs	library_only	unadjusted	11	22	14331	12	12	10	14.4731512346708	TRUE
+all_pairs	library_only	source_adjusted	11	22	14331	15	15	7	68.4129577513272	TRUE
+same_section	TMM	unadjusted	10	20	14555	11	11	9	12.9675182830751	TRUE
+same_section	TMM	source_adjusted	10	20	14555	14	14	6	58.83111763694	TRUE
+same_section	library_only	unadjusted	10	20	14555	11	11	9	12.9675182830751	TRUE
+same_section	library_only	source_adjusted	10	20	14555	14	14	6	59.0492901110457	TRUE

@@ -1,0 +1,4 @@
+# File checksums include the recorded line endings; do not normalize on checkout.
+* -text
+# TSVs retain empty final fields and their recorded CRLF line endings.
+*.tsv whitespace=-blank-at-eol,cr-at-eol

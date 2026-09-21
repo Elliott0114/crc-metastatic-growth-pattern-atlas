@@ -1,0 +1,8 @@
+source	n	unit
+ISS	17	source patients
+Ogden	14	discovery patients
+Five external studies	28	independent validation patients
+Bulk RNA-seq	15	patients
+HGP spatial transcriptomics	6	patients
+Paired micro/macro regions	11	patients with paired regions
+Same-section sensitivity	10	same-section patients among the 11 patients

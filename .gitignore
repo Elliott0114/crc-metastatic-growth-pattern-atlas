@@ -1,22 +1,39 @@
-# Public source datasets and large analysis-ready objects
-data_sources/
-analysis_work/
-
-# Generated analysis outputs; retain the fixed programme definition
-analysis_results/*
-!analysis_results/ogden_anchor_program/
-analysis_results/ogden_anchor_program/*
-!analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv
-
-# Generated figures and local logs
-figures/
-logs/
-
-# Python, R and editor state
+# Run outputs and caches, never analysis inputs for the public quick route.
+outputs/
+work/
+data/external/
+data/companion/
+/inputs/
+/data_sources/
+/analysis_work/
+/analysis_results/
 __pycache__/
 *.py[cod]
 .Rhistory
 .RData
 .Rproj.user/
 .DS_Store
-*.swp
+.env
+.env.*
+*.log
+*.tar
+*.tar.gz
+*.zip
+
+# Local credentials and manuscript/submission material are not release inputs.
+*.pem
+*.key
+*.docx
+*.doc
+*.pptx
+*.fastq*
+*.fq*
+*.bam
+*.cram
+*.sra
+*.h5ad
+*.h5
+*.mtx
+*.mtx.gz
+*.rds
+*.RDS

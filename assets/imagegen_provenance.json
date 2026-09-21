@@ -1,0 +1,6 @@
+{
+  "mode": "built-in image_gen; no CLI/API fallback",
+  "selected_sha256": "9853821b1a767a420d63c1ec4c38d244c0300b642d38262845c29099a99b042f",
+  "postprocessing": "No pixel retouching; six source-image view windows are positioned by Matplotlib. Labels and connector paths are separate vector objects.",
+  "selected_file": "assets/medical_icons.png"
+}

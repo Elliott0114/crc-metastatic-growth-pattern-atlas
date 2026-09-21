@@ -1,0 +1,26 @@
+[
+  [
+    "step",
+    "n"
+  ],
+  [
+    "deposited_samples",
+    283.0
+  ],
+  [
+    "unique_patients",
+    171.0
+  ],
+  [
+    "outcome_representatives",
+    171.0
+  ],
+  [
+    "after_excluding_known_repeated_resection",
+    162.0
+  ],
+  [
+    "after_source_quality_exclusion",
+    160.0
+  ]
+]

@@ -1,0 +1,1962 @@
+[
+  [
+    "Analysis",
+    "Programme or gene",
+    "Comparison or adjustment",
+    "Sample size",
+    "Effect measure",
+    "Estimate (95% CI)",
+    "P",
+    "Adjusted P / FDR"
+  ],
+  [
+    "GSEA",
+    "HRC",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "3.347",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "HRC",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "3.506",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "HRC",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "3.103",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Nusse regenerative",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "2.801",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Nusse regenerative",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.503",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Nusse regenerative",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "1.9",
+    "0*",
+    "0.0006864"
+  ],
+  [
+    "GSEA",
+    "Partial EMT",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "2.477",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Partial EMT",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.518",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Partial EMT",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "1.888",
+    "0.0008446",
+    "0.0007241"
+  ],
+  [
+    "GSEA",
+    "TNFα / NF-κB",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "2.699",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "TNFα / NF-κB",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.546",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "TNFα / NF-κB",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "1.612",
+    "0.0007616",
+    "0.01243"
+  ],
+  [
+    "GSEA",
+    "Hypoxia",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "2.499",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Hypoxia",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.64",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Hypoxia",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "2.595",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Unfolded protein response",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "1.85",
+    "0*",
+    "0.0003679"
+  ],
+  [
+    "GSEA",
+    "Unfolded protein response",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.097",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Unfolded protein response",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "2.008",
+    "0*",
+    "5.349e-05"
+  ],
+  [
+    "GSEA",
+    "Glycolysis",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "1.949",
+    "0*",
+    "0.0001295"
+  ],
+  [
+    "GSEA",
+    "Glycolysis",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.083",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Glycolysis",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "2.037",
+    "0*",
+    "5.884e-05"
+  ],
+  [
+    "GSEA",
+    "E2F",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "-3.031",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "E2F",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "-2.345",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "E2F",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "-2.567",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "G2M",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "-3.042",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "G2M",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "-2.105",
+    "0*",
+    "0.0002734"
+  ],
+  [
+    "GSEA",
+    "G2M",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "-2.556",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "WNT/β-catenin signalling",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "-0.8467",
+    "0.7034",
+    "0.9262"
+  ],
+  [
+    "GSEA",
+    "WNT/β-catenin signalling",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "0.7624",
+    "0.8084",
+    "0.8841"
+  ],
+  [
+    "GSEA",
+    "WNT/β-catenin signalling",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "-1.304",
+    "0.1168",
+    "0.1254"
+  ],
+  [
+    "GSEA",
+    "MYC targets (Hallmark V1)",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "-1.728",
+    "0*",
+    "0.0109"
+  ],
+  [
+    "GSEA",
+    "MYC targets (Hallmark V1)",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "-0.7642",
+    "0.9824",
+    "0.8933"
+  ],
+  [
+    "GSEA",
+    "MYC targets (Hallmark V1)",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "-1.801",
+    "0*",
+    "0.002856"
+  ],
+  [
+    "GSEA",
+    "Fatty-acid metabolism",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "0.9769",
+    "0.5119",
+    "0.5086"
+  ],
+  [
+    "GSEA",
+    "Fatty-acid metabolism",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "-0.8986",
+    "0.7323",
+    "0.7649"
+  ],
+  [
+    "GSEA",
+    "Fatty-acid metabolism",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "1.38",
+    "0.02399",
+    "0.06568"
+  ],
+  [
+    "GSEA",
+    "Top 100 palmitate-induced genes",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "1.086",
+    "0.325",
+    "0.3381"
+  ],
+  [
+    "GSEA",
+    "Top 100 palmitate-induced genes",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "1.241",
+    "0.1491",
+    "0.15"
+  ],
+  [
+    "GSEA",
+    "Top 100 palmitate-induced genes",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "1.049",
+    "0.3767",
+    "0.4047"
+  ],
+  [
+    "GSEA",
+    "Maintenance of epithelial structure",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "2.304",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Maintenance of epithelial structure",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.109",
+    "0*",
+    "0.0003874"
+  ],
+  [
+    "GSEA",
+    "Maintenance of epithelial structure",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "1.989",
+    "0*",
+    "0.02111"
+  ],
+  [
+    "GSEA",
+    "Adhesion between cells of the same type",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "2.404",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Adhesion between cells of the same type",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.326",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Adhesion between cells of the same type",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "2.098",
+    "0*",
+    "0.004127"
+  ],
+  [
+    "GSEA",
+    "Tight junction",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "2.244",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Tight junction",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.143",
+    "0*",
+    "0.0004236"
+  ],
+  [
+    "GSEA",
+    "Tight junction",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "1.921",
+    "0*",
+    "0.02505"
+  ],
+  [
+    "GSEA",
+    "Keratinization",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "2.739",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Keratinization",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.421",
+    "0*",
+    "0*"
+  ],
+  [
+    "GSEA",
+    "Keratinization",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "2.138",
+    "0*",
+    "0.001625"
+  ],
+  [
+    "C8 comparison",
+    "Top 50 C8 markers",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "2.609",
+    "0*",
+    "0*"
+  ],
+  [
+    "C8 comparison",
+    "C8 markers after excluding hypoxia genes",
+    "REC – Hypoxia",
+    "9 pairs",
+    "NES",
+    "2.447",
+    "0*",
+    "0*"
+  ],
+  [
+    "C8 comparison",
+    "Top 50 C8 markers",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.753",
+    "0*",
+    "0*"
+  ],
+  [
+    "C8 comparison",
+    "C8 markers after excluding hypoxia genes",
+    "REC – UPR",
+    "6 pairs",
+    "NES",
+    "2.455",
+    "0*",
+    "0*"
+  ],
+  [
+    "C8 comparison",
+    "Top 50 C8 markers",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "2.88",
+    "0*",
+    "0*"
+  ],
+  [
+    "C8 comparison",
+    "C8 markers after excluding hypoxia genes",
+    "REC – iREC",
+    "5 pairs",
+    "NES",
+    "2.717",
+    "0*",
+    "0*"
+  ],
+  [
+    "C8 comparison",
+    "CDH17",
+    "REC – Hypoxia",
+    "9 pairs",
+    "log2 FC",
+    "0.2379",
+    "0.02577",
+    "0.09987"
+  ],
+  [
+    "C8 comparison",
+    "CDH17",
+    "REC – UPR",
+    "6 pairs",
+    "log2 FC",
+    "0.446",
+    "0.005139",
+    "0.02947"
+  ],
+  [
+    "C8 comparison",
+    "CDH17",
+    "REC – iREC",
+    "5 pairs",
+    "log2 FC",
+    "0.9354",
+    "1.764e-05",
+    "0.003844"
+  ],
+  [
+    "C8 comparison",
+    "CLDN2",
+    "REC – Hypoxia",
+    "9 pairs",
+    "log2 FC",
+    "-0.02725",
+    "0.947",
+    "0.9729"
+  ],
+  [
+    "C8 comparison",
+    "CLDN2",
+    "REC – UPR",
+    "6 pairs",
+    "log2 FC",
+    "-0.2046",
+    "0.7351",
+    "0.8418"
+  ],
+  [
+    "C8 comparison",
+    "CLDN2",
+    "REC – iREC",
+    "5 pairs",
+    "log2 FC",
+    "-1.577",
+    "0.03477",
+    "0.2476"
+  ],
+  [
+    "C8 comparison",
+    "TJP1",
+    "REC – Hypoxia",
+    "9 pairs",
+    "log2 FC",
+    "0.4863",
+    "0.003178",
+    "0.02306"
+  ],
+  [
+    "C8 comparison",
+    "TJP1",
+    "REC – UPR",
+    "6 pairs",
+    "log2 FC",
+    "1.115",
+    "3.361e-06",
+    "0.0002136"
+  ],
+  [
+    "C8 comparison",
+    "TJP1",
+    "REC – iREC",
+    "5 pairs",
+    "log2 FC",
+    "0.3434",
+    "0.0503",
+    "0.2979"
+  ],
+  [
+    "C8 comparison",
+    "LGR5",
+    "REC – Hypoxia",
+    "9 pairs",
+    "log2 FC",
+    "-1.044",
+    "0.000178",
+    "0.003094"
+  ],
+  [
+    "C8 comparison",
+    "LGR5",
+    "REC – UPR",
+    "6 pairs",
+    "log2 FC",
+    "-2.273",
+    "2.239e-10",
+    "1.706e-06"
+  ],
+  [
+    "C8 comparison",
+    "LGR5",
+    "REC – iREC",
+    "5 pairs",
+    "log2 FC",
+    "-2.053",
+    "9.084e-11",
+    "6.22e-07"
+  ],
+  [
+    "C8 comparison",
+    "MKI67",
+    "REC – Hypoxia",
+    "9 pairs",
+    "log2 FC",
+    "-0.7752",
+    "0.05511",
+    "0.1662"
+  ],
+  [
+    "C8 comparison",
+    "MKI67",
+    "REC – UPR",
+    "6 pairs",
+    "log2 FC",
+    "-0.7681",
+    "0.01845",
+    "0.07118"
+  ],
+  [
+    "C8 comparison",
+    "MKI67",
+    "REC – iREC",
+    "5 pairs",
+    "log2 FC",
+    "-0.6802",
+    "0.0802",
+    "0.373"
+  ],
+  [
+    "Paired programme scores",
+    "RSC",
+    "REC − Hypoxia",
+    "9 pairs",
+    "Score difference",
+    "0.09571 [0.0288, 0.1695]",
+    "0.05469",
+    "0.1193"
+  ],
+  [
+    "Paired programme scores",
+    "RSC",
+    "REC − UPR",
+    "6 pairs",
+    "Score difference",
+    "0.3907 [0.2805, 0.5078]",
+    "0.03125",
+    "0.08203"
+  ],
+  [
+    "Paired programme scores",
+    "RSC",
+    "REC − iREC",
+    "5 pairs",
+    "Score difference",
+    "0.1141 [-0.107, 0.3355]",
+    "0.5",
+    "0.5526"
+  ],
+  [
+    "Paired programme scores",
+    "CBC",
+    "REC − Hypoxia",
+    "9 pairs",
+    "Score difference",
+    "-0.2844 [-0.3635, -0.2077]",
+    "0.003906",
+    "0.04102"
+  ],
+  [
+    "Paired programme scores",
+    "CBC",
+    "REC − UPR",
+    "6 pairs",
+    "Score difference",
+    "-0.145 [-0.2579, -0.02391]",
+    "0.09375",
+    "0.1641"
+  ],
+  [
+    "Paired programme scores",
+    "CBC",
+    "REC − iREC",
+    "5 pairs",
+    "Score difference",
+    "-0.1411 [-0.2613, -0.004993]",
+    "0.125",
+    "0.1875"
+  ],
+  [
+    "Paired programme scores",
+    "MAPK",
+    "REC − Hypoxia",
+    "9 pairs",
+    "Score difference",
+    "0.0555 [-0.0523, 0.1605]",
+    "0.3516",
+    "0.4343"
+  ],
+  [
+    "Paired programme scores",
+    "MAPK",
+    "REC − UPR",
+    "6 pairs",
+    "Score difference",
+    "0.4107 [0.2659, 0.5351]",
+    "0.03125",
+    "0.08203"
+  ],
+  [
+    "Paired programme scores",
+    "MAPK",
+    "REC − iREC",
+    "5 pairs",
+    "Score difference",
+    "0.02703 [-0.09135, 0.1795]",
+    "0.875",
+    "0.875"
+  ],
+  [
+    "Paired programme scores",
+    "WNT",
+    "REC − Hypoxia",
+    "9 pairs",
+    "Score difference",
+    "-0.2124 [-0.3198, -0.1122]",
+    "0.007812",
+    "0.04102"
+  ],
+  [
+    "Paired programme scores",
+    "WNT",
+    "REC − UPR",
+    "6 pairs",
+    "Score difference",
+    "-0.05857 [-0.171, 0.05621]",
+    "0.4062",
+    "0.474"
+  ],
+  [
+    "Paired programme scores",
+    "WNT",
+    "REC − iREC",
+    "5 pairs",
+    "Score difference",
+    "-0.1135 [-0.2355, 0.01696]",
+    "0.25",
+    "0.3281"
+  ],
+  [
+    "Paired programme scores",
+    "iCMS2",
+    "REC − Hypoxia",
+    "9 pairs",
+    "Score difference",
+    "-0.1334 [-0.1978, -0.06991]",
+    "0.007812",
+    "0.04102"
+  ],
+  [
+    "Paired programme scores",
+    "iCMS2",
+    "REC − UPR",
+    "6 pairs",
+    "Score difference",
+    "0.1129 [-0.03413, 0.234]",
+    "0.2188",
+    "0.3063"
+  ],
+  [
+    "Paired programme scores",
+    "iCMS2",
+    "REC − iREC",
+    "5 pairs",
+    "Score difference",
+    "0.05966 [-0.07297, 0.2484]",
+    "0.75",
+    "0.7875"
+  ],
+  [
+    "Paired programme scores",
+    "iCMS3",
+    "REC − Hypoxia",
+    "9 pairs",
+    "Score difference",
+    "0.1243 [0.04838, 0.2001]",
+    "0.01953",
+    "0.08203"
+  ],
+  [
+    "Paired programme scores",
+    "iCMS3",
+    "REC − UPR",
+    "6 pairs",
+    "Score difference",
+    "0.3707 [0.2314, 0.51]",
+    "0.03125",
+    "0.08203"
+  ],
+  [
+    "Paired programme scores",
+    "iCMS3",
+    "REC − iREC",
+    "5 pairs",
+    "Score difference",
+    "0.2194 [0.09266, 0.344]",
+    "0.125",
+    "0.1875"
+  ],
+  [
+    "Paired programme scores",
+    "iCMS3–2",
+    "REC − Hypoxia",
+    "9 pairs",
+    "Score difference",
+    "0.2577 [0.1884, 0.3203]",
+    "0.003906",
+    "0.04102"
+  ],
+  [
+    "Paired programme scores",
+    "iCMS3–2",
+    "REC − UPR",
+    "6 pairs",
+    "Score difference",
+    "0.2578 [0.1147, 0.4097]",
+    "0.0625",
+    "0.1193"
+  ],
+  [
+    "Paired programme scores",
+    "iCMS3–2",
+    "REC − iREC",
+    "5 pairs",
+    "Score difference",
+    "0.1598 [0.07722, 0.2445]",
+    "0.0625",
+    "0.1193"
+  ],
+  [
+    "Programme co-expression",
+    "Actin turnover and tight junction",
+    "Hypoxia; sequencing depth",
+    "14 patients",
+    "Spearman ρ",
+    "0.163 [0.1099, 0.2215]",
+    "0.0001221",
+    "0.0001526"
+  ],
+  [
+    "Programme co-expression",
+    "E2F and G2M",
+    "Hypoxia; sequencing depth",
+    "14 patients",
+    "Spearman ρ",
+    "0.4956 [0.4231, 0.5649]",
+    "0.0001221",
+    "0.0001526"
+  ],
+  [
+    "Programme co-expression",
+    "HRC and E2F",
+    "Hypoxia; sequencing depth",
+    "14 patients",
+    "Spearman ρ",
+    "-0.1633 [-0.2396, -0.08942]",
+    "0.001587",
+    "0.001587"
+  ],
+  [
+    "Programme co-expression",
+    "HRC and tight junction",
+    "Hypoxia; sequencing depth",
+    "14 patients",
+    "Spearman ρ",
+    "0.3009 [0.248, 0.3508]",
+    "0.0001221",
+    "0.0001526"
+  ],
+  [
+    "Programme co-expression",
+    "Partial EMT and tight junction",
+    "Hypoxia; sequencing depth",
+    "14 patients",
+    "Spearman ρ",
+    "0.2483 [0.2041, 0.3025]",
+    "0.0001221",
+    "0.0001526"
+  ],
+  [
+    "Programme co-expression",
+    "Actin turnover and tight junction",
+    "REC; sequencing depth",
+    "9 patients",
+    "Spearman ρ",
+    "0.2195 [0.172, 0.2698]",
+    "0.003906",
+    "0.003906"
+  ],
+  [
+    "Programme co-expression",
+    "E2F and G2M",
+    "REC; sequencing depth",
+    "9 patients",
+    "Spearman ρ",
+    "0.3411 [0.246, 0.4308]",
+    "0.003906",
+    "0.003906"
+  ],
+  [
+    "Programme co-expression",
+    "HRC and E2F",
+    "REC; sequencing depth",
+    "9 patients",
+    "Spearman ρ",
+    "-0.136 [-0.2406, -0.04852]",
+    "0.003906",
+    "0.003906"
+  ],
+  [
+    "Programme co-expression",
+    "HRC and tight junction",
+    "REC; sequencing depth",
+    "9 patients",
+    "Spearman ρ",
+    "0.3729 [0.3028, 0.4299]",
+    "0.003906",
+    "0.003906"
+  ],
+  [
+    "Programme co-expression",
+    "Partial EMT and tight junction",
+    "REC; sequencing depth",
+    "9 patients",
+    "Spearman ρ",
+    "0.3052 [0.2101, 0.3857]",
+    "0.003906",
+    "0.003906"
+  ],
+  [
+    "Programme co-expression",
+    "Actin turnover and tight junction",
+    "UPR; sequencing depth",
+    "10 patients",
+    "Spearman ρ",
+    "-0.03943 [-0.1324, 0.04253]",
+    "0.4551",
+    "0.4551"
+  ],
+  [
+    "Programme co-expression",
+    "E2F and G2M",
+    "UPR; sequencing depth",
+    "10 patients",
+    "Spearman ρ",
+    "0.5045 [0.3964, 0.6034]",
+    "0.001953",
+    "0.009766"
+  ],
+  [
+    "Programme co-expression",
+    "HRC and E2F",
+    "UPR; sequencing depth",
+    "10 patients",
+    "Spearman ρ",
+    "-0.1886 [-0.3335, -0.03403]",
+    "0.05859",
+    "0.07324"
+  ],
+  [
+    "Programme co-expression",
+    "HRC and tight junction",
+    "UPR; sequencing depth",
+    "10 patients",
+    "Spearman ρ",
+    "0.1512 [0.03652, 0.2589]",
+    "0.04883",
+    "0.07324"
+  ],
+  [
+    "Programme co-expression",
+    "Partial EMT and tight junction",
+    "UPR; sequencing depth",
+    "10 patients",
+    "Spearman ρ",
+    "0.1341 [0.04507, 0.2238]",
+    "0.02734",
+    "0.06836"
+  ],
+  [
+    "Programme co-expression",
+    "Actin turnover and tight junction",
+    "iREC; sequencing depth",
+    "7 patients",
+    "Spearman ρ",
+    "0.07672 [-0.1194, 0.2553]",
+    "0.4688",
+    "0.4688"
+  ],
+  [
+    "Programme co-expression",
+    "E2F and G2M",
+    "iREC; sequencing depth",
+    "7 patients",
+    "Spearman ρ",
+    "0.5101 [0.432, 0.5879]",
+    "0.01562",
+    "0.07812"
+  ],
+  [
+    "Programme co-expression",
+    "HRC and E2F",
+    "iREC; sequencing depth",
+    "7 patients",
+    "Spearman ρ",
+    "-0.1182 [-0.3011, 0.09186]",
+    "0.2969",
+    "0.3711"
+  ],
+  [
+    "Programme co-expression",
+    "HRC and tight junction",
+    "iREC; sequencing depth",
+    "7 patients",
+    "Spearman ρ",
+    "0.2498 [-0.03214, 0.4634]",
+    "0.1406",
+    "0.2604"
+  ],
+  [
+    "Programme co-expression",
+    "Partial EMT and tight junction",
+    "iREC; sequencing depth",
+    "7 patients",
+    "Spearman ρ",
+    "0.2187 [-0.02496, 0.4342]",
+    "0.1562",
+    "0.2604"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; iCMS3–2 genes excluded",
+    "Hypoxia; sequencing depth",
+    "14 patients",
+    "Spearman ρ",
+    "0.2945 [0.2449, 0.3424]",
+    "0.0001221",
+    "0.0004883"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; iCMS3–2 genes excluded",
+    "REC; sequencing depth",
+    "9 patients",
+    "Spearman ρ",
+    "0.348 [0.2755, 0.4086]",
+    "0.003906",
+    "0.007812"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; iCMS3–2 genes excluded",
+    "UPR; sequencing depth",
+    "10 patients",
+    "Spearman ρ",
+    "0.1861 [0.06756, 0.2934]",
+    "0.01953",
+    "0.03125"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; iCMS3–2 genes excluded",
+    "iREC; sequencing depth",
+    "7 patients",
+    "Spearman ρ",
+    "0.2254 [-0.05314, 0.4425]",
+    "0.1875",
+    "0.1875"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; iCMS3–2 genes excluded",
+    "Hypoxia; sequencing depth and iCMS3–2",
+    "14 patients",
+    "Spearman ρ",
+    "0.283 [0.223, 0.3344]",
+    "0.0001221",
+    "0.0004883"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; iCMS3–2 genes excluded",
+    "REC; sequencing depth and iCMS3–2",
+    "9 patients",
+    "Spearman ρ",
+    "0.3373 [0.2563, 0.4025]",
+    "0.003906",
+    "0.007812"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; iCMS3–2 genes excluded",
+    "UPR; sequencing depth and iCMS3–2",
+    "10 patients",
+    "Spearman ρ",
+    "0.1783 [0.06269, 0.2854]",
+    "0.02148",
+    "0.03438"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; iCMS3–2 genes excluded",
+    "iREC; sequencing depth and iCMS3–2",
+    "7 patients",
+    "Spearman ρ",
+    "0.2064 [-0.065, 0.4187]",
+    "0.2031",
+    "0.2031"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; RSC genes excluded",
+    "Hypoxia; sequencing depth",
+    "14 patients",
+    "Spearman ρ",
+    "0.2703 [0.2229, 0.3164]",
+    "0.0001221",
+    "0.0004883"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; RSC genes excluded",
+    "REC; sequencing depth",
+    "9 patients",
+    "Spearman ρ",
+    "0.3864 [0.3137, 0.4514]",
+    "0.003906",
+    "0.007812"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; RSC genes excluded",
+    "UPR; sequencing depth",
+    "10 patients",
+    "Spearman ρ",
+    "0.1529 [0.04859, 0.2424]",
+    "0.02344",
+    "0.03125"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; RSC genes excluded",
+    "iREC; sequencing depth",
+    "7 patients",
+    "Spearman ρ",
+    "0.2996 [0.1053, 0.4585]",
+    "0.0625",
+    "0.07143"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; RSC genes excluded",
+    "Hypoxia; sequencing depth and RSC",
+    "14 patients",
+    "Spearman ρ",
+    "0.1931 [0.1362, 0.2465]",
+    "0.0001221",
+    "0.0004883"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; RSC genes excluded",
+    "REC; sequencing depth and RSC",
+    "9 patients",
+    "Spearman ρ",
+    "0.293 [0.2316, 0.3511]",
+    "0.003906",
+    "0.007812"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; RSC genes excluded",
+    "UPR; sequencing depth and RSC",
+    "10 patients",
+    "Spearman ρ",
+    "0.1331 [0.02928, 0.2223]",
+    "0.03906",
+    "0.05208"
+  ],
+  [
+    "Adjusted co-expression",
+    "HRC and junction; RSC genes excluded",
+    "iREC; sequencing depth and RSC",
+    "7 patients",
+    "Spearman ρ",
+    "0.2011 [-0.02735, 0.3967]",
+    "0.1719",
+    "0.1964"
+  ],
+  [
+    "Between-state correlation difference",
+    "iCMS3–2",
+    "REC − Hypoxia",
+    "9 pairs",
+    "Difference in Fisher z",
+    "0.0899 [-0.03484, 0.2055]",
+    "0.1953",
+    "0.293"
+  ],
+  [
+    "Between-state correlation difference",
+    "iCMS3–2",
+    "REC − UPR",
+    "6 pairs",
+    "Difference in Fisher z",
+    "0.1768 [0.02226, 0.315]",
+    "0.09375",
+    "0.1875"
+  ],
+  [
+    "Between-state correlation difference",
+    "iCMS3–2",
+    "REC − iREC",
+    "5 pairs",
+    "Difference in Fisher z",
+    "0.005278 [-0.1978, 0.2875]",
+    "1",
+    "1"
+  ],
+  [
+    "Between-state correlation difference",
+    "RSC",
+    "REC − Hypoxia",
+    "9 pairs",
+    "Difference in Fisher z",
+    "0.1059 [0.03244, 0.1791]",
+    "0.02734",
+    "0.09375"
+  ],
+  [
+    "Between-state correlation difference",
+    "RSC",
+    "REC − UPR",
+    "6 pairs",
+    "Difference in Fisher z",
+    "0.1388 [0.0932, 0.1984]",
+    "0.03125",
+    "0.09375"
+  ],
+  [
+    "Between-state correlation difference",
+    "RSC",
+    "REC − iREC",
+    "5 pairs",
+    "Difference in Fisher z",
+    "0.07602 [-0.1843, 0.3982]",
+    "0.875",
+    "1"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin",
+    "All epithelial; matched; conditional",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.1467 [0.1115, 0.1794]",
+    "0.0001221",
+    "0.0003662"
+  ],
+  [
+    "Junction-component coupling",
+    "Polarity",
+    "All epithelial; matched; conditional",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.05126 [0.02626, 0.0762]",
+    "0.002075",
+    "0.002075"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin",
+    "All epithelial; matched; technical",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.2183 [0.1724, 0.2573]",
+    "0.0001221",
+    "0.0003662"
+  ],
+  [
+    "Junction-component coupling",
+    "Polarity",
+    "All epithelial; matched; technical",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.05557 [0.03734, 0.07401]",
+    "0.0004883",
+    "0.0004883"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin",
+    "All epithelial; raw; conditional",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.157 [0.1167, 0.1939]",
+    "0.0002441",
+    "0.0005493"
+  ],
+  [
+    "Junction-component coupling",
+    "Polarity",
+    "All epithelial; raw; conditional",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.08097 [0.05116, 0.1118]",
+    "0.0003662",
+    "0.0005493"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin",
+    "All epithelial; raw; technical",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.2449 [0.1902, 0.2882]",
+    "0.0002441",
+    "0.0002441"
+  ],
+  [
+    "Junction-component coupling",
+    "Polarity",
+    "All epithelial; raw; technical",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.09051 [0.06593, 0.1157]",
+    "0.0001221",
+    "0.0002441"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin",
+    "REC; matched; conditional",
+    "9 patients",
+    "Partial Spearman rho",
+    "0.2416 [0.195, 0.292]",
+    "0.003906",
+    "0.01172"
+  ],
+  [
+    "Junction-component coupling",
+    "Polarity",
+    "REC; matched; conditional",
+    "9 patients",
+    "Partial Spearman rho",
+    "0.08759 [-0.02742, 0.1942]",
+    "0.1875",
+    "0.1875"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin",
+    "REC; matched; technical",
+    "9 patients",
+    "Partial Spearman rho",
+    "0.3549 [0.2896, 0.4115]",
+    "0.003906",
+    "0.005859"
+  ],
+  [
+    "Junction-component coupling",
+    "Polarity",
+    "REC; matched; technical",
+    "9 patients",
+    "Partial Spearman rho",
+    "0.08073 [-0.02254, 0.1716]",
+    "0.1562",
+    "0.1562"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin",
+    "REC; raw; conditional",
+    "9 patients",
+    "Partial Spearman rho",
+    "0.2914 [0.2331, 0.3485]",
+    "0.003906",
+    "0.01172"
+  ],
+  [
+    "Junction-component coupling",
+    "Polarity",
+    "REC; raw; conditional",
+    "9 patients",
+    "Partial Spearman rho",
+    "0.05371 [-0.0388, 0.1472]",
+    "0.3164",
+    "0.3164"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin",
+    "REC; raw; technical",
+    "9 patients",
+    "Partial Spearman rho",
+    "0.3793 [0.306, 0.4446]",
+    "0.003906",
+    "0.01172"
+  ],
+  [
+    "Junction-component coupling",
+    "Polarity",
+    "REC; raw; technical",
+    "9 patients",
+    "Partial Spearman rho",
+    "0.1024 [0.004561, 0.1935]",
+    "0.08203",
+    "0.08203"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin − polarity",
+    "All epithelial; matched; conditional",
+    "14 patients",
+    "Paired Fisher-z difference",
+    "0.09646 [0.0626, 0.1294]",
+    "0.0003662",
+    "0.0005493"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin − polarity",
+    "All epithelial; matched; technical",
+    "14 patients",
+    "Paired Fisher-z difference",
+    "0.1662 [0.128, 0.2019]",
+    "0.0002441",
+    "0.0003662"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin − polarity",
+    "All epithelial; raw; conditional",
+    "14 patients",
+    "Paired Fisher-z difference",
+    "0.07714 [0.04173, 0.1126]",
+    "0.001343",
+    "0.001343"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin − polarity",
+    "All epithelial; raw; technical",
+    "14 patients",
+    "Paired Fisher-z difference",
+    "0.1592 [0.1142, 0.198]",
+    "0.0002441",
+    "0.0002441"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin − polarity",
+    "REC; matched; conditional",
+    "9 patients",
+    "Paired Fisher-z difference",
+    "0.1587 [0.01802, 0.3047]",
+    "0.07422",
+    "0.1113"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin − polarity",
+    "REC; matched; technical",
+    "9 patients",
+    "Paired Fisher-z difference",
+    "0.2901 [0.159, 0.4202]",
+    "0.003906",
+    "0.005859"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin − polarity",
+    "REC; raw; conditional",
+    "9 patients",
+    "Paired Fisher-z difference",
+    "0.2464 [0.1104, 0.3825]",
+    "0.01562",
+    "0.02344"
+  ],
+  [
+    "Junction-component coupling",
+    "Claudin − polarity",
+    "REC; raw; technical",
+    "9 patients",
+    "Paired Fisher-z difference",
+    "0.2966 [0.1591, 0.4343]",
+    "0.007812",
+    "0.01172"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN1",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.05241 [0.02481, 0.07964]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN10",
+    "All epithelium; conditional; nominal interval",
+    "10 patients",
+    "Partial Spearman rho",
+    "0.0204 [-0.004324, 0.05096]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN11",
+    "All epithelium; conditional; nominal interval",
+    "9 patients",
+    "Partial Spearman rho",
+    "-0.0007137 [-0.01572, 0.01373]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN12",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.03944 [0.01177, 0.06878]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN14",
+    "All epithelium; conditional; nominal interval",
+    "6 patients",
+    "Partial Spearman rho",
+    "0.007753 [-0.002679, 0.01752]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN15",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.002602 [-0.01891, 0.02283]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN16",
+    "All epithelium; conditional; nominal interval",
+    "13 patients",
+    "Partial Spearman rho",
+    "0.006558 [-0.01563, 0.02959]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN17",
+    "All epithelium; conditional; nominal interval",
+    "0 patients",
+    "Partial Spearman rho",
+    "— [—, —]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN18",
+    "All epithelium; conditional; nominal interval",
+    "3 patients",
+    "Partial Spearman rho",
+    "0.01781 [0.0005532, 0.02721]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN19",
+    "All epithelium; conditional; nominal interval",
+    "0 patients",
+    "Partial Spearman rho",
+    "— [—, —]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN2",
+    "All epithelium; conditional; nominal interval",
+    "13 patients",
+    "Partial Spearman rho",
+    "-0.03025 [-0.05415, -0.008796]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN20",
+    "All epithelium; conditional; nominal interval",
+    "12 patients",
+    "Partial Spearman rho",
+    "-0.006106 [-0.02776, 0.0199]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN22",
+    "All epithelium; conditional; nominal interval",
+    "0 patients",
+    "Partial Spearman rho",
+    "— [—, —]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN23",
+    "All epithelium; conditional; nominal interval",
+    "11 patients",
+    "Partial Spearman rho",
+    "0.03625 [0.01364, 0.05846]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN3",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.08297 [0.05183, 0.1153]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN4",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.162 [0.1264, 0.1952]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN5",
+    "All epithelium; conditional; nominal interval",
+    "2 patients",
+    "Partial Spearman rho",
+    "-0.01811 [-0.02585, -0.01038]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN6",
+    "All epithelium; conditional; nominal interval",
+    "2 patients",
+    "Partial Spearman rho",
+    "0.01848 [0.01761, 0.01934]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN7",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.07653 [0.04816, 0.1071]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN8",
+    "All epithelium; conditional; nominal interval",
+    "1 patients",
+    "Partial Spearman rho",
+    "0.04167 [0.04167, 0.04167]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CLDN9",
+    "All epithelium; conditional; nominal interval",
+    "6 patients",
+    "Partial Spearman rho",
+    "0.03603 [0.01437, 0.05517]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "CRB3",
+    "All epithelium; conditional; nominal interval",
+    "13 patients",
+    "Partial Spearman rho",
+    "0.03956 [0.02247, 0.05774]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "F11R",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.0818 [0.05785, 0.1055]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "PALS1",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.01281 [-0.006623, 0.03261]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "PARD3",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "-0.005486 [-0.02674, 0.01875]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "PARD6A",
+    "All epithelium; conditional; nominal interval",
+    "8 patients",
+    "Partial Spearman rho",
+    "-0.007191 [-0.02511, 0.008213]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "PARD6B",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.09545 [0.07266, 0.1208]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "PARD6G",
+    "All epithelium; conditional; nominal interval",
+    "11 patients",
+    "Partial Spearman rho",
+    "-0.0109 [-0.02954, 0.005836]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "PATJ",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.03471 [0.01015, 0.05829]",
+    "—",
+    "—"
+  ],
+  [
+    "Junction gene–HRC coupling",
+    "PRKCI",
+    "All epithelium; conditional; nominal interval",
+    "14 patients",
+    "Partial Spearman rho",
+    "0.02849 [0.003053, 0.05292]",
+    "—",
+    "—"
+  ],
+  [
+    "Component measurement check",
+    "Claudin − polarity",
+    "measurement matched; fixed background",
+    "14 patients; 7 genes per component",
+    "Mean patient Fisher-z difference",
+    "0.118 [0.09104, 0.1479]",
+    "0.0001221",
+    "0.0004883"
+  ],
+  [
+    "Component measurement check",
+    "Claudin − polarity",
+    "size matched; fixed background",
+    "14 patients; 8 genes per component",
+    "Mean patient Fisher-z difference",
+    "0.04607 [0.0196, 0.07137]",
+    "0.00647",
+    "0.008626"
+  ],
+  [
+    "Component measurement check",
+    "Claudin − polarity",
+    "measurement matched; target mean",
+    "14 patients; 7 genes per component",
+    "Mean patient Fisher-z difference",
+    "0.1063 [0.07438, 0.1363]",
+    "0.0002441",
+    "0.0004883"
+  ],
+  [
+    "Component measurement check",
+    "Claudin − polarity",
+    "size matched; target mean",
+    "14 patients; 8 genes per component",
+    "Mean patient Fisher-z difference",
+    "0.0404 [0.01313, 0.06688]",
+    "0.01465",
+    "0.01465"
+  ],
+  [
+    "Component membership perturbation",
+    "Claudin − polarity",
+    "fixed background; 79.4% positive subsets",
+    "500 subsets; 14 patients",
+    "Mean [central 95% subset range; not CI]",
+    "0.04607 [-0.06497, 0.1127]",
+    "—",
+    "—"
+  ],
+  [
+    "Component membership perturbation",
+    "Claudin − polarity",
+    "target mean; 78.0% positive subsets",
+    "500 subsets; 14 patients",
+    "Mean [central 95% subset range; not CI]",
+    "0.0404 [-0.06204, 0.104]",
+    "—",
+    "—"
+  ]
+]

@@ -1,0 +1,2 @@
+n_iterations	rec_top_fraction	rec_similarity_median	rec_similarity_q025	rec_similarity_q975	top_margin_median	positive_margin_fraction
+10000	0.9362	0.388290703751489	0.223247188254628	0.537565951446698	0.156185831266078	1

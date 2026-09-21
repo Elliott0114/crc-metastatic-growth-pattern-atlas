@@ -1,0 +1,514 @@
+[
+  {
+    "step": "iss_ecology",
+    "script": "analyze_hgp_interface_ecology.py",
+    "original_path": "scripts/analyze_hgp_interface_ecology.py",
+    "original_sha256": "6afc5120dd2f3443941d07a568762e9708f738c5258e6b121218d2f3a021e860",
+    "sha256": "6afc5120dd2f3443941d07a568762e9708f738c5258e6b121218d2f3a021e860",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "iss_composition",
+    "script": "analyze_escrivaconde2026_slpi_state_composition.py",
+    "original_path": "scripts/analyze_escrivaconde2026_slpi_state_composition.py",
+    "original_sha256": "317473c36ede65d8a0db738c6ab922c6987fd5da26c972bf13f6499f357b869b",
+    "sha256": "317473c36ede65d8a0db738c6ab922c6987fd5da26c972bf13f6499f357b869b",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "iss_display",
+    "script": "prepare_slpi_iss_publication_maps.py",
+    "original_path": "scripts/prepare_slpi_iss_publication_maps.py",
+    "original_sha256": "4c8191de803e4696809fff1d96379725435858512cf722fd1f46d55f22692aec",
+    "sha256": "4c8191de803e4696809fff1d96379725435858512cf722fd1f46d55f22692aec",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "iss_adjacency",
+    "script": "analyze_iss_state_specific_liver_adjacency.py",
+    "original_path": "scripts/analyze_iss_state_specific_liver_adjacency.py",
+    "original_sha256": "4e66df99208c365820c342d24299e645f725de6c8361d8a7084030d158ab4192",
+    "sha256": "4e66df99208c365820c342d24299e645f725de6c8361d8a7084030d158ab4192",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "iss_topology",
+    "script": "analyze_iss_nc3_cohesive_dual_interface.py",
+    "original_path": "scripts/analyze_iss_nc3_cohesive_dual_interface.py",
+    "original_sha256": "2523486fef929c46ff3b3eeea3182050efb0cd0ed7a552d29a17f1d1ddaa596e",
+    "sha256": "2523486fef929c46ff3b3eeea3182050efb0cd0ed7a552d29a17f1d1ddaa596e",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "mapping",
+    "script": "analyze_cross_platform_state_anchor.py",
+    "original_path": "scripts/analyze_cross_platform_state_anchor.py",
+    "original_sha256": "c36b1f5ae5ea8e899489741ab85c00dd37715b451545af5ea6805f5b366692a8",
+    "sha256": "c36b1f5ae5ea8e899489741ab85c00dd37715b451545af5ea6805f5b366692a8",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "rec50",
+    "script": "analyze_ogden_anchor_program.R",
+    "original_path": "scripts/analyze_ogden_anchor_program.R",
+    "original_sha256": "e1ada33d9fab84ee1b0aedcb8cbbc39b9459235528a8a1309dd455133eacced6",
+    "sha256": "e1ada33d9fab84ee1b0aedcb8cbbc39b9459235528a8a1309dd455133eacced6",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "state_pseudobulk",
+    "script": "prepare_ogden_direct_state_pseudobulks.py",
+    "original_path": "scripts/prepare_ogden_direct_state_pseudobulks.py",
+    "original_sha256": "a4be050e99704af875eb75c9fea27296f08a1c2f982a556225bc780b103130de",
+    "sha256": "a4be050e99704af875eb75c9fea27296f08a1c2f982a556225bc780b103130de",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "state_contrasts",
+    "script": "analyze_ogden_direct_state_contrasts.R",
+    "original_path": "scripts/analyze_ogden_direct_state_contrasts.R",
+    "original_sha256": "e2971e3b0f74499a64eb414c95479399853e5be70ffa0331f994f3c3bed678fc",
+    "sha256": "e2971e3b0f74499a64eb414c95479399853e5be70ffa0331f994f3c3bed678fc",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "state_enrichment",
+    "script": "run_ogden_direct_state_gsea.py",
+    "original_path": "scripts/run_ogden_direct_state_gsea.py",
+    "original_sha256": "cfa05dbf4b024f1f470a869d873149de2066a4d8a34af6056f88f321bd932687",
+    "sha256": "cfa05dbf4b024f1f470a869d873149de2066a4d8a34af6056f88f321bd932687",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "c8_enrichment",
+    "script": "analyze_rec_c8_tight_junction_bridge.py",
+    "original_path": "scripts/analyze_rec_c8_tight_junction_bridge.py",
+    "original_sha256": "35305c1c1b2fee3e65ab1e4d8624547a5832389ec9003a0cf9e47343f044a9a2",
+    "sha256": "35305c1c1b2fee3e65ab1e4d8624547a5832389ec9003a0cf9e47343f044a9a2",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "regulatory_overlap",
+    "script": "analyze_ogden_regulatory_junction_bridge.R",
+    "original_path": "scripts/analyze_ogden_regulatory_junction_bridge.R",
+    "original_sha256": "217c2e538960ec14fb07edeefb6ceb6f09f9fff6f9dbbb2d26a206ebc95a1a36",
+    "sha256": "2b53cf976172b1c89aa1f8e55b096988f7897df03e7e7a0e69d9d363be1bf4a4",
+    "adaptation": "Output-parent portability; dependency-ordered rival assembly; extracted-matrix provenance; unused download helper removed, as applicable. Statistical code unchanged."
+  },
+  {
+    "step": "regulatory_coexistence",
+    "script": "analyze_ogden_regulatory_junction_coexistence.py",
+    "original_path": "scripts/analyze_ogden_regulatory_junction_coexistence.py",
+    "original_sha256": "f9e9a0c08a722349ddded810b5d28ff819b95f0f12a0e6f7f6accc20f70382de",
+    "sha256": "f9e9a0c08a722349ddded810b5d28ff819b95f0f12a0e6f7f6accc20f70382de",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "discovery_coexistence",
+    "script": "analyze_ogden_rec_within_cell_coexistence.py",
+    "original_path": "scripts/analyze_ogden_rec_within_cell_coexistence.py",
+    "original_sha256": "9de7f78a1981a47cf08339be0eb719d33e954a12bd1829e6a63500c7dbfe0b8b",
+    "sha256": "9de7f78a1981a47cf08339be0eb719d33e954a12bd1829e6a63500c7dbfe0b8b",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "clinical_input",
+    "script": "prepare_rec_clinical_matrix.py",
+    "original_path": "scripts/prepare_rec_clinical_matrix.py",
+    "original_sha256": "317c94d9a395eaea809095146c9f0c0b7d247bfb218d50f8ced264e4a3022575",
+    "sha256": "c69b0f03aff57a76dd36faeae77177fb3d7d77580b8106c98c1da3315e39ee41",
+    "adaptation": "Output-parent portability; dependency-ordered rival assembly; extracted-matrix provenance; unused download helper removed, as applicable. Statistical code unchanged."
+  },
+  {
+    "step": "clinical",
+    "script": "analyze_rec_public_clinical.R",
+    "original_path": "scripts/analyze_rec_public_clinical.R",
+    "original_sha256": "c6de5235ce8a45c965500c3c228304127fed601f966108158298e00b58dd269e",
+    "sha256": "c6de5235ce8a45c965500c3c228304127fed601f966108158298e00b58dd269e",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "protein",
+    "script": "analyze_rec_public_proteomics.R",
+    "original_path": "scripts/analyze_rec_public_proteomics.R",
+    "original_sha256": "c5f0c7f2944316ef921d081b32fc64f61ffd282bd14a8e1a9981286b208f8e96",
+    "sha256": "c5f0c7f2944316ef921d081b32fc64f61ffd282bd14a8e1a9981286b208f8e96",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "specificity",
+    "script": "analyze_rec_public_specificity.R",
+    "original_path": "scripts/analyze_rec_public_specificity.R",
+    "original_sha256": "6502b0aa58e00176c2a56263795221bb1acab61873d532298d3fd56eb9c140be",
+    "sha256": "0ab9091a03273e8401ccf912ffffc2c9011d78c057ccf107e96ed3badf289363",
+    "adaptation": "Output-parent portability; dependency-ordered rival assembly; extracted-matrix provenance; unused download helper removed, as applicable. Statistical code unchanged."
+  },
+  {
+    "step": "within_cell",
+    "script": "analyze_rec_public_within_cell.py",
+    "original_path": "scripts/analyze_rec_public_within_cell.py",
+    "original_sha256": "20c611113806155aa9d19a222d6ff80e045fe7994cd600ac98987c1be5f24af8",
+    "sha256": "d22b81dd12f7715ff36f1471eed10f06bd4ef7ab7c5c54a5294d0d493ac9de81",
+    "adaptation": "Output-parent portability; dependency-ordered rival assembly; extracted-matrix provenance; unused download helper removed, as applicable. Statistical code unchanged."
+  },
+  {
+    "step": "paired_states",
+    "script": "analyze_rec_paired_state_correlations.py",
+    "original_path": "scripts/analyze_rec_paired_state_correlations.py",
+    "original_sha256": "c756485a94cc27da9e2c45636090aad80c971720b46bbb803e0212841f755366",
+    "sha256": "c756485a94cc27da9e2c45636090aad80c971720b46bbb803e0212841f755366",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "hgp_cells",
+    "script": "analyze_rec_program_hgp_scrna_projection.py",
+    "original_path": "scripts/analyze_rec_program_hgp_scrna_projection.py",
+    "original_sha256": "4c1a349c1751f85da86e434d341d24aa974f85fb40a2bf44acf4e2502a260837",
+    "sha256": "4c1a349c1751f85da86e434d341d24aa974f85fb40a2bf44acf4e2502a260837",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "hgp_coexpression",
+    "script": "analyze_rec_epithelial_coexpression.py",
+    "original_path": "scripts/analyze_rec_epithelial_coexpression.py",
+    "original_sha256": "01ce44fcbd589c3b0ba247c3bcdfc92690ec0edcc263cd505a0201d4234ed932",
+    "sha256": "01ce44fcbd589c3b0ba247c3bcdfc92690ec0edcc263cd505a0201d4234ed932",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "hgp_spatial",
+    "script": "analyze_rec_program_hgp_spatial_projection.py",
+    "original_path": "scripts/analyze_rec_program_hgp_spatial_projection.py",
+    "original_sha256": "86958e20517e31440e6d11fbff267a3bc01baa7344ca2669ee9647cd89510e71",
+    "sha256": "86958e20517e31440e6d11fbff267a3bc01baa7344ca2669ee9647cd89510e71",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "hgp_display",
+    "script": "prepare_rec_program_spatial_display.py",
+    "original_path": "scripts/prepare_rec_program_spatial_display.py",
+    "original_sha256": "a9f442f0bebf615478228708939c24bc67d938cc27ae5a3f45a6bc5de39d0cbf",
+    "sha256": "a9f442f0bebf615478228708939c24bc67d938cc27ae5a3f45a6bc5de39d0cbf",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "cross_modal",
+    "script": "analyze_rec_program_cross_modal_concordance.py",
+    "original_path": "scripts/analyze_rec_program_cross_modal_concordance.py",
+    "original_sha256": "e648eb57ca8e2c348450316ce154801e52d496947d2e7604cd20701e61456e93",
+    "sha256": "e648eb57ca8e2c348450316ce154801e52d496947d2e7604cd20701e61456e93",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "regional_projection",
+    "script": "analyze_gse294385_rec_program_extension.py",
+    "original_path": "scripts/analyze_gse294385_rec_program_extension.py",
+    "original_sha256": "c2f174dd3a26cfd67c6ba8450714e822e99fa34e2109fb13823ad54fe902a0ae",
+    "sha256": "1b6c07a36778618e20d344a83dc9260c15cedcd4ccd72ca30cc5e9e41931e4fe",
+    "adaptation": "Output-parent portability; dependency-ordered rival assembly; extracted-matrix provenance; unused download helper removed, as applicable. Statistical code unchanged."
+  },
+  {
+    "step": "cross_context",
+    "script": "analyze_rec_program_two_axis_interpretation.py",
+    "original_path": "scripts/analyze_rec_program_two_axis_interpretation.py",
+    "original_sha256": "f196f547611c7a08ab0b6ffa78785a7b6de5b0e0f2c2aeef2d6fbc69c55c5ff4",
+    "sha256": "f196f547611c7a08ab0b6ffa78785a7b6de5b0e0f2c2aeef2d6fbc69c55c5ff4",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "bulk_rec50",
+    "script": "analyze_rec_program_gse151165_bulk_projection.R",
+    "original_path": "scripts/analyze_rec_program_gse151165_bulk_projection.R",
+    "original_sha256": "8693d14b77fb685e7cd3534aca987f87cd34a9eabc3f0fb9f8550a5f2e1d505e",
+    "sha256": "8693d14b77fb685e7cd3534aca987f87cd34a9eabc3f0fb9f8550a5f2e1d505e",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "latacz",
+    "script": "analyze_rec_program_latacz_interface_summary.R",
+    "original_path": "scripts/analyze_rec_program_latacz_interface_summary.R",
+    "original_sha256": "4a0a74d2ebc5d77e4790af3723530763de1012e88083d63e270289b3f46fba63",
+    "sha256": "4a0a74d2ebc5d77e4790af3723530763de1012e88083d63e270289b3f46fba63",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "rec44",
+    "script": "analyze_rec_program_multisource_core.R",
+    "original_path": "scripts/analyze_rec_program_multisource_core.R",
+    "original_sha256": "8aecf599bed15c733c8c7da33ed66e505eb22397b4c414d3dea9544e9c8c49ca",
+    "sha256": "8aecf599bed15c733c8c7da33ed66e505eb22397b4c414d3dea9544e9c8c49ca",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "historical_rivals",
+    "script": "analyze_rec_external_rival_programs.R",
+    "original_path": "scripts/analyze_rec_external_rival_programs.R",
+    "original_sha256": "3aa130561cac42194a5b0252dd402fae1dfb34403a16d731a42942ebb06cd876",
+    "sha256": "3aa130561cac42194a5b0252dd402fae1dfb34403a16d731a42942ebb06cd876",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "junction_cells",
+    "script": "analyze_rec_junction_cells.py",
+    "original_path": "scripts/analyze_rec_junction_cells.py",
+    "original_sha256": "ba89d13705f8fed96d2bcbc6f61859ed52a9caff12d79a765297ce41195d59ca",
+    "sha256": "ba89d13705f8fed96d2bcbc6f61859ed52a9caff12d79a765297ce41195d59ca",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "junction_context",
+    "script": "analyze_rec_junction_contexts.py",
+    "original_path": "scripts/analyze_rec_junction_contexts.py",
+    "original_sha256": "72ab598fac3dc4fa823207189c6d22c85c2dcb1d259e7d59c6fd557c3c95f2f9",
+    "sha256": "72ab598fac3dc4fa823207189c6d22c85c2dcb1d259e7d59c6fd557c3c95f2f9",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "junction_neighbourhood",
+    "script": "analyze_rec_junction_neighbourhoods.py",
+    "original_path": "scripts/analyze_rec_junction_neighbourhoods.py",
+    "original_sha256": "496d5a0f02739da77745e086c0b424df50fd993be02b336acc2813377d9dcb16",
+    "sha256": "496d5a0f02739da77745e086c0b424df50fd993be02b336acc2813377d9dcb16",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "junction_sensitivity",
+    "script": "analyze_rec_junction_sensitivities.py",
+    "original_path": "scripts/analyze_rec_junction_sensitivities.py",
+    "original_sha256": "480c0a75db6be91bf715b874db4cf51f4fbbaad6d913fd9ed2928541982fa42d",
+    "sha256": "480c0a75db6be91bf715b874db4cf51f4fbbaad6d913fd9ed2928541982fa42d",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "junction_measurement",
+    "script": "audit_rec_junction_measurement.py",
+    "original_path": "scripts/audit_rec_junction_measurement.py",
+    "original_sha256": "c433ea475c3160e9094b028a39da86f8989436c91f45a559a90f4d7a4061d9c2",
+    "sha256": "5e10ee14a637e5ca872d121d9497dffea60caa9ca32af3b2f6a3d1f76cadc3bc",
+    "adaptation": "Output-parent portability; dependency-ordered rival assembly; extracted-matrix provenance; unused download helper removed, as applicable. Statistical code unchanged."
+  },
+  {
+    "step": "hgp_spatial_bridge",
+    "script": "analyze_rec_evidence_bridge_spatial.py",
+    "original_path": "scripts/analyze_rec_evidence_bridge_spatial.py",
+    "original_sha256": "3bac932ec0859a67bbbe99cd4b70bc1e0318121d319c78c5978f4ed44b57d17b",
+    "sha256": "3bac932ec0859a67bbbe99cd4b70bc1e0318121d319c78c5978f4ed44b57d17b",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "hgp_counts",
+    "script": "analyze_rec_evidence_bridge_counts.R",
+    "original_path": "scripts/analyze_rec_evidence_bridge_counts.R",
+    "original_sha256": "3edfd8c3a4d843fbc30598d8019a873ee4a7a192856885dd4ae8bf40b55017ee",
+    "sha256": "3edfd8c3a4d843fbc30598d8019a873ee4a7a192856885dd4ae8bf40b55017ee",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "matching",
+    "script": "analyze_rec_reinforcement_cells.py",
+    "original_path": "scripts/analyze_rec_reinforcement_cells.py",
+    "original_sha256": "33af2f4298aaaab6419e500e05e95a0964fc68a7ec5484f84de94c6292f77a4d",
+    "sha256": "33af2f4298aaaab6419e500e05e95a0964fc68a7ec5484f84de94c6292f77a4d",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "same_section_input",
+    "script": "prepare_rec_reinforcement_sections.py",
+    "original_path": "scripts/prepare_rec_reinforcement_sections.py",
+    "original_sha256": "2f380b696066d7451126688d112374522189ed58ab82a3a8de10ab46abf057f4",
+    "sha256": "2f380b696066d7451126688d112374522189ed58ab82a3a8de10ab46abf057f4",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "same_section",
+    "script": "analyze_rec_reinforcement_sections.R",
+    "original_path": "scripts/analyze_rec_reinforcement_sections.R",
+    "original_sha256": "e9a9e26885c8f949c3226fa9808aa75f5467936f4fc076617e6e2bb9112b0b6c",
+    "sha256": "e9a9e26885c8f949c3226fa9808aa75f5467936f4fc076617e6e2bb9112b0b6c",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "canonical_bulk",
+    "script": "analyze_rec_reinforcement_bulk.R",
+    "original_path": "scripts/analyze_rec_reinforcement_bulk.R",
+    "original_sha256": "13cf1145eccbb469ae4b79c47b1e97b6b85c739746d2101e421bc7cef2d171c1",
+    "sha256": "13cf1145eccbb469ae4b79c47b1e97b6b85c739746d2101e421bc7cef2d171c1",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "normalization",
+    "script": "diagnose_rec_reinforcement_normalization.R",
+    "original_path": "scripts/diagnose_rec_reinforcement_normalization.R",
+    "original_sha256": "d4bae22c273b0d77d94e054f2bbb8b5085f862e0ae31b048a553f77d95fc2358",
+    "sha256": "d4bae22c273b0d77d94e054f2bbb8b5085f862e0ae31b048a553f77d95fc2358",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "external",
+    "script": "analyze_rec_q2_external.py",
+    "original_path": "scripts/analyze_rec_q2_external.py",
+    "original_sha256": "66fbc93f559f8890684fea8a95ba17ad411e1e7d31b8ef808247239097848d20",
+    "sha256": "66fbc93f559f8890684fea8a95ba17ad411e1e7d31b8ef808247239097848d20",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "meta",
+    "script": "meta_rec_q2_external.R",
+    "original_path": "scripts/meta_rec_q2_external.R",
+    "original_sha256": "d723de285921a3034b2811e3a8dfac457c8e2e512a9aa66718fcb7facb21fbe3",
+    "sha256": "d723de285921a3034b2811e3a8dfac457c8e2e512a9aa66718fcb7facb21fbe3",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "regional_adjustment",
+    "script": "analyze_rec_q2_regional.R",
+    "original_path": "scripts/analyze_rec_q2_regional.R",
+    "original_sha256": "ec06da7ab6e67ea5916b6444b7502af54cc7b03abac24b8b1837885833b20a87",
+    "sha256": "ec06da7ab6e67ea5916b6444b7502af54cc7b03abac24b8b1837885833b20a87",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "mrtx_pseudobulk",
+    "script": "prepare_rec_mapk_pseudobulk.py",
+    "original_path": "scripts/prepare_rec_mapk_pseudobulk.py",
+    "original_sha256": "56411d5800d17d34647f7bbb4229058a502ee87cc0b706deed182a89eb5428bf",
+    "sha256": "0388234a85af7c51e4b19c267cf375fe78c11c88f2d71d2fc18b07bc00a23c94",
+    "adaptation": "Output-parent portability; dependency-ordered rival assembly; extracted-matrix provenance; unused download helper removed, as applicable. Statistical code unchanged."
+  },
+  {
+    "step": "mrtx",
+    "script": "analyze_rec_public_mapk.R",
+    "original_path": "scripts/analyze_rec_public_mapk.R",
+    "original_sha256": "deaa763f920572dcaba6b251f5a12f7bfb4cae0e7e64dc42e6f8b0b4295c1c49",
+    "sha256": "deaa763f920572dcaba6b251f5a12f7bfb4cae0e7e64dc42e6f8b0b4295c1c49",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "plexin",
+    "script": "analyze_plexinb2_functional_projection.py",
+    "original_path": "scripts/analyze_plexinb2_functional_projection.py",
+    "original_sha256": "79e8c92199684c9acdaf4c09245a6ae63f5e1e827b75c538d6204dee667ec84f",
+    "sha256": "79e8c92199684c9acdaf4c09245a6ae63f5e1e827b75c538d6204dee667ec84f",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "gata6",
+    "script": "analyze_gata6_functional_competitor_projection.R",
+    "original_path": "scripts/analyze_gata6_functional_competitor_projection.R",
+    "original_sha256": "c0ac6dc2db50a3bb28529c6db10066652bc259f87b4ec1f8a53fef1b74eed050",
+    "sha256": "c0ac6dc2db50a3bb28529c6db10066652bc259f87b4ec1f8a53fef1b74eed050",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "serial_selection",
+    "script": "analyze_gata6_serial_metastatic_selection_projection.R",
+    "original_path": "scripts/analyze_gata6_serial_metastatic_selection_projection.R",
+    "original_sha256": "8555671bb151480c6d2a2600b95c28dd548a073a42dc88fe226b29496ba8726b",
+    "sha256": "8555671bb151480c6d2a2600b95c28dd548a073a42dc88fe226b29496ba8726b",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "helper",
+    "script": "rec_junction_context_common.py",
+    "original_path": "scripts/rec_junction_context_common.py",
+    "original_sha256": "fd51c79edba5497391d02614a209a7f32032f6595342fc71e20812299ef971ca",
+    "sha256": "fd51c79edba5497391d02614a209a7f32032f6595342fc71e20812299ef971ca",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "helper",
+    "script": "rec_public_upgrade_common.py",
+    "original_path": "scripts/rec_public_upgrade_common.py",
+    "original_sha256": "f101f5735f8a96ee9a8d015e005efe3165944a0a5f55995f9d8524ddaf3ce817",
+    "sha256": "bbd2933b033574be808eac4cff3544d7c3570d69b5ad9d18a4c585cd34a9341c",
+    "adaptation": "Output-parent portability; dependency-ordered rival assembly; extracted-matrix provenance; unused download helper removed, as applicable. Statistical code unchanged."
+  },
+  {
+    "step": "helper",
+    "script": "rec_public_upgrade_common.R",
+    "original_path": "scripts/rec_public_upgrade_common.R",
+    "original_sha256": "4b10fcecb43f5742ca1f042c134fa716a77079b4a6ad80624aa08b13b85e9c13",
+    "sha256": "4b10fcecb43f5742ca1f042c134fa716a77079b4a6ad80624aa08b13b85e9c13",
+    "adaptation": "unchanged"
+  },
+  {
+    "step": "bulk_rec50_omissions",
+    "script": "summarize_paper_rec50_omissions.py",
+    "original_path": "manuscript/rec_discovery_reinforced_2026-09-17/revision/build_figures.py",
+    "original_sha256": "ba91b084086816eb985d563585dea10f9a98cbb1d865b70f9b80a824bedbac5c",
+    "sha256": "75607d8571754c4c4a65c3cbb0b814a7e2ea3386dad45eb84d9ab7d3f4d0a6d8",
+    "adaptation": "Extracted the manuscript-used numerical blocks; omitted unused plotting, text assembly and unrelated historical imports."
+  },
+  {
+    "step": "regional_counts",
+    "script": "prepare_paper_regional_counts.R",
+    "original_path": "scripts/analyze_rec_program_reader_facing_specificity_R.R",
+    "original_sha256": "b645464abcb63d98b94c6d8f79881fb27fa9d74fbe954eb383cf6627b264728d",
+    "sha256": "57e8973076aa81f6667aa497970d21e4a26413ebc49a91ded286810c04c4cb2f",
+    "adaptation": "Extracted the manuscript-used numerical blocks; omitted unused plotting, text assembly and unrelated historical imports."
+  },
+  {
+    "step": "hgp_score_bridge",
+    "script": "summarize_paper_hgp_scores.py",
+    "original_path": "scripts/summarize_rec_evidence_bridge.py",
+    "original_sha256": "f444edd50ce545f4f99e2196be212452d8d8f65406cce512419d865243973002",
+    "sha256": "a59773e038300a53b49b5754084e1c274182812700f72191fad10738c62db490",
+    "adaptation": "Extracted the manuscript-used numerical blocks; omitted unused plotting, text assembly and unrelated historical imports."
+  },
+  {
+    "step": "junction_origins",
+    "script": "summarize_paper_compartments.py",
+    "original_path": "scripts/plot_rec_junction_context.py",
+    "original_sha256": "6f7cebe227c88b8d09b589b1428767e67f5d336b168d13397b97b965f787810d",
+    "sha256": "206b25e4f383e9e2d73fd468ee3ba455f6a61e420b79abe0f67df51defbbb612",
+    "adaptation": "Extracted the manuscript-used numerical blocks; omitted unused plotting, text assembly and unrelated historical imports."
+  },
+  {
+    "step": "historical_bulk",
+    "script": "analyze_paper_hgp_reference.R",
+    "original_path": "scripts/analyze_rec_hgp_focused.R",
+    "original_sha256": "5f249fa0d8b1cb8d831a32790e02f8544fbe81eee4bde1c482826db4e1c3744b",
+    "sha256": "8f70604a726a22caa59f42e3d3c4a9f9fca9ac144ffe99212c0bc8b10c094722",
+    "adaptation": "Extracted the manuscript-used numerical blocks; omitted unused plotting, text assembly and unrelated historical imports."
+  },
+  {
+    "step": "member_summary",
+    "script": "summarize_paper_members.py",
+    "original_path": "scripts/summarize_rec_evidence_bridge.py;manuscript/rec_discovery_reinforced_2026-09-17/revision/build_figures.py",
+    "original_sha256": "f444edd50ce545f4f99e2196be212452d8d8f65406cce512419d865243973002;ba91b084086816eb985d563585dea10f9a98cbb1d865b70f9b80a824bedbac5c",
+    "sha256": "26dba88d11b912d45fe6c888abe470f0321822b3358fdde725d4f27ce6a3074e",
+    "adaptation": "Extracted the manuscript-used numerical blocks; omitted unused plotting, text assembly and unrelated historical imports."
+  },
+  {
+    "step": "state_source_tables",
+    "script": "summarize_paper_state_evidence.py",
+    "original_path": "scripts/build_deep_biology_phase2_synthesis.py",
+    "original_sha256": "32a015907d0bbf3ef503bfaea2fb8af2b6f5b7cd8c8abe15b8907ccf5cf68f95",
+    "sha256": "127dac5e9856f5fd3f6f814bf0f4d6b436e0f61b37d9c509d3412bf2a1a63b18",
+    "adaptation": "Extracted the manuscript-used numerical blocks; omitted unused plotting, text assembly and unrelated historical imports."
+  },
+  {
+    "step": "rival_clean",
+    "script": "summarize_paper_rivals.R",
+    "original_path": "scripts/analyze_rec_public_specificity.R",
+    "original_sha256": "6502b0aa58e00176c2a56263795221bb1acab61873d532298d3fd56eb9c140be",
+    "sha256": "971a35093359b6357335c2daf48066dddd0dfad7e7a059f38751134de51dddbc",
+    "adaptation": "Extracted the manuscript-used numerical blocks; omitted unused plotting, text assembly and unrelated historical imports."
+  },
+  {
+    "step": "bulk_context",
+    "script": "analyze_paper_bulk_context.R",
+    "original_path": "scripts/analyze_external_regulatory_projection_bulk_latacz.R",
+    "original_sha256": "7ac36fdc3a280114e98357ff3fe1871ce95264867953d1a6064799c9e49ddca9",
+    "sha256": "4f3ad6e09d25bfb2d36b7aa826fc9ef44694948ae8d8870f5ac5fdda26d7c950",
+    "adaptation": "Extracted the manuscript-used numerical blocks; omitted unused plotting, text assembly and unrelated historical imports."
+  },
+  {
+    "step": "retained_rec44_spatial",
+    "script": "reproduce_retained_rec44_spatial.py",
+    "original_path": "scripts/analyze_rec_program_hgp_spatial_projection.py;scripts/analyze_rec_program_cross_modal_concordance.py;metadata/rec_program_hgp_spatial_projection_spec_2026-08-23.md",
+    "original_sha256": "86958e20517e31440e6d11fbff267a3bc01baa7344ca2669ee9647cd89510e71;e648eb57ca8e2c348450316ce154801e52d496947d2e7604cd20701e61456e93;276eacdc11d4b93840a4ce4e1b7fcbaa45af1a188915e9558770890ed292e7d0",
+    "sha256": "69c57017391cc7c6eafe5ea5829e50a62d8f535a221e3d6dc99fa26d39c6276a",
+    "adaptation": "Isolated pre-KRT20-correction spatial column retained in the manuscript workbook; see docs/WORKFLOW.md."
+  }
+]

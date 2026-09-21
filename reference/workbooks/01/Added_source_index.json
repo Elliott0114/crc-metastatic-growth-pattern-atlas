@@ -1,0 +1,32 @@
+[
+  [
+    "table",
+    "sheet",
+    "source",
+    "source_sha256",
+    "rows",
+    "columns",
+    "unit",
+    "operation"
+  ],
+  [
+    "1",
+    "Fixed_programmes",
+    "analysis_results/rec_junction_context_2026-09-16/definitions.tsv",
+    "66167bd3d9127f970e2887597b5e0e3417a3eecb611256f7f1abfb11a84db523",
+    "1481",
+    "2",
+    "gene",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "1",
+    "Figure_panel_index",
+    "manuscript/rec_text_polish_2026-09-21/panel_manifest.tsv",
+    "c4bc92f9c6061c77c60a359569e5fd5fbf91cfc1842da1c26202fa81fe441923",
+    "52",
+    "33",
+    "panel",
+    "per-panel provenance inventory"
+  ]
+]

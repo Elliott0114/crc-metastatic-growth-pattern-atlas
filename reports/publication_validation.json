@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "scope": "Publication distribution checks, not a second cold full analysis",
+  "source_annotation_redistributed": false,
+  "prepared_annotation_sha256": "cfcab046fe13bbc26cfb2646e1c646a28cd19493219b3746f64cefe7b52aa1bc",
+  "annotation_preparation_matches_original_bytes": true,
+  "unit_tests_passed": 7,
+  "relocated_quick_without_external_inputs": true,
+  "original_project_reads_during_quick": 0,
+  "quick_seconds": 669.13,
+  "quick_checks_passed": 204,
+  "manuscript_checks_passed": 144,
+  "full_preflight_passed": true,
+  "full_input_files": 180,
+  "bundled_inputs": 36,
+  "external_inputs": 144,
+  "full_staging_verified": true,
+  "missing_author_annotation_stops_full": true,
+  "frozen_result_fallback": false,
+  "scientific_and_plotting_files_unchanged": 71,
+  "full_models_rerun_for_distribution_change": false,
+  "full_model_evidence": "The existing 61-module cold full run remains the model-recalculation evidence."
+}

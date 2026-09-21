@@ -1,0 +1,122 @@
+[
+  [
+    "table",
+    "sheet",
+    "source",
+    "source_sha256",
+    "rows",
+    "columns",
+    "unit",
+    "operation"
+  ],
+  [
+    6.0,
+    "MRTX_mouse_scores",
+    "analysis_results/rec_public_upgrade_2026-09-07/mapk/sample_program_scores.tsv",
+    "f63b42de27ad1e712b32d1ec5bc6c17b42b98a033939815e8c6345a16c870f79",
+    24.0,
+    19.0,
+    "mouse/sample",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    6.0,
+    "MRTX_all_programme_effects",
+    "analysis_results/rec_public_upgrade_2026-09-07/mapk/program_intervention_effects.tsv",
+    "32222265cb6361d35662c6aa56205a86a1814d22cfeb0dd93650913198bbfe7a",
+    30.0,
+    11.0,
+    "five treated vs three vehicle mice; allocation and mouse-bootstrap inference",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    6.0,
+    "MRTX_coverage",
+    "analysis_results/rec_public_upgrade_2026-09-07/mapk/program_coverage.tsv",
+    "6efd61dfc6421fdd8e28fed13a2052463b524304b601480c9059e81b8069a9c3",
+    30.0,
+    4.0,
+    "programme/specification",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    6.0,
+    "MRTX_displayed_effects",
+    "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/Supplementary_Figure_9/displayed_MRTX_effects.tsv",
+    "73a54a8cc381057a17ac0d784dd08a26b67f228b065e7cbdca18ec5ec43699b2",
+    10.0,
+    11.0,
+    "mouse-level original displayed effect",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    6.0,
+    "Plexin_displayed_effects",
+    "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/Supplementary_Figure_9/displayed_Plexin_effects.tsv",
+    "9ebb43d9958a86406be440f98bba0589d24115896e868b5a1bff8eece17ee94d",
+    7.0,
+    10.0,
+    "one library per condition; descriptive; inferential interval unavailable",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    6.0,
+    "Plexin_all_endpoints",
+    "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/gse267981_endpoint_effects.tsv",
+    "15101b8ceb7067b3105213e22f9b60ff869951f41747726e4db083c6c92871e6",
+    50.0,
+    14.0,
+    "library/cell descriptive comparison",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    6.0,
+    "Plexin_coverage",
+    "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/gse267981_programme_coverage.tsv",
+    "2cbff81977f7a7e07187f11d1cd88a49ead742f6a33b3d5c2c4e9f13ddcafce0",
+    20.0,
+    7.0,
+    "programme",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    6.0,
+    "Plexin_cell_subsampling",
+    "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/gse267981_equal_cell_rarefaction_summary.tsv",
+    "3419a5d5667d37e5f5b8ad474afd0eb65d133bd48726e7cbf44f171a526c2cba",
+    50.0,
+    9.0,
+    "composition sensitivity, not independent-library uncertainty",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    6.0,
+    "GATA6_library_scores",
+    "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_programme_scores.tsv",
+    "7565da4c1b87491b0ffa4ada678b6404426846d9f8ecba9376dc7f6e6b7c7427",
+    60.0,
+    4.0,
+    "library; clone independence unresolved",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    6.0,
+    "Serial_selection_library_scores",
+    "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_programme_scores.tsv",
+    "ebaa5d3c49e008c11cb37544de4c238f0b2c5ed3b7df722523f6b1e045e86c43",
+    120.0,
+    5.0,
+    "library; lineage independence unresolved",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    6.0,
+    "Experimental_context_effects",
+    "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/Supplementary_Figure_9/figure_phase7_functional_context_source_data.tsv",
+    "9c64161559905f606da7975dc54f1db2f8c9f04a4a12b177e886ff825077363d",
+    24.0,
+    10.0,
+    "context-specific unit as explicitly labelled; descriptive organoid intervals unavailable",
+    "copy existing numerical result; no model refit"
+  ]
+]

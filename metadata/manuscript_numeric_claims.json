@@ -1,0 +1,1945 @@
+[
+  {
+    "section": "Results 1",
+    "claim": "nc3_fraction_neoplastic_equal_roi mean_difference_RHGP_minus_EHGP",
+    "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+    "filters": {
+      "endpoint": "nc3_fraction_neoplastic_equal_roi"
+    },
+    "column": "mean_difference_RHGP_minus_EHGP",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "44.37",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "nc3_fraction_neoplastic_equal_roi mean_difference_bootstrap_CI_low",
+    "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+    "filters": {
+      "endpoint": "nc3_fraction_neoplastic_equal_roi"
+    },
+    "column": "mean_difference_bootstrap_CI_low",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "32.94",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "nc3_fraction_neoplastic_equal_roi mean_difference_bootstrap_CI_high",
+    "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+    "filters": {
+      "endpoint": "nc3_fraction_neoplastic_equal_roi"
+    },
+    "column": "mean_difference_bootstrap_CI_high",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "55.98",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "liver_epithelial_k10__any_target_neighbour_rate_equal_roi mean_difference_RHGP_minus_EHGP",
+    "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+    "filters": {
+      "endpoint": "liver_epithelial_k10__any_target_neighbour_rate_equal_roi"
+    },
+    "column": "mean_difference_RHGP_minus_EHGP",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "43.81",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "liver_epithelial_k10__any_target_neighbour_rate_equal_roi mean_difference_bootstrap_CI_low",
+    "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+    "filters": {
+      "endpoint": "liver_epithelial_k10__any_target_neighbour_rate_equal_roi"
+    },
+    "column": "mean_difference_bootstrap_CI_low",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "29.84",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "liver_epithelial_k10__any_target_neighbour_rate_equal_roi mean_difference_bootstrap_CI_high",
+    "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+    "filters": {
+      "endpoint": "liver_epithelial_k10__any_target_neighbour_rate_equal_roi"
+    },
+    "column": "mean_difference_bootstrap_CI_high",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "56.96",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 exact allocation P",
+    "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+    "filters": {
+      "endpoint": "nc3_fraction_neoplastic_equal_roi"
+    },
+    "column": "exact_mean_difference_permutation_p",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.000311",
+    "rounding_atol": 5.00001e-07
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 reference correlation REC",
+    "source": "panel:Figure_1_F.tsv",
+    "filters": {
+      "ISS_state": "NC3",
+      "Ogden_state": "REC"
+    },
+    "column": "pearson_correlation",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.387",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 reference correlation Goblet",
+    "source": "panel:Figure_1_F.tsv",
+    "filters": {
+      "ISS_state": "NC3",
+      "Ogden_state": "Goblet"
+    },
+    "column": "pearson_correlation",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.177",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 abundance rHGP",
+    "source": "panel:Figure_1_C.tsv",
+    "filters": {
+      "hgp": "rHGP"
+    },
+    "column": "nc3_fraction_neoplastic_equal_roi",
+    "method": "mean",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "52.15",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 abundance dHGP",
+    "source": "panel:Figure_1_C.tsv",
+    "filters": {
+      "hgp": "dHGP"
+    },
+    "column": "nc3_fraction_neoplastic_equal_roi",
+    "method": "mean",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "7.78",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "Liver neighbour rate rHGP",
+    "source": "panel:Figure_1_D.tsv",
+    "filters": {
+      "hgp": "rHGP"
+    },
+    "column": "any_target_neighbour_rate_equal_roi",
+    "method": "mean",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "55.89",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "Liver neighbour rate dHGP",
+    "source": "panel:Figure_1_D.tsv",
+    "filters": {
+      "hgp": "dHGP"
+    },
+    "column": "any_target_neighbour_rate_equal_roi",
+    "method": "mean",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "12.09",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 conditional residual RHGP homotypic_any_neighbour effect",
+    "source": "panel:Figure_1_E.tsv",
+    "filters": {
+      "hgp": "RHGP",
+      "metric": "homotypic_any_neighbour"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "-0.68",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 conditional residual RHGP homotypic_any_neighbour bootstrap_ci_lower",
+    "source": "panel:Figure_1_E.tsv",
+    "filters": {
+      "hgp": "RHGP",
+      "metric": "homotypic_any_neighbour"
+    },
+    "column": "bootstrap_ci_lower",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "-2.23",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 conditional residual RHGP homotypic_any_neighbour bootstrap_ci_upper",
+    "source": "panel:Figure_1_E.tsv",
+    "filters": {
+      "hgp": "RHGP",
+      "metric": "homotypic_any_neighbour"
+    },
+    "column": "bootstrap_ci_upper",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "0.54",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 conditional residual EHGP homotypic_any_neighbour effect",
+    "source": "panel:Figure_1_E.tsv",
+    "filters": {
+      "hgp": "EHGP",
+      "metric": "homotypic_any_neighbour"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "8.76",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 conditional residual EHGP homotypic_any_neighbour bootstrap_ci_lower",
+    "source": "panel:Figure_1_E.tsv",
+    "filters": {
+      "hgp": "EHGP",
+      "metric": "homotypic_any_neighbour"
+    },
+    "column": "bootstrap_ci_lower",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "6.29",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 conditional residual EHGP homotypic_any_neighbour bootstrap_ci_upper",
+    "source": "panel:Figure_1_E.tsv",
+    "filters": {
+      "hgp": "EHGP",
+      "metric": "homotypic_any_neighbour"
+    },
+    "column": "bootstrap_ci_upper",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "11.09",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 conditional residual RHGP dhc_dual_interface effect",
+    "source": "panel:Figure_1_E.tsv",
+    "filters": {
+      "hgp": "RHGP",
+      "metric": "dhc_dual_interface"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "1.54",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 conditional residual RHGP dhc_dual_interface bootstrap_ci_lower",
+    "source": "panel:Figure_1_E.tsv",
+    "filters": {
+      "hgp": "RHGP",
+      "metric": "dhc_dual_interface"
+    },
+    "column": "bootstrap_ci_lower",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "-0.001",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 1",
+    "claim": "NC3 conditional residual RHGP dhc_dual_interface bootstrap_ci_upper",
+    "source": "panel:Figure_1_E.tsv",
+    "filters": {
+      "hgp": "RHGP",
+      "metric": "dhc_dual_interface"
+    },
+    "column": "bootstrap_ci_upper",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "3.42",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 2",
+    "claim": "Independent component meta-analysis estimate",
+    "source": "panel:Figure_2_C.tsv",
+    "filters": {
+      "study": "Random effects"
+    },
+    "column": "estimate",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.088",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Independent component meta-analysis low",
+    "source": "panel:Figure_2_C.tsv",
+    "filters": {
+      "study": "Random effects"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.024",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Independent component meta-analysis high",
+    "source": "panel:Figure_2_C.tsv",
+    "filters": {
+      "study": "Random effects"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.152",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Independent component meta-analysis p",
+    "source": "panel:Figure_2_C.tsv",
+    "filters": {
+      "study": "Random effects"
+    },
+    "column": "p",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.019",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Independent component meta-analysis I2",
+    "source": "panel:Figure_2_C.tsv",
+    "filters": {
+      "study": "Random effects"
+    },
+    "column": "I2",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "34.7",
+    "rounding_atol": 0.050000000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Independent component meta-analysis tau2",
+    "source": "panel:Figure_2_C.tsv",
+    "filters": {
+      "study": "Random effects"
+    },
+    "column": "tau2",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.00105",
+    "rounding_atol": 5.000001000000001e-06
+  },
+  {
+    "section": "Results 2",
+    "claim": "Harmonized discovery common estimate",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+    "filters": {
+      "study": "Ogden_2025",
+      "scoring": "fixed_background",
+      "model": "common",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "estimate",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.112",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Harmonized discovery common low",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+    "filters": {
+      "study": "Ogden_2025",
+      "scoring": "fixed_background",
+      "model": "common",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.082",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Harmonized discovery common high",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+    "filters": {
+      "study": "Ogden_2025",
+      "scoring": "fixed_background",
+      "model": "common",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.142",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Harmonized discovery common p_signflip",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+    "filters": {
+      "study": "Ogden_2025",
+      "scoring": "fixed_background",
+      "model": "common",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "p_signflip",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.000244",
+    "rounding_atol": 5.00001e-07
+  },
+  {
+    "section": "Results 2",
+    "claim": "Harmonized discovery state_enhanced estimate",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+    "filters": {
+      "study": "Ogden_2025",
+      "scoring": "fixed_background",
+      "model": "state_enhanced",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "estimate",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.093",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Harmonized discovery state_enhanced low",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+    "filters": {
+      "study": "Ogden_2025",
+      "scoring": "fixed_background",
+      "model": "state_enhanced",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.061",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Harmonized discovery state_enhanced high",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+    "filters": {
+      "study": "Ogden_2025",
+      "scoring": "fixed_background",
+      "model": "state_enhanced",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.125",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Harmonized discovery state_enhanced p_signflip",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+    "filters": {
+      "study": "Ogden_2025",
+      "scoring": "fixed_background",
+      "model": "state_enhanced",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "p_signflip",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.000488",
+    "rounding_atol": 5.00001e-07
+  },
+  {
+    "section": "Results 2",
+    "claim": "Claudin harmonized discovery rho",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+    "filters": {
+      "study": "Ogden_2025",
+      "scoring": "fixed_background",
+      "model": "common",
+      "endpoint": "Claudin"
+    },
+    "column": "estimate",
+    "method": "one",
+    "scale": 1,
+    "transform": "tanh",
+    "reported": "0.170",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Polarity harmonized discovery rho",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+    "filters": {
+      "study": "Ogden_2025",
+      "scoring": "fixed_background",
+      "model": "common",
+      "endpoint": "Polarity"
+    },
+    "column": "estimate",
+    "method": "one",
+    "scale": 1,
+    "transform": "tanh",
+    "reported": "0.059",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Target-mean independent meta estimate",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/random_effects_meta.tsv",
+    "filters": {
+      "scoring": "target_mean",
+      "model": "common",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "estimate",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.055",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Target-mean independent meta low",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/random_effects_meta.tsv",
+    "filters": {
+      "scoring": "target_mean",
+      "model": "common",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.005",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Target-mean independent meta high",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/random_effects_meta.tsv",
+    "filters": {
+      "scoring": "target_mean",
+      "model": "common",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.104",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Target-mean independent meta p",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/random_effects_meta.tsv",
+    "filters": {
+      "scoring": "target_mean",
+      "model": "common",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "p",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.038",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Study-omission estimate min",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/leave_one_study.tsv",
+    "filters": {
+      "scoring": "fixed_background",
+      "model": "common",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "estimate",
+    "method": "min",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.066",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Study-omission estimate max",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/leave_one_study.tsv",
+    "filters": {
+      "scoring": "fixed_background",
+      "model": "common",
+      "endpoint": "Claudin_minus_Polarity"
+    },
+    "column": "estimate",
+    "method": "max",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.107",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Positive size-matched subsets percent",
+    "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/subset_perturbation_summary.tsv",
+    "filters": {
+      "scoring": "fixed_background"
+    },
+    "column": "fraction_positive",
+    "method": "one",
+    "scale": 100,
+    "transform": "identity",
+    "reported": "79.4",
+    "rounding_atol": 0.050000000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Discovery sensitivity full_reference effect",
+    "source": "panel:Figure_2_D.tsv",
+    "filters": {
+      "scope": "full_reference",
+      "scoring": "fixed_background"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.096",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Discovery sensitivity size_matched effect",
+    "source": "panel:Figure_2_D.tsv",
+    "filters": {
+      "scope": "size_matched",
+      "scoring": "fixed_background"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.046",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Discovery sensitivity size_matched low",
+    "source": "panel:Figure_2_D.tsv",
+    "filters": {
+      "scope": "size_matched",
+      "scoring": "fixed_background"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.020",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Discovery sensitivity size_matched high",
+    "source": "panel:Figure_2_D.tsv",
+    "filters": {
+      "scope": "size_matched",
+      "scoring": "fixed_background"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.071",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Discovery sensitivity size_matched q_four_secondary_tests",
+    "source": "panel:Figure_2_D.tsv",
+    "filters": {
+      "scope": "size_matched",
+      "scoring": "fixed_background"
+    },
+    "column": "q_four_secondary_tests",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.00863",
+    "rounding_atol": 5.000001000000001e-06
+  },
+  {
+    "section": "Results 2",
+    "claim": "Discovery sensitivity measurement_matched effect",
+    "source": "panel:Figure_2_D.tsv",
+    "filters": {
+      "scope": "measurement_matched",
+      "scoring": "fixed_background"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.118",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Discovery sensitivity measurement_matched low",
+    "source": "panel:Figure_2_D.tsv",
+    "filters": {
+      "scope": "measurement_matched",
+      "scoring": "fixed_background"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.091",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Discovery sensitivity measurement_matched high",
+    "source": "panel:Figure_2_D.tsv",
+    "filters": {
+      "scope": "measurement_matched",
+      "scoring": "fixed_background"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.148",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 2",
+    "claim": "Discovery sensitivity measurement_matched q_four_secondary_tests",
+    "source": "panel:Figure_2_D.tsv",
+    "filters": {
+      "scope": "measurement_matched",
+      "scoring": "fixed_background"
+    },
+    "column": "q_four_secondary_tests",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.00049",
+    "rounding_atol": 5.000001000000001e-06
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN1 pooled rho",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN1"
+    },
+    "column": "display_rho",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.063",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN1 member BH q",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN1"
+    },
+    "column": "q_member_family",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.019",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CRB3 pooled rho",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CRB3"
+    },
+    "column": "display_rho",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.064",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CRB3 member BH q",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CRB3"
+    },
+    "column": "q_member_family",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.019",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "F11R pooled rho",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "F11R"
+    },
+    "column": "display_rho",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.121",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "F11R member BH q",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "F11R"
+    },
+    "column": "q_member_family",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.021",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN3 pooled rho",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN3"
+    },
+    "column": "display_rho",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.146",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN3 member BH q",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN3"
+    },
+    "column": "q_member_family",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.071",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN4 pooled rho",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN4"
+    },
+    "column": "display_rho",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.209",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN4 member BH q",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN4"
+    },
+    "column": "q_member_family",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.071",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN7 pooled rho",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN7"
+    },
+    "column": "display_rho",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.157",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN7 member BH q",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN7"
+    },
+    "column": "q_member_family",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.071",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN2 display_rho",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN2"
+    },
+    "column": "display_rho",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "-0.043",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN2 display_rho_low",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN2"
+    },
+    "column": "display_rho_low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "-0.126",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN2 display_rho_high",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN2"
+    },
+    "column": "display_rho_high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.040",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN2 n_patients",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN2"
+    },
+    "column": "n_patients",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "23",
+    "rounding_atol": 0.500000000001
+  },
+  {
+    "section": "Results 3",
+    "claim": "CLDN5 evaluable patients",
+    "source": "panel:Figure_3_C.tsv",
+    "filters": {
+      "gene": "CLDN5"
+    },
+    "column": "n_patients",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "13",
+    "rounding_atol": 0.500000000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Spatial Claudin effect",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+    "filters": {
+      "restriction": "all_tumour",
+      "model": "adjusted",
+      "component": "Claudin"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.310",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Spatial Claudin low",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+    "filters": {
+      "restriction": "all_tumour",
+      "model": "adjusted",
+      "component": "Claudin"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.194",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Spatial Claudin high",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+    "filters": {
+      "restriction": "all_tumour",
+      "model": "adjusted",
+      "component": "Claudin"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.418",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Spatial Claudin q",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+    "filters": {
+      "restriction": "all_tumour",
+      "model": "adjusted",
+      "component": "Claudin"
+    },
+    "column": "q",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.0625",
+    "rounding_atol": 5.0000001000000005e-05
+  },
+  {
+    "section": "Results 4",
+    "claim": "Spatial Polarity effect",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+    "filters": {
+      "restriction": "all_tumour",
+      "model": "adjusted",
+      "component": "Polarity"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.073",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Spatial Polarity low",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+    "filters": {
+      "restriction": "all_tumour",
+      "model": "adjusted",
+      "component": "Polarity"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.021",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Spatial Polarity high",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+    "filters": {
+      "restriction": "all_tumour",
+      "model": "adjusted",
+      "component": "Polarity"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.125",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Spatial Polarity q",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+    "filters": {
+      "restriction": "all_tumour",
+      "model": "adjusted",
+      "component": "Polarity"
+    },
+    "column": "q",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.0625",
+    "rounding_atol": 5.0000001000000005e-05
+  },
+  {
+    "section": "Results 4",
+    "claim": "Near-region Claudin fixed score TMM effect",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+    "filters": {
+      "dataset": "Spatial_rHGP_minus_dHGP_near",
+      "normalization": "TMM",
+      "component": "Claudin",
+      "score": "mean_logCPM"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.919",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Near-region Claudin fixed score TMM low",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+    "filters": {
+      "dataset": "Spatial_rHGP_minus_dHGP_near",
+      "normalization": "TMM",
+      "component": "Claudin",
+      "score": "mean_logCPM"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.456",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Near-region Claudin fixed score TMM high",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+    "filters": {
+      "dataset": "Spatial_rHGP_minus_dHGP_near",
+      "normalization": "TMM",
+      "component": "Claudin",
+      "score": "mean_logCPM"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "1.382",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Near-region Claudin fixed score TMM p",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+    "filters": {
+      "dataset": "Spatial_rHGP_minus_dHGP_near",
+      "normalization": "TMM",
+      "component": "Claudin",
+      "score": "mean_logCPM"
+    },
+    "column": "p",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.10",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 4",
+    "claim": "Near-region Claudin fixed score library_only effect",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+    "filters": {
+      "dataset": "Spatial_rHGP_minus_dHGP_near",
+      "normalization": "library_only",
+      "component": "Claudin",
+      "score": "mean_logCPM"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.787",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Near-region Claudin fixed score library_only low",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+    "filters": {
+      "dataset": "Spatial_rHGP_minus_dHGP_near",
+      "normalization": "library_only",
+      "component": "Claudin",
+      "score": "mean_logCPM"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.269",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Near-region Claudin fixed score library_only high",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+    "filters": {
+      "dataset": "Spatial_rHGP_minus_dHGP_near",
+      "normalization": "library_only",
+      "component": "Claudin",
+      "score": "mean_logCPM"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "1.304",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Near-region Claudin fixed score library_only p",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+    "filters": {
+      "dataset": "Spatial_rHGP_minus_dHGP_near",
+      "normalization": "library_only",
+      "component": "Claudin",
+      "score": "mean_logCPM"
+    },
+    "column": "p",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.20",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk_rHGP_minus_dHGP Claudin count directional q TMM",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+    "filters": {
+      "dataset": "Bulk_rHGP_minus_dHGP",
+      "component": "Claudin",
+      "normalization": "TMM"
+    },
+    "column": "q_direction",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.213",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk_rHGP_minus_dHGP Claudin count directional q library_only",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+    "filters": {
+      "dataset": "Bulk_rHGP_minus_dHGP",
+      "component": "Claudin",
+      "normalization": "library_only"
+    },
+    "column": "q_direction",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.299",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk_rHGP_minus_dHGP HRC count directional q TMM",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+    "filters": {
+      "dataset": "Bulk_rHGP_minus_dHGP",
+      "component": "HRC",
+      "normalization": "TMM"
+    },
+    "column": "q_direction",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.0366",
+    "rounding_atol": 5.0000001000000005e-05
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk_rHGP_minus_dHGP HRC count directional q library_only",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+    "filters": {
+      "dataset": "Bulk_rHGP_minus_dHGP",
+      "component": "HRC",
+      "normalization": "library_only"
+    },
+    "column": "q_direction",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.299",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Spatial_rHGP_minus_dHGP_near Claudin count directional q TMM",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+    "filters": {
+      "dataset": "Spatial_rHGP_minus_dHGP_near",
+      "component": "Claudin",
+      "normalization": "TMM"
+    },
+    "column": "q_direction",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.0318",
+    "rounding_atol": 5.0000001000000005e-05
+  },
+  {
+    "section": "Results 4",
+    "claim": "Spatial_rHGP_minus_dHGP_near Claudin count directional q library_only",
+    "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+    "filters": {
+      "dataset": "Spatial_rHGP_minus_dHGP_near",
+      "component": "Claudin",
+      "normalization": "library_only"
+    },
+    "column": "q_direction",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.164",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk fixed-score HRC effect",
+    "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+    "filters": {
+      "component": "HRC"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.512",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk fixed-score HRC low",
+    "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+    "filters": {
+      "component": "HRC"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.198",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk fixed-score HRC high",
+    "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+    "filters": {
+      "component": "HRC"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.827",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk fixed-score HRC q",
+    "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+    "filters": {
+      "component": "HRC"
+    },
+    "column": "q",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.0188",
+    "rounding_atol": 5.0000001000000005e-05
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk fixed-score Junction effect",
+    "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+    "filters": {
+      "component": "Junction"
+    },
+    "column": "effect",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.286",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk fixed-score Junction low",
+    "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+    "filters": {
+      "component": "Junction"
+    },
+    "column": "low",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.140",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk fixed-score Junction high",
+    "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+    "filters": {
+      "component": "Junction"
+    },
+    "column": "high",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.446",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 4",
+    "claim": "Bulk fixed-score Junction q",
+    "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+    "filters": {
+      "component": "Junction"
+    },
+    "column": "q",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.0188",
+    "rounding_atol": 5.0000001000000005e-05
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CLDN3 unadjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CLDN3",
+      "model": "unadjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.424",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CLDN3 source_adjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CLDN3",
+      "model": "source_adjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "-0.263",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CLDN4 unadjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CLDN4",
+      "model": "unadjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.260",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CLDN4 source_adjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CLDN4",
+      "model": "source_adjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "-0.117",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CLDN7 unadjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CLDN7",
+      "model": "unadjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.549",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CLDN7 source_adjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CLDN7",
+      "model": "source_adjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "-0.187",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CLDN5 unadjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CLDN5",
+      "model": "unadjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "-1.009",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CLDN5 source_adjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CLDN5",
+      "model": "source_adjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.454",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CRB3 unadjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CRB3",
+      "model": "unadjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.496",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CRB3 source_adjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CRB3",
+      "model": "source_adjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.188",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CLDN2 unadjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CLDN2",
+      "model": "unadjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.829",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Regional CLDN2 source_adjusted",
+    "source": "panel:Figure_5_D.tsv",
+    "filters": {
+      "gene": "CLDN2",
+      "model": "source_adjusted"
+    },
+    "column": "logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "1.147",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "HRC positive coefficients TMM",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+    "filters": {
+      "dataset": "all_pairs",
+      "normalization": "TMM",
+      "model": "unadjusted",
+      "component": "HRC"
+    },
+    "column": "n_positive_logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "80",
+    "rounding_atol": 0.500000000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "HRC unadjusted directional q TMM",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+    "filters": {
+      "dataset": "all_pairs",
+      "normalization": "TMM",
+      "model": "unadjusted",
+      "component": "HRC"
+    },
+    "column": "q_direction",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.000050",
+    "rounding_atol": 5.00001e-07
+  },
+  {
+    "section": "Results 5",
+    "claim": "HRC positive coefficients library_only",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+    "filters": {
+      "dataset": "all_pairs",
+      "normalization": "library_only",
+      "model": "unadjusted",
+      "component": "HRC"
+    },
+    "column": "n_positive_logFC",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "77",
+    "rounding_atol": 0.500000000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "HRC unadjusted directional q library_only",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+    "filters": {
+      "dataset": "all_pairs",
+      "normalization": "library_only",
+      "model": "unadjusted",
+      "component": "HRC"
+    },
+    "column": "q_direction",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.000133",
+    "rounding_atol": 5.00001e-07
+  },
+  {
+    "section": "Results 5",
+    "claim": "HRC adjusted directional q",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+    "filters": {
+      "dataset": "all_pairs",
+      "normalization": "TMM",
+      "model": "source_adjusted",
+      "component": "HRC"
+    },
+    "column": "q_direction",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.332",
+    "rounding_atol": 0.000500000001
+  },
+  {
+    "section": "Results 5",
+    "claim": "Same-section adjusted HRC mixed q TMM",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+    "filters": {
+      "dataset": "same_section",
+      "normalization": "TMM",
+      "model": "source_adjusted",
+      "component": "HRC"
+    },
+    "column": "q_mixed",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.00248",
+    "rounding_atol": 5.000001000000001e-06
+  },
+  {
+    "section": "Results 5",
+    "claim": "Same-section adjusted Claudin mixed q TMM",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+    "filters": {
+      "dataset": "same_section",
+      "normalization": "TMM",
+      "model": "source_adjusted",
+      "component": "Claudin"
+    },
+    "column": "q_mixed",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "8.98e-05",
+    "rounding_atol": 5.0001e-08
+  },
+  {
+    "section": "Results 5",
+    "claim": "Same-section adjusted Junction mixed q TMM",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+    "filters": {
+      "dataset": "same_section",
+      "normalization": "TMM",
+      "model": "source_adjusted",
+      "component": "Junction"
+    },
+    "column": "q_mixed",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.000223",
+    "rounding_atol": 5.00001e-07
+  },
+  {
+    "section": "Results 5",
+    "claim": "Same-section adjusted HRC mixed q library_only",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+    "filters": {
+      "dataset": "same_section",
+      "normalization": "library_only",
+      "model": "source_adjusted",
+      "component": "HRC"
+    },
+    "column": "q_mixed",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.00204",
+    "rounding_atol": 5.000001000000001e-06
+  },
+  {
+    "section": "Results 5",
+    "claim": "Same-section adjusted Claudin mixed q library_only",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+    "filters": {
+      "dataset": "same_section",
+      "normalization": "library_only",
+      "model": "source_adjusted",
+      "component": "Claudin"
+    },
+    "column": "q_mixed",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "7.06e-05",
+    "rounding_atol": 5.0001e-08
+  },
+  {
+    "section": "Results 5",
+    "claim": "Same-section adjusted Junction mixed q library_only",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+    "filters": {
+      "dataset": "same_section",
+      "normalization": "library_only",
+      "model": "source_adjusted",
+      "component": "Junction"
+    },
+    "column": "q_mixed",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "0.000198",
+    "rounding_atol": 5.00001e-07
+  },
+  {
+    "section": "Results 5",
+    "claim": "Adjusted VIF macro",
+    "source": "panel:Supplementary_Figure_6_D.tsv",
+    "filters": {
+      "dataset": "all_pairs",
+      "normalization": "TMM",
+      "variable": "macro"
+    },
+    "column": "within_patient_VIF",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "5.47",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 5",
+    "claim": "Adjusted VIF Liver",
+    "source": "panel:Supplementary_Figure_6_D.tsv",
+    "filters": {
+      "dataset": "all_pairs",
+      "normalization": "TMM",
+      "variable": "Liver"
+    },
+    "column": "within_patient_VIF",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "10.49",
+    "rounding_atol": 0.0050000000010000005
+  },
+  {
+    "section": "Results 5",
+    "claim": "Adjusted eleven-pair residual degrees of freedom",
+    "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/model_diagnostics.tsv",
+    "filters": {
+      "dataset": "all_pairs",
+      "normalization": "TMM",
+      "model": "source_adjusted"
+    },
+    "column": "residual_df",
+    "method": "one",
+    "scale": 1,
+    "transform": "identity",
+    "reported": "7",
+    "rounding_atol": 0.500000000001
+  }
+]

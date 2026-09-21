@@ -1,0 +1,7 @@
+id	patient	region	library_size	zero_count_prior_CPM	macro	dataset	normalization	norm_factor	effective_library	hgp	r	sample	hops	restriction	n_spots	evaluable	near	near_r	value	component	score	n_genes
+Sample1|5|all_tumour|near	PT36	near	12643198	NA	NA	Spatial_rHGP_minus_dHGP_near	TMM	1.00254778007374	12675410.0879327	rHGP	1.0	Sample1	5.0	all_tumour	772.0	True	NA	NA	5.612012567042671	Claudin	mean_logCPM	13
+Sample3|5|all_tumour|near	PT55	near	8167977	NA	NA	Spatial_rHGP_minus_dHGP_near	TMM	0.961895452441559	7856739.93194725	dHGP	0.0	Sample3	5.0	all_tumour	1366.0	True	NA	NA	4.798478995063421	Claudin	mean_logCPM	13
+Sample4|5|all_tumour|near	PT68	near	9370810	NA	NA	Spatial_rHGP_minus_dHGP_near	TMM	1.24285578009139	11646565.3726382	dHGP	0.0	Sample4	5.0	all_tumour	603.0	True	NA	NA	4.842128264254587	Claudin	mean_logCPM	13
+Sample5|5|all_tumour|near	PT44	near	11663763	NA	NA	Spatial_rHGP_minus_dHGP_near	TMM	0.86823408871752	10126876.6393221	rHGP	1.0	Sample5	5.0	all_tumour	476.0	True	NA	NA	5.966573791399867	Claudin	mean_logCPM	13
+Sample6|5|all_tumour|near	PT54	near	5951452	NA	NA	Spatial_rHGP_minus_dHGP_near	TMM	1.00010788311151	5952094.06115974	rHGP	1.0	Sample6	5.0	all_tumour	255.0	True	NA	NA	5.119834267361886	Claudin	mean_logCPM	13
+Sample7|5|all_tumour|near	PT61	near	13492474	NA	NA	Spatial_rHGP_minus_dHGP_near	TMM	0.960865562952663	12964453.6256342	dHGP	0.0	Sample7	5.0	all_tumour	862.0	True	NA	NA	4.300088032365085	Claudin	mean_logCPM	13

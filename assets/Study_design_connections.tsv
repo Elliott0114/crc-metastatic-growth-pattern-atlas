@@ -1,0 +1,5 @@
+input	analysis	line_style	meaning
+ISS	NC3 spatial context	solid	NC3 abundance, spatial adjacency and source state for mapping
+Ogden epithelial states	NC3–REC mapping	dashed	State reference; 14 refers to component discovery, not the reference coverage
+Ogden component discovery; five external studies	Components & members	solid	Within-patient contrasts, independent meta-analysis and all 30 members
+Bulk HGP; spatial HGP; paired micro/macro regions	Tissue contrasts	solid	HGP and regional expression; source-proxy adjustment

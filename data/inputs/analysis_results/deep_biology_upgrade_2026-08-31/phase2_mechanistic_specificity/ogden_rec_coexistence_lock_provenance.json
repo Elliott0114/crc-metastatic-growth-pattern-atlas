@@ -1,0 +1,20 @@
+{
+  "analysis_date": "2026-09-01",
+  "status": "frozen_before_coexistence_outcomes",
+  "random_seed": 42,
+  "python_version": "3.11.15",
+  "anndata_version": "0.12.19",
+  "numpy_version": "1.26.4",
+  "pandas_version": "2.3.3",
+  "scipy_version": "1.17.1",
+  "n_epithelial_cells": 16009,
+  "n_expression_bins": 25,
+  "controls_per_represented_bin": 50,
+  "input_sha256": "be5059381dc618e6068f917197fe98b912a478f8e6a95bee309a8e4b65c336a2",
+  "specification_sha256": "b1c9a1e203355cdeddff614caeb9e4e61aed3c1d1ecfe3b54ce96820871b4746",
+  "frozen_long_sha256": "2c40023b4aa0411d4d4cfecd0c6af688f9ed59c2f4d040cf289ed5c92e30039a",
+  "reactome_gmt_sha256": "0056a8318733579d4f68402abc0f4dbc113e819ca270b49f24118965965b6be1",
+  "gobp_gmt_sha256": "ab295452e729a49d9defe3832f301841c8b180666d509922d03649c39f7bdb5c",
+  "locked_genes_sha256": "afe232241441683e9bfec9d382334ab6af79a75a8c6590ab9b2df369ba59b580",
+  "pair_registry_sha256": "86ffd7fa6561367a0f1bca783de3e1987b674529e582445017507d54408f476a"
+}

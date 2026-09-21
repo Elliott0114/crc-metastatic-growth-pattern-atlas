@@ -1,0 +1,1697 @@
+[
+  {
+    "id": "iss_ecology",
+    "script": "analyze_hgp_interface_ecology.py",
+    "reads": [
+      "data_sources/EscrivaConde_BJC_2026_HGP_ISS/prepared_cells_panel_2.h5ad"
+    ],
+    "writes": [
+      "analysis_results/hgp_interface_ecology/_analysis_outputs.md",
+      "analysis_results/hgp_interface_ecology/analysis_summary.md",
+      "analysis_results/hgp_interface_ecology/cluster_effects.tsv",
+      "analysis_results/hgp_interface_ecology/leave_one_patient_out.tsv",
+      "analysis_results/hgp_interface_ecology/mixed_patient_differences.tsv",
+      "analysis_results/hgp_interface_ecology/patient_adjacency.tsv",
+      "analysis_results/hgp_interface_ecology/patient_cluster_adjacency.tsv",
+      "analysis_results/hgp_interface_ecology/patient_composition.tsv",
+      "analysis_results/hgp_interface_ecology/patient_endpoint_values.tsv",
+      "analysis_results/hgp_interface_ecology/primary_effects.tsv",
+      "analysis_results/hgp_interface_ecology/primary_endpoints_diagnostic.pdf",
+      "analysis_results/hgp_interface_ecology/primary_endpoints_diagnostic.png",
+      "analysis_results/hgp_interface_ecology/provenance.json",
+      "analysis_results/hgp_interface_ecology/sample_adjacency.tsv",
+      "analysis_results/hgp_interface_ecology/sample_cluster_adjacency.tsv",
+      "analysis_results/hgp_interface_ecology/sample_composition.tsv",
+      "analysis_results/hgp_interface_ecology/sensitivity_effects.tsv"
+    ],
+    "required_metadata": [
+      "metadata/hgp_interface_ecology_analysis_spec_2026-08-23.md"
+    ]
+  },
+  {
+    "id": "iss_composition",
+    "script": "analyze_escrivaconde2026_slpi_state_composition.py",
+    "reads": [
+      "data_sources/EscrivaConde_BJC_2026_HGP_ISS/prepared_cells_panel_2.h5ad"
+    ],
+    "writes": [
+      "analysis_results/slpi_bjc2026_state_composition/common_reference_cluster_weights.tsv",
+      "analysis_results/slpi_bjc2026_state_composition/endpoint_summary.tsv",
+      "analysis_results/slpi_bjc2026_state_composition/leave_one_patient_out.tsv",
+      "analysis_results/slpi_bjc2026_state_composition/marker_decomposition.tsv",
+      "analysis_results/slpi_bjc2026_state_composition/marker_decomposition_bootstrap_replicates.tsv",
+      "analysis_results/slpi_bjc2026_state_composition/mixed_patient_paired_sensitivity.tsv",
+      "analysis_results/slpi_bjc2026_state_composition/patient_state_endpoints.tsv",
+      "analysis_results/slpi_bjc2026_state_composition/run_info.json",
+      "analysis_results/slpi_bjc2026_state_composition/sample_level_mixed_models.tsv",
+      "analysis_results/slpi_bjc2026_state_composition/sample_state_endpoints.tsv",
+      "analysis_results/slpi_bjc2026_state_composition/validation_decision.tsv",
+      "analysis_results/slpi_bjc2026_state_composition/within_cluster_SLPI_effects.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "iss_display",
+    "script": "prepare_slpi_iss_publication_maps.py",
+    "reads": [
+      "analysis_results/slpi_bjc2026_state_composition/patient_state_endpoints.tsv",
+      "analysis_results/slpi_bjc2026_state_composition/sample_state_endpoints.tsv",
+      "data_sources/EscrivaConde_BJC_2026_HGP_ISS/prepared_cells_panel_2.h5ad"
+    ],
+    "writes": [
+      "analysis_results/slpi_publication_figure_augmentation/representative_selection.tsv",
+      "analysis_results/slpi_publication_figure_augmentation/representative_spatial_cells.tsv.gz",
+      "analysis_results/slpi_publication_figure_augmentation/run_info.json"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "iss_adjacency",
+    "script": "analyze_iss_state_specific_liver_adjacency.py",
+    "reads": [
+      "data_sources/EscrivaConde_BJC_2026_HGP_ISS/prepared_cells_panel_2.h5ad",
+      "metadata/deep_biology_phase2_analysis_spec_2026-09-01.md"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_state_specific_neighbour_group_summary.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_state_specific_neighbour_mixed_pairs.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_state_specific_neighbour_null_draws.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_state_specific_neighbour_patient_hgp.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_state_specific_neighbour_provenance.json",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_state_specific_neighbour_sample.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "iss_topology",
+    "script": "analyze_iss_nc3_cohesive_dual_interface.py",
+    "reads": [
+      "data_sources/EscrivaConde_BJC_2026_HGP_ISS/prepared_cells_panel_2.h5ad",
+      "metadata/iss_nc3_cohesive_dual_interface_spec_2026-09-01.md"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_cohesive_dual_interface/_analysis_outputs.md",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_cohesive_dual_interface/iss_cohesive_dual_interface_group_descriptive.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_cohesive_dual_interface/iss_cohesive_dual_interface_group_summary.csv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_cohesive_dual_interface/iss_cohesive_dual_interface_group_summary.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_cohesive_dual_interface/iss_cohesive_dual_interface_mixed_pairs.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_cohesive_dual_interface/iss_cohesive_dual_interface_patient_hgp.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_cohesive_dual_interface/iss_cohesive_dual_interface_primary_summary.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_cohesive_dual_interface/iss_cohesive_dual_interface_provenance.json",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/iss_cohesive_dual_interface/iss_cohesive_dual_interface_sample.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "mapping",
+    "script": "analyze_cross_platform_state_anchor.py",
+    "reads": [
+      "data_sources/EscrivaConde_BJC_2026_HGP_ISS/prepared_cells_panel_2.h5ad",
+      "data_sources/Ogden_2025_CRLM_multiome/CRCLM_multiome_GEX_decontaminated.h5ad"
+    ],
+    "writes": [
+      "analysis_results/cross_platform_state_anchor/analysis_summary.md",
+      "analysis_results/cross_platform_state_anchor/iss_patient_state_logcpm.tsv.gz",
+      "analysis_results/cross_platform_state_anchor/iss_patient_state_metadata.tsv",
+      "analysis_results/cross_platform_state_anchor/leave_one_patient_out_mapping.tsv",
+      "analysis_results/cross_platform_state_anchor/nc3_six_marker_ranking.tsv",
+      "analysis_results/cross_platform_state_anchor/nc3_top_anchor.tsv",
+      "analysis_results/cross_platform_state_anchor/ogden_anchor_vs_other_pseudobulk_counts.tsv.gz",
+      "analysis_results/cross_platform_state_anchor/ogden_anchor_vs_other_pseudobulk_metadata.tsv",
+      "analysis_results/cross_platform_state_anchor/ogden_patient_state_logcpm.tsv.gz",
+      "analysis_results/cross_platform_state_anchor/ogden_patient_state_metadata.tsv",
+      "analysis_results/cross_platform_state_anchor/provenance.json",
+      "analysis_results/cross_platform_state_anchor/shared_gene_audit.tsv",
+      "analysis_results/cross_platform_state_anchor/state_anchor_heatmap_diagnostic.pdf",
+      "analysis_results/cross_platform_state_anchor/state_anchor_heatmap_diagnostic.png",
+      "analysis_results/cross_platform_state_anchor/state_centroids_long.tsv.gz",
+      "analysis_results/cross_platform_state_anchor/state_similarity.tsv"
+    ],
+    "required_metadata": [
+      "metadata/cross_platform_state_anchor_spec_2026-08-23.md"
+    ]
+  },
+  {
+    "id": "rec50",
+    "script": "analyze_ogden_anchor_program.R",
+    "reads": [
+      "analysis_results/cross_platform_state_anchor/ogden_anchor_vs_other_pseudobulk_counts.tsv.gz",
+      "analysis_results/cross_platform_state_anchor/ogden_anchor_vs_other_pseudobulk_metadata.tsv",
+      "data_sources/Ogden_2025_CRLM_multiome/supplementary_tables/mmc3.xlsx",
+      "data_sources/Ogden_2025_CRLM_multiome/supplementary_tables/mmc6.xlsx",
+      "data_sources/Ogden_2025_CRLM_multiome/supplementary_tables/mmc8.xlsx"
+    ],
+    "writes": [
+      "analysis_results/ogden_anchor_program/_analysis_outputs.md",
+      "analysis_results/ogden_anchor_program/analysis_summary.md",
+      "analysis_results/ogden_anchor_program/anchor_program_diagnostic.png",
+      "analysis_results/ogden_anchor_program/eligible_program_candidates.tsv",
+      "analysis_results/ogden_anchor_program/limma_voom_all_genes.tsv.gz",
+      "analysis_results/ogden_anchor_program/paired_patient_log2cpm_differences.tsv.gz",
+      "analysis_results/ogden_anchor_program/program_module_paired.tsv",
+      "analysis_results/ogden_anchor_program/program_module_scores.tsv",
+      "analysis_results/ogden_anchor_program/pseudobulk_sample_qc.tsv",
+      "analysis_results/ogden_anchor_program/published_signature_enrichment.tsv",
+      "analysis_results/ogden_anchor_program/scenic_regulon_enrichment.tsv",
+      "analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv",
+      "analysis_results/ogden_anchor_program/sessionInfo.txt",
+      "analysis_results/ogden_anchor_program/source_author_marker_overlap.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "state_pseudobulk",
+    "script": "prepare_ogden_direct_state_pseudobulks.py",
+    "reads": [
+      "data_sources/Ogden_2025_CRLM_multiome/CRCLM_multiome_GEX_decontaminated.h5ad",
+      "metadata/deep_biology_phase2_analysis_spec_2026-09-01.md"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_data_inventory.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_contrast_eligibility.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_pseudobulk_counts.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_pseudobulk_metadata.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_pseudobulk_provenance.json"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "state_contrasts",
+    "script": "analyze_ogden_direct_state_contrasts.R",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_set_registry.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_sets_long.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_contrast_eligibility.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_pseudobulk_metadata.tsv"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_contrast_summary.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_limma_all.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_program_effects.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_program_scores.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_sessionInfo.txt"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "state_enrichment",
+    "script": "run_ogden_direct_state_gsea.py",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_set_registry.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_sets.gmt",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_sets_long.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/msigdb_c2.cp.reactome_2025.1.Hs.gmt",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/msigdb_c5.go.bp_2025.1.Hs.gmt",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/msigdb_h.all_2025.1.Hs.gmt",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_limma_all.tsv.gz"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_gsea_all.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_gsea_discovery_fdr05.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_gsea_leading_edge_recurrence.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_gsea_principal_recurrence.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_gsea_provenance.json",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_gsea_targeted.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "state_source_tables",
+    "script": "summarize_paper_state_evidence.py",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_gsea_all.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_limma_all.tsv.gz"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_principal_consistent_genes.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/table_phase2_direct_program_gsea.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/table_phase2_recurrent_discovery_terms.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "c8_enrichment",
+    "script": "analyze_rec_c8_tight_junction_bridge.py",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/alvarez_c8_top50_source.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_set_registry.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_sets_long.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_limma_all.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_principal_consistent_genes.tsv",
+      "data_sources/AlvarezVillanueva_2026_tight_junction/41467_2025_68169_MOESM5_ESM.xlsx"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/rec_c8_named_gene_evidence.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/rec_c8_recurrent_overlap.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/rec_c8_tight_junction_bridge_evidence.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/rec_c8_tight_junction_bridge_provenance.json",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/rec_c8_tight_junction_bridge_summary.md",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/rec_c8_tight_junction_gsea.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "regulatory_overlap",
+    "script": "analyze_ogden_regulatory_junction_bridge.R",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/msigdb_c2.cp.reactome_2025.1.Hs.gmt",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_pseudobulk_counts.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_pseudobulk_metadata.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_principal_consistent_genes.tsv",
+      "analysis_results/ogden_anchor_program/limma_voom_all_genes.tsv.gz",
+      "data_sources/Ogden_2025_CRLM_multiome/supplementary_tables/mmc8.xlsx",
+      "metadata/ogden_atac_regulatory_junction_bridge_spec_2026-09-01.md"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/_analysis_outputs.md",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_recurrent_rec_junction_regulon_bridge.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_bridge_provenance.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_bridge_sessionInfo.txt",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulon_paired_patient_effects.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulon_paired_state_summary.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulon_patient_state_scores.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulon_tight_junction_ora.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_source_regulons_long.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "regulatory_coexistence",
+    "script": "analyze_ogden_regulatory_junction_coexistence.py",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/_analysis_outputs.md",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_junction_lock_provenance.json",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_junction_locked_genes.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_junction_pair_registry.tsv",
+      "data_sources/Ogden_2025_CRLM_multiome/CRCLM_multiome_GEX_decontaminated.h5ad",
+      "metadata/ogden_atac_regulatory_junction_bridge_spec_2026-09-01.md"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/_analysis_outputs.md",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_junction_coexistence_provenance.json",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_junction_patient_equal_summaries.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_junction_patient_state_correlations.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_junction_primary_summary.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_junction_rec_vs_comparator.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_junction_rec_vs_comparator_patient.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_junction_score_qc.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "discovery_coexistence",
+    "script": "analyze_ogden_rec_within_cell_coexistence.py",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_cell_scores.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_lock_provenance.json",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_locked_genes.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_pair_registry.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_patient_equal_summaries.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_patient_state_correlations.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_rec_vs_comparator.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_rec_vs_comparator_patient_differences.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_score_qc.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_summary.md",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_treatment_descriptive.tsv",
+      "data_sources/Ogden_2025_CRLM_multiome/CRCLM_multiome_GEX_decontaminated.h5ad",
+      "metadata/ogden_rec_within_cell_coexistence_spec_2026-09-01.md"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_cell_scores.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_patient_equal_summaries.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_patient_state_correlations.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_provenance.json",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_rec_vs_comparator.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_rec_vs_comparator_patient_differences.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_score_qc.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_summary.md",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_treatment_descriptive.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "clinical_input",
+    "script": "prepare_rec_clinical_matrix.py",
+    "reads": [
+      "data_sources/rec_public_upgrade_2026-09-07/GPL17586.soft.txt",
+      "data_sources/rec_public_upgrade_2026-09-07/GSE159216_series_matrix.txt.gz"
+    ],
+    "writes": [
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/gene_expression_log2.tsv.gz",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/geo_sample_metadata.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/matrix_qc.json",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/probe_mapping.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "clinical",
+    "script": "analyze_rec_public_clinical.R",
+    "reads": [
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/geo_sample_metadata.tsv",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/clinical_characteristics.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/clinical_missingness.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/continuous_and_timevarying_effects.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/cox_all_coefficients.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/cox_models.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/model_patient_ids.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/patient_flow.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/proportional_hazards.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/rec50_coverage.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/sample_patient_manifest.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/sampling_sensitivity_mapping.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/score_scaling.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/sessionInfo.txt"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "protein",
+    "script": "analyze_rec_public_proteomics.R",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/msigdb_c2.cp.reactome_2025.1.Hs.gmt",
+      "data_sources/Nissen_2025_CRLM_proteomics/mmc4.xlsx",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_public_upgrade_2026-09-07/proteomics/disjoint_pair_patient_scores.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/proteomics/disjoint_protein_correlations.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/proteomics/disjoint_protein_gene_sets.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/proteomics/methods.txt",
+      "analysis_results/rec_public_upgrade_2026-09-07/proteomics/patient_program_scores.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/proteomics/rec50_protein_coverage.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/proteomics/sessionInfo.txt",
+      "analysis_results/rec_public_upgrade_2026-09-07/proteomics/source_sample_manifest.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/proteomics/survival_candidate_samples.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/proteomics/survival_feasibility.tsv",
+      "metadata/rec_public_upgrade_2026-09-07/rec_protein18_genes.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "specificity",
+    "script": "analyze_rec_public_specificity.R",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_pseudobulk_metadata.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/clinical/sample_patient_manifest.tsv",
+      "data_sources/GSE151165/GSE151165_RNA_seq.raw_read_count.xlsx",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv",
+      "metadata/rec_public_upgrade_2026-09-07/rec_protein18_genes.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/GSE151165_RNA18_concordance_scores.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/GSE159216_RNA18_concordance_scores.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/Ogden_patient_state_RNA18_concordance_scores.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/RNA18_REC50_concordance.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/gse151165_logcpm.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/gse151165_program_scores.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/new_rival_HGP_models.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/ogden_patient_state_program_scores.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/ogden_program_paired_contrasts.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/program_coverage.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/sessionInfo.txt"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "within_cell",
+    "script": "analyze_rec_public_within_cell.py",
+    "reads": [
+      "analysis_results/rec_public_upgrade_2026-09-07/within_cell/conditional_gene_control_lock.tsv",
+      "data_sources/Ogden_2025_CRLM_multiome/CRCLM_multiome_GEX_decontaminated.h5ad",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_public_upgrade_2026-09-07/within_cell/conditional_gene_control_lock.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/within_cell/conditional_summary.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/within_cell/methods.json",
+      "analysis_results/rec_public_upgrade_2026-09-07/within_cell/patient_conditional_correlations.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "paired_states",
+    "script": "analyze_rec_paired_state_correlations.py",
+    "reads": [
+      "analysis_results/rec_public_upgrade_2026-09-07/within_cell/patient_conditional_correlations.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/paired_states/paired_patient_correlations.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/paired_states/paired_state_contrasts.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/paired_states/provenance.json"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "hgp_cells",
+    "script": "analyze_rec_program_hgp_scrna_projection.py",
+    "reads": [
+      "analysis_results/e_mtab_12022_primary_reconstruction.h5ad",
+      "analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_program_hgp_scrna_projection/_analysis_outputs.md",
+      "analysis_results/rec_program_hgp_scrna_projection/analysis_summary.md",
+      "analysis_results/rec_program_hgp_scrna_projection/balanced_iteration_effects.tsv.gz",
+      "analysis_results/rec_program_hgp_scrna_projection/balanced_summary.tsv",
+      "analysis_results/rec_program_hgp_scrna_projection/decision.tsv",
+      "analysis_results/rec_program_hgp_scrna_projection/endpoint_summary.tsv",
+      "analysis_results/rec_program_hgp_scrna_projection/leave_one_patient_out.tsv",
+      "analysis_results/rec_program_hgp_scrna_projection/mechanistic_module_coverage.tsv",
+      "analysis_results/rec_program_hgp_scrna_projection/patient_gene_pseudobulk.tsv",
+      "analysis_results/rec_program_hgp_scrna_projection/patient_scores.tsv",
+      "analysis_results/rec_program_hgp_scrna_projection/program_coverage.tsv",
+      "analysis_results/rec_program_hgp_scrna_projection/qc_threshold_sensitivity.tsv",
+      "analysis_results/rec_program_hgp_scrna_projection/run_info.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "hgp_coexpression",
+    "script": "analyze_rec_epithelial_coexpression.py",
+    "reads": [
+      "analysis_results/e_mtab_12022_primary_reconstruction.h5ad",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/epithelial/component_coverage.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/epithelial/correlation_summary.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/epithelial/exploratory_HGP_correlations.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/epithelial/gene_control_lock.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/epithelial/patient_correlations.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/epithelial/patient_recovery.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/epithelial/provenance.json"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "hgp_spatial",
+    "script": "analyze_rec_program_hgp_spatial_projection.py",
+    "reads": [
+      "analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/spatial/tissue_positions.csv",
+      "data_sources/E_MTAB_HGP_CRLM/E-MTAB-12043_L1_spatial_pilot_download_manifest.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_program_hgp_spatial_projection/_analysis_outputs.md",
+      "analysis_results/rec_program_hgp_spatial_projection/analysis_summary.md",
+      "analysis_results/rec_program_hgp_spatial_projection/boundary_hop_sensitivity.tsv",
+      "analysis_results/rec_program_hgp_spatial_projection/decision.tsv",
+      "analysis_results/rec_program_hgp_spatial_projection/hgp_contrasts.tsv",
+      "analysis_results/rec_program_hgp_spatial_projection/leave_one_patient_out.tsv",
+      "analysis_results/rec_program_hgp_spatial_projection/patient_localization_values.tsv",
+      "analysis_results/rec_program_hgp_spatial_projection/patient_region_gene_pseudobulk.tsv.gz",
+      "analysis_results/rec_program_hgp_spatial_projection/patient_region_scores.tsv",
+      "analysis_results/rec_program_hgp_spatial_projection/program_coverage.tsv",
+      "analysis_results/rec_program_hgp_spatial_projection/program_gene_detection.tsv",
+      "analysis_results/rec_program_hgp_spatial_projection/region_counts.tsv",
+      "analysis_results/rec_program_hgp_spatial_projection/run_info.tsv",
+      "analysis_results/rec_program_hgp_spatial_projection/sample_qc.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "hgp_display",
+    "script": "prepare_rec_program_spatial_display.py",
+    "reads": [
+      "analysis_results/rec_program_hgp_spatial_projection/patient_region_scores.tsv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/spatial/scalefactors_json.json",
+      "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/spatial/scalefactors_json.json",
+      "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/spatial/scalefactors_json.json",
+      "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/spatial/scalefactors_json.json",
+      "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/spatial/scalefactors_json.json",
+      "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/spatial/scalefactors_json.json",
+      "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/spatial/tissue_positions.csv"
+    ],
+    "writes": [
+      "analysis_results/rec_program_spatial_display/README.md",
+      "analysis_results/rec_program_spatial_display/all_spatial_spots.tsv.gz",
+      "analysis_results/rec_program_spatial_display/all_spatial_summary.tsv",
+      "analysis_results/rec_program_spatial_display/representative_sample_selection.tsv",
+      "analysis_results/rec_program_spatial_display/representative_spatial_spots.tsv.gz",
+      "analysis_results/rec_program_spatial_display/representative_spatial_summary.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "cross_modal",
+    "script": "analyze_rec_program_cross_modal_concordance.py",
+    "reads": [
+      "analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv",
+      "analysis_results/rec_program_hgp_scrna_projection/patient_gene_pseudobulk.tsv",
+      "analysis_results/rec_program_hgp_spatial_projection/patient_region_gene_pseudobulk.tsv.gz"
+    ],
+    "writes": [
+      "analysis_results/rec_program_cross_modal_concordance/_analysis_outputs.md",
+      "analysis_results/rec_program_cross_modal_concordance/analysis_summary.md",
+      "analysis_results/rec_program_cross_modal_concordance/cross_modal_positive_core.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/effect_correlations.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/gene_level_concordance.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/mechanistic_subset_summary.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/patient_overlap.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/run_info.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/summary.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/top15_interpretable_core.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "regional_projection",
+    "script": "analyze_gse294385_rec_program_extension.py",
+    "reads": [
+      "analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/top15_interpretable_core.tsv",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903657_IX_56688.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903658_IX_56689.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903659_IX_56690.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903660_M-ST-05.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903661_M-ST-06.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903662_M-ST-07.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903663_M-ST-08.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903664_M-ST-09.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903665_M-ST-10.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903666_M-ST-11.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903667_M-ST-12.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903672_M-ST-17.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903674_M-ST-19.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903676_M-ST-21.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903677_M-ST-22.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903678_M-ST-23.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903679_M-ST-24.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903680_M-ST-25.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903681_M-ST-26.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903682_M-ST-27.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903690_M-ST-35.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903691_M-ST-36.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903692_M-ST-37.tar.gz",
+      "data_sources/Liu_2026_GSE294385/archives/GSM8903693_M-ST-38.tar.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56688/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56688/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56688/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56689/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56689/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56689/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56690/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56690/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56690/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-08/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-08/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-08/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-10/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-10/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-10/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-12/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-12/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-12/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-17/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-17/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-17/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-19/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-19/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-19/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-21/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-21/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-21/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-24/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-24/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-24/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-26/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-26/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-26/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-27/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-27/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-27/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-35/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-35/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-35/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-37/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-37/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-37/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/visium_liver_meta_after_qc.tsv.gz",
+      "metadata/gse294385_liver_sample_manifest.tsv"
+    ],
+    "writes": [
+      "analysis_results/gse294385_rec_program_extension/_analysis_outputs.md",
+      "analysis_results/gse294385_rec_program_extension/analysis_summary.md",
+      "analysis_results/gse294385_rec_program_extension/balanced_iteration_effects.tsv.gz",
+      "analysis_results/gse294385_rec_program_extension/balanced_summary.tsv",
+      "analysis_results/gse294385_rec_program_extension/decision.tsv",
+      "analysis_results/gse294385_rec_program_extension/gene_level_paired_effects.tsv",
+      "analysis_results/gse294385_rec_program_extension/minimum_micro_spot_sensitivity.tsv",
+      "analysis_results/gse294385_rec_program_extension/paired_contrasts.tsv",
+      "analysis_results/gse294385_rec_program_extension/patient_program_scores.tsv",
+      "analysis_results/gse294385_rec_program_extension/patient_region_gene_pseudobulk.tsv.gz",
+      "analysis_results/gse294385_rec_program_extension/patient_region_spot_counts.tsv",
+      "analysis_results/gse294385_rec_program_extension/program_coverage.tsv",
+      "analysis_results/gse294385_rec_program_extension/run_info.tsv",
+      "analysis_results/gse294385_rec_program_extension/sample_qc.tsv",
+      "analysis_results/gse294385_rec_program_extension/sample_region_gene_pseudobulk.tsv.gz",
+      "analysis_results/gse294385_rec_program_extension/source_file_provenance.tsv",
+      "analysis_results/gse294385_rec_program_extension/within_section_patient_differences.tsv",
+      "analysis_results/gse294385_rec_program_extension/within_section_summary.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "cross_context",
+    "script": "analyze_rec_program_two_axis_interpretation.py",
+    "reads": [
+      "analysis_results/gse294385_rec_program_extension/gene_level_paired_effects.tsv",
+      "analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/gene_level_concordance.tsv",
+      "metadata/rec_program_two_axis_interpretation_spec_2026-08-23.md"
+    ],
+    "writes": [
+      "analysis_results/rec_program_two_axis_interpretation/_analysis_outputs.md",
+      "analysis_results/rec_program_two_axis_interpretation/analysis_summary.md",
+      "analysis_results/rec_program_two_axis_interpretation/category_summary.tsv",
+      "analysis_results/rec_program_two_axis_interpretation/gene_two_axis_classification.tsv",
+      "analysis_results/rec_program_two_axis_interpretation/mechanistic_module_summary.tsv",
+      "analysis_results/rec_program_two_axis_interpretation/provenance.json"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "bulk_rec50",
+    "script": "analyze_rec_program_gse151165_bulk_projection.R",
+    "reads": [
+      "analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/top15_interpretable_core.tsv",
+      "analysis_results/rec_program_two_axis_interpretation/gene_two_axis_classification.tsv",
+      "data_sources/GSE151165/GSE151165_RNA_seq.raw_read_count.xlsx",
+      "metadata/rec_program_gse151165_bulk_projection_spec_2026-08-23.md"
+    ],
+    "writes": [
+      "analysis_results/rec_program_gse151165_bulk_projection/_analysis_outputs.md",
+      "analysis_results/rec_program_gse151165_bulk_projection/analysis_summary.md",
+      "analysis_results/rec_program_gse151165_bulk_projection/endpoint_summary.tsv",
+      "analysis_results/rec_program_gse151165_bulk_projection/gene_level_effects.tsv",
+      "analysis_results/rec_program_gse151165_bulk_projection/leave_one_patient_out.tsv",
+      "analysis_results/rec_program_gse151165_bulk_projection/patient_scores.tsv",
+      "analysis_results/rec_program_gse151165_bulk_projection/program_coverage.tsv",
+      "analysis_results/rec_program_gse151165_bulk_projection/run_info.tsv",
+      "analysis_results/rec_program_gse151165_bulk_projection/sessionInfo.txt"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "latacz",
+    "script": "analyze_rec_program_latacz_interface_summary.R",
+    "reads": [
+      "analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/top15_interpretable_core.tsv",
+      "data_sources/Latacz_2024_targeted_HGP_interface/SupplTablesLataczforupload.xlsx",
+      "metadata/rec_program_latacz_interface_summary_spec_2026-08-23.md"
+    ],
+    "writes": [
+      "analysis_results/rec_program_latacz_interface_summary/_analysis_outputs.md",
+      "analysis_results/rec_program_latacz_interface_summary/all_four_model_summary.tsv",
+      "analysis_results/rec_program_latacz_interface_summary/analysis_summary.md",
+      "analysis_results/rec_program_latacz_interface_summary/gene_effects.tsv",
+      "analysis_results/rec_program_latacz_interface_summary/model_summary.tsv",
+      "analysis_results/rec_program_latacz_interface_summary/run_info.tsv",
+      "analysis_results/rec_program_latacz_interface_summary/sessionInfo.txt"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "rec44",
+    "script": "analyze_rec_program_multisource_core.R",
+    "reads": [
+      "analysis_results/gse294385_rec_program_extension/gene_level_paired_effects.tsv",
+      "analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv",
+      "analysis_results/rec_program_cross_modal_concordance/gene_level_concordance.tsv",
+      "analysis_results/rec_program_gse151165_bulk_projection/gene_level_effects.tsv",
+      "analysis_results/rec_program_latacz_interface_summary/gene_effects.tsv",
+      "analysis_results/rec_program_two_axis_interpretation/gene_two_axis_classification.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_program_multisource_core/_analysis_outputs.md",
+      "analysis_results/rec_program_multisource_core/analysis_summary.md",
+      "analysis_results/rec_program_multisource_core/gene_effects_long.tsv",
+      "analysis_results/rec_program_multisource_core/gene_recurrence_map.tsv",
+      "analysis_results/rec_program_multisource_core/persistent_core.tsv",
+      "analysis_results/rec_program_multisource_core/run_info.tsv",
+      "analysis_results/rec_program_multisource_core/sessionInfo.txt",
+      "analysis_results/rec_program_multisource_core/source_correlations.tsv",
+      "analysis_results/rec_program_multisource_core/source_summary.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "retained_rec44_spatial",
+    "script": "reproduce_retained_rec44_spatial.py",
+    "reads": [
+      "analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/spatial/tissue_positions.csv",
+      "data_sources/E_MTAB_HGP_CRLM/E-MTAB-12043_L1_spatial_pilot_download_manifest.tsv"
+    ],
+    "writes": [
+      "analysis_results/retained_rec44_historical/definition.json",
+      "analysis_results/retained_rec44_historical/spatial_gene_effects.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "regional_counts",
+    "script": "prepare_paper_regional_counts.R",
+    "reads": [
+      "analysis_results/cross_platform_state_anchor/shared_gene_audit.tsv",
+      "analysis_results/gse294385_rec_program_extension/paired_contrasts.tsv",
+      "analysis_results/ogden_anchor_program/eligible_program_candidates.tsv",
+      "analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv",
+      "data_sources/GSE151165/GSE151165_RNA_seq.raw_read_count.xlsx",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56688/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56688/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56689/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56689/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56690/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56690/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-08/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-08/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-10/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-10/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-12/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-12/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-17/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-17/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-19/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-19/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-21/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-21/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-24/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-24/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-26/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-26/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-27/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-27/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-35/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-35/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-37/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-37/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "metadata/gse294385_liver_sample_manifest.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_program_reader_facing_specificity/gse294385_patient_region_all_gene_counts.tsv.gz",
+      "analysis_results/rec_program_reader_facing_specificity/gse294385_patient_region_metadata.tsv",
+      "analysis_results/rec_program_reader_facing_specificity/rec_program_length_sensitivity.tsv",
+      "analysis_results/rec_program_reader_facing_specificity/state_mapping_gene_bootstrap.tsv.gz",
+      "analysis_results/rec_program_reader_facing_specificity/state_mapping_gene_bootstrap_summary.tsv",
+      "analysis_results/rec_program_reader_facing_specificity/state_mapping_leave_one_gene_out.tsv",
+      "analysis_results/rec_program_reader_facing_specificity/state_mapping_metric_and_marker_sensitivity.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "historical_rivals",
+    "script": "analyze_rec_external_rival_programs.R",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_set_registry.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_sets_long.tsv",
+      "analysis_results/rec_program_reader_facing_specificity/gse294385_patient_region_metadata.tsv",
+      "data_sources/GSE151165/GSE151165_RNA_seq.raw_read_count.xlsx",
+      "metadata/gse294385_liver_sample_manifest.tsv"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/rec_external_rival_baseline.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/rec_external_rival_models.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/rec_external_rival_scores.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/rec_external_rival_sessionInfo.txt"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "rival_clean",
+    "script": "summarize_paper_rivals.R",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/rec_external_rival_models.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/existing_rival_models_corrected.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/statistical_correction_log.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "historical_bulk",
+    "script": "analyze_paper_hgp_reference.R",
+    "reads": [
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/gse151165_logcpm.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/gse151165_program_scores.tsv",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/hgp/component_composition_models.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/hgp/component_contrasts.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/hgp/component_coverage.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/hgp/component_leave_one_patient.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/hgp/composition_model_diagnostics.pdf",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/hgp/composition_model_patient_diagnostics.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/hgp/patient_component_scores.tsv",
+      "analysis_results/rec_hgp_focused_revision_2026-09-07/hgp/sessionInfo.txt"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "bulk_context",
+    "script": "analyze_paper_bulk_context.R",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_sets_long.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase3_external_regulatory_projection/frozen_external_regulatory_gene_set_registry.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase3_external_regulatory_projection/frozen_external_regulatory_gene_sets_long.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase3_external_regulatory_projection/frozen_external_regulatory_named_genes.tsv",
+      "data_sources/GSE151165/GSE151165_RNA_seq.raw_read_count.xlsx"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase3_external_regulatory_projection/gse151165_regulatory_module_contrasts.tsv"
+    ],
+    "required_metadata": [
+      "metadata/external_regulatory_projection_spec_2026-09-01.md"
+    ]
+  },
+  {
+    "id": "junction_cells",
+    "script": "analyze_rec_junction_cells.py",
+    "reads": [
+      "data_sources/Ogden_2025_CRLM_multiome/CRCLM_multiome_GEX_decontaminated.h5ad",
+      "metadata/rec_junction_context_2026-09-16.md",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_junction_context_2026-09-16/cells/cell_scores.tsv.gz",
+      "analysis_results/rec_junction_context_2026-09-16/cells/component_summary.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/cells/gene_control_lock.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/cells/gene_summary.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/cells/patient_compartment_genes.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/cells/patient_gene_partial_correlations.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/cells/patient_partial_correlations.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/cells/patient_state_inventory.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/cells/provenance.json",
+      "analysis_results/rec_junction_context_2026-09-16/definitions.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "junction_origins",
+    "script": "summarize_paper_compartments.py",
+    "reads": [
+      "analysis_results/rec_junction_context_2026-09-16/cells/patient_compartment_genes.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_junction_context_2026-09-16/cells/compartment_detection_summary.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "junction_context",
+    "script": "analyze_rec_junction_contexts.py",
+    "reads": [
+      "analysis_results/rec_program_reader_facing_specificity/gse294385_patient_region_all_gene_counts.tsv.gz",
+      "analysis_results/rec_program_reader_facing_specificity/gse294385_patient_region_metadata.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/gse151165_logcpm.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/gse151165_program_scores.tsv",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56688/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56689/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56690/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-08/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-10/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-12/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-17/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-19/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-21/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-24/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-26/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-27/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-35/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-37/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/features.tsv.gz",
+      "metadata/gse294385_liver_sample_manifest.tsv",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_junction_context_2026-09-16/contexts/component_effects.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/contexts/gene_coverage.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/contexts/gene_effects.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/contexts/hgp_scores.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/contexts/historical_reproduction.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/contexts/paired_region_changes.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/contexts/paired_region_scores.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/contexts/regional_panel_missingness.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "junction_neighbourhood",
+    "script": "analyze_rec_junction_neighbourhoods.py",
+    "reads": [
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56688/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56688/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56688/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56688/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56689/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56689/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56689/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56689/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56690/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56690/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56690/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56690/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-08/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-08/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-08/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-08/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-10/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-10/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-10/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-10/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-12/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-12/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-12/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-12/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-17/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-17/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-17/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-17/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-19/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-19/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-19/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-19/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-21/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-21/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-21/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-21/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-24/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-24/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-24/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-24/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-26/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-26/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-26/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-26/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-27/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-27/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-27/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-27/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-35/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-35/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-35/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-35/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-37/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-37/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-37/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-37/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/spatial/tissue_positions.csv",
+      "data_sources/Liu_2026_GSE294385/visium_liver_meta_after_qc.tsv.gz",
+      "metadata/gse294385_liver_sample_manifest.tsv",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_junction_context_2026-09-16/spatial/context_summary.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/spatial/coordinate_annotation_audit.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/spatial/gene_coverage.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/spatial/held_out_patient_prediction.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/spatial/patient_partial_correlations.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/spatial/prediction_summary.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/spatial/tumour_spot_scores.tsv.gz"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "junction_sensitivity",
+    "script": "analyze_rec_junction_sensitivities.py",
+    "reads": [
+      "analysis_results/e_mtab_12022_primary_reconstruction.h5ad",
+      "analysis_results/rec_junction_context_2026-09-16/cells/cell_scores.tsv.gz",
+      "analysis_results/rec_junction_context_2026-09-16/cells/gene_control_lock.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/contexts/hgp_scores.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/contexts/paired_region_changes.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/spatial/tumour_spot_scores.tsv.gz",
+      "data_sources/Ogden_2025_CRLM_multiome/CRCLM_multiome_GEX_decontaminated.h5ad",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/direct_context_component_contrasts.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/hgp_epithelial_coverage.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/hgp_epithelial_effects.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/hgp_epithelial_pseudobulk_counts.tsv.gz",
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/hgp_epithelial_pseudobulk_metadata.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/hgp_epithelial_scores.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/leave_one_gene_out.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/spatial_prediction_patients.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/spatial_prediction_summary.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "junction_measurement",
+    "script": "audit_rec_junction_measurement.py",
+    "reads": [
+      "analysis_results/rec_junction_context_2026-09-16/contexts/hgp_scores.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/gse151165_raw_counts.tsv.gz",
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/hgp_epithelial_pseudobulk_counts.tsv.gz",
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/hgp_epithelial_pseudobulk_metadata.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/spatial/tumour_spot_scores.tsv.gz",
+      "analysis_results/rec_program_reader_facing_specificity/gse294385_patient_region_all_gene_counts.tsv.gz",
+      "analysis_results/rec_program_reader_facing_specificity/gse294385_patient_region_metadata.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/gse151165_logcpm.tsv",
+      "data_sources/GSE151165/GSE151165_RNA_seq.raw_read_count.xlsx",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56688/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56689/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/IX_56690/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-08/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-10/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-12/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-17/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-19/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-21/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-24/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-26/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-27/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-35/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-37/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/features.tsv.gz",
+      "metadata/gse294385_liver_sample_manifest.tsv",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/exact_historical_set_normalization_sensitivity.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/gse151165_raw_counts.tsv.gz",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/hgp_coverage.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/hgp_epithelial_score_sensitivity.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/hgp_junction_abundance.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/hgp_score_sensitivity.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/region_mean_of_normalized_spots.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_common_counts.tsv.gz",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_coverage.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_gene_sensitivity.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_junction_abundance.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_score_sensitivity.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_scores.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_zero_count_baseline.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "hgp_spatial_bridge",
+    "script": "analyze_rec_evidence_bridge_spatial.py",
+    "reads": [
+      "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/spatial/tissue_positions.csv",
+      "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/filtered_feature_bc_matrix.h5",
+      "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/spatial/tissue_positions.csv",
+      "data_sources/E_MTAB_HGP_CRLM/E-MTAB-12043_L1_spatial_pilot_download_manifest.tsv",
+      "metadata/rec_evidence_bridge_2026-09-16.initial.md",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/coverage.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/definitions.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/duplicate_symbol_aggregation.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/gene_effects.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/patient_correlations.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/provenance.json",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/region_counts.tsv.gz",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/region_effects.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/region_metadata.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/region_scores.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/sample_qc.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/spot_scores.tsv.gz"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "hgp_counts",
+    "script": "analyze_rec_evidence_bridge_counts.R",
+    "reads": [
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/definitions.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/region_counts.tsv.gz",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/region_metadata.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/definitions.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/gse151165_raw_counts.tsv.gz",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_common_counts.tsv.gz",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_zero_count_baseline.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/gse151165_program_scores.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/gene_eligibility.tsv.gz",
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/gene_results.tsv.gz",
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/independent_design_check.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/junction_gene_results.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/library_normalization.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/model_qc.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/primary_fits.rds",
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/session_info.txt",
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/source_hashes.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "hgp_score_bridge",
+    "script": "summarize_paper_hgp_scores.py",
+    "reads": [
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/gene_eligibility.tsv.gz",
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/library_normalization.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/definitions.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/patient_correlations.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/region_counts.tsv.gz",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/sample_qc.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/sensitivities/hgp_epithelial_pseudobulk_metadata.tsv",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_evidence_bridge_2026-09-16/integration/component_difference_all_tumour.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/integration/component_difference_epithelial_high.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/integration/component_difference_summary.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/integration/coverage_only_claudin_HGP.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/integration/hgp_patient_overlap.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_scores.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "matching",
+    "script": "analyze_rec_reinforcement_cells.py",
+    "reads": [
+      "analysis_results/rec_junction_context_2026-09-16/cells/cell_scores.tsv.gz",
+      "analysis_results/rec_junction_context_2026-09-16/cells/gene_control_lock.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/cells/patient_partial_correlations.tsv",
+      "data_sources/Ogden_2025_CRLM_multiome/CRCLM_multiome_GEX_decontaminated.h5ad",
+      "metadata/rec_manuscript_reinforcement_2026-09-17.md"
+    ],
+    "writes": [
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/comparison_summary.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/matching_features.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/measurement_matching_pairs.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/patient_subset_correlations.tsv.gz",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/patient_summary_differences.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/selection_lock.json",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/size_subset_members.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/subset_mean_differences.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/subset_perturbation_summary.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/validation.json"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "same_section_input",
+    "script": "prepare_rec_reinforcement_sections.py",
+    "reads": [
+      "analysis_results/gse294385_rec_program_extension/sample_qc.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_common_counts.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-05/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-06/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-07/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-09/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-11/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-22/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-23/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-25/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-36/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/features.tsv.gz",
+      "data_sources/Liu_2026_GSE294385/extracted/M-ST-38/filtered_feature_bc_matrix/matrix.mtx.gz",
+      "data_sources/Liu_2026_GSE294385/visium_liver_meta_after_qc.tsv.gz"
+    ],
+    "writes": [
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/counts.tsv.gz",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/metadata.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/section_selection.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/source_hashes.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "same_section",
+    "script": "analyze_rec_reinforcement_sections.R",
+    "reads": [
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/junction_gene_results.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/definitions.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/metadata.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/comparison_diagnostics.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/fits.rds",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/gene_eligibility.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/gene_results.tsv.gz",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/library_normalization.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/patient_region_scores_TMM.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/patient_region_scores_library_only.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/programme_tests.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/session_info.txt",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/shared_gene_comparison_TMM.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/shared_gene_comparison_library_only.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "canonical_bulk",
+    "script": "analyze_rec_reinforcement_bulk.R",
+    "reads": [
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/gse151165_logcpm.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/specificity/gse151165_program_scores.tsv",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/camera_background.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/camera_tests.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/canonical_gene_sets.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/composition_diagnostics.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/composition_models.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/composition_patient_omissions.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/gene_coverage.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/gene_directions.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/logcpm.tsv.gz",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/patient_omissions.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/patient_scores.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/session_info.txt"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "bulk_rec50_omissions",
+    "script": "summarize_paper_rec50_omissions.py",
+    "reads": [
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/gene_coverage.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/logcpm.tsv.gz",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/patient_scores.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/REC50_patient_omissions.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "member_summary",
+    "script": "summarize_paper_members.py",
+    "reads": [
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/gene_eligibility.tsv.gz",
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/junction_gene_results.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/integration/all_junction_members.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+      "analysis_results/rec_evidence_bridge_2026-09-16/spatial/coverage.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/cells/compartment_detection_summary.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/cells/gene_control_lock.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/cells/gene_summary.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/gene_eligibility.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/gene_results.tsv.gz",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_evidence_bridge_2026-09-16/integration/all_junction_members.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/integration/all_junction_members.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/integration/member_measurement_status.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "normalization",
+    "script": "diagnose_rec_reinforcement_normalization.R",
+    "reads": [
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/primary_fits.rds",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/canonical_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/diagnostics/MA_gene_summaries.tsv.gz",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/diagnostics/descriptive_proxy_correlations.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/diagnostics/normalization_summary.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/diagnostics/patient_normalization_diagnostics.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "external",
+    "script": "analyze_rec_q2_external.py",
+    "reads": [
+      "analysis_results/rec_junction_context_2026-09-16/cells/gene_control_lock.tsv",
+      "data_sources/CRC_Atlas_CZI_core/crc_atlas_core_czi.h5ad",
+      "data_sources/Ogden_2025_CRLM_multiome/CRCLM_multiome_GEX_decontaminated.h5ad",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv",
+      "metadata/rec_q2_integration_2026-09-19.md"
+    ],
+    "writes": [
+      "analysis_results/rec_q2_integration_2026-09-19/external/cell_scores.tsv.gz",
+      "analysis_results/rec_q2_integration_2026-09-19/external/common_gene_control_lock.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/definition_lock.json",
+      "analysis_results/rec_q2_integration_2026-09-19/external/duplicated_symbol_accounting.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/external_cell_metadata.tsv.gz",
+      "analysis_results/rec_q2_integration_2026-09-19/external/extracted_gene_order.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/independent_projection_checks.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/model_diagnostics.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/ogden_cell_metadata.tsv.gz",
+      "analysis_results/rec_q2_integration_2026-09-19/external/patient_component_effects.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/patient_eligibility.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/patient_member_correlations.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/patient_member_detection.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/run_info.json",
+      "analysis_results/rec_q2_integration_2026-09-19/external/selected_expression.npz",
+      "analysis_results/rec_q2_integration_2026-09-19/external/source_registry.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/study_member_effects.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "meta",
+    "script": "meta_rec_q2_external.R",
+    "reads": [
+      "analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/study_member_effects.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_q2_integration_2026-09-19/external/leave_one_study.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/meta_numerical_checks.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/meta_session_info.txt",
+      "analysis_results/rec_q2_integration_2026-09-19/external/meta_weights.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/external/random_effects_meta.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "regional_adjustment",
+    "script": "analyze_rec_q2_regional.R",
+    "reads": [
+      "analysis_results/rec_evidence_bridge_2026-09-16/counts/junction_gene_results.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/definitions.tsv",
+      "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_zero_count_baseline.tsv",
+      "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/metadata.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_q2_integration_2026-09-19/regional/all30_member_results.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/all_pairs_gene_eligibility.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/genome_results.tsv.gz",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/legacy_reconstruction_checks.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/model_diagnostics.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/model_fits.rds",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/patient_region_display_scores.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/patient_region_proxy_scores.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/proxy_correlations.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/proxy_coverage.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/proxy_definition_lock.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/same_section_gene_eligibility.tsv",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/session_info.txt",
+      "analysis_results/rec_q2_integration_2026-09-19/regional/within_patient_VIF.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "mrtx_pseudobulk",
+    "script": "prepare_rec_mapk_pseudobulk.py",
+    "reads": [
+      "data_sources/rec_public_upgrade_2026-09-07/MRTX1133/GSM9231171_BVAR_RZF119_5b_S14.filtered_feature_bc_matrix.h5",
+      "data_sources/rec_public_upgrade_2026-09-07/MRTX1133/GSM9231172_BVAR_RZF124_2a.filtered_feature_bc_matrix.h5",
+      "data_sources/rec_public_upgrade_2026-09-07/MRTX1133/GSM9231173_BVAR_RZF124_1a.filtered_feature_bc_matrix.h5",
+      "data_sources/rec_public_upgrade_2026-09-07/MRTX1133/GSM9231174_BVAR_RZF122_1c.filtered_feature_bc_matrix.h5",
+      "data_sources/rec_public_upgrade_2026-09-07/MRTX1133/GSM9231175_BVAR_RZF122_3d.filtered_feature_bc_matrix.h5",
+      "data_sources/rec_public_upgrade_2026-09-07/MRTX1133/GSM9231176_BVAR_RZF118_6c.filtered_feature_bc_matrix.h5",
+      "data_sources/rec_public_upgrade_2026-09-07/MRTX1133/GSM9231177_BVAR_RZF122_2a.filtered_feature_bc_matrix.h5",
+      "data_sources/rec_public_upgrade_2026-09-07/MRTX1133/GSM9231178_BVAR_RZF125_1c.filtered_feature_bc_matrix.h5",
+      "metadata/rec_public_upgrade_2026-09-07/human_mouse_one_to_one.tsv",
+      "metadata/rec_public_upgrade_2026-09-07/mrtx1133_sample_manifest.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/cell_lineage_QC.tsv.gz",
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/human_ortholog_pseudobulk_counts.tsv.gz",
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/lineage_selection_protocol.json",
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/ortholog_feature_coverage.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/pseudobulk_metadata.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "mrtx",
+    "script": "analyze_rec_public_mapk.R",
+    "reads": [
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/pseudobulk_metadata.tsv",
+      "metadata/rec_public_upgrade_2026-09-07/analysis_gene_sets.tsv"
+    ],
+    "writes": [
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/all_QC_limma_voom_genes.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/epithelial_limma_voom_genes.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/key_gene_intervention_effects.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/program_coverage.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/program_intervention_effects.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/sample_program_scores.tsv",
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/sessionInfo.txt",
+      "analysis_results/rec_public_upgrade_2026-09-07/mapk/strict_epithelial_limma_voom_genes.tsv"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "plexin",
+    "script": "analyze_plexinb2_functional_projection.py",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_sets_long.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_locked_genes.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase3_external_regulatory_projection/frozen_external_regulatory_gene_sets_long.tsv",
+      "data_sources/Borrelli_2024_PlexinB2_KLF4/GSE267981/GSM8282884_rPlxnb2_filtered_feature_bc_matrix.h5",
+      "data_sources/Borrelli_2024_PlexinB2_KLF4/GSE267981/GSM8282885_ctrl_filtered_feature_bc_matrix.h5"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/analysis_summary.md",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/gse267981_cell_qc.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/gse267981_endpoint_effects.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/gse267981_equal_cell_rarefaction_iterations.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/gse267981_equal_cell_rarefaction_summary.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/gse267981_programme_coverage.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/gse267981_programme_gene_effects.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/gse267981_qc_summary.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase4_plexinb2_functional_projection/provenance.json"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "gata6",
+    "script": "analyze_gata6_functional_competitor_projection.R",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_sets_long.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_locked_genes.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase3_external_regulatory_projection/frozen_external_regulatory_gene_sets_long.tsv",
+      "data_sources/Goto_2026_GATA6/GSE290753/GSE290753_ngoto_RNAseq_GATA6KO_Ct.txt.gz",
+      "data_sources/Goto_2026_GATA6/GSE290753/GSE290753_series_matrix.txt.gz",
+      "data_sources/Goto_2026_GATA6/reference/Mus_musculus.GRCm38.101.gtf.gz",
+      "metadata/gata6_functional_competitor_projection_spec_2026-09-01.md"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/analysis_summary.md",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_camera_results.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_gene_mapping_qc.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_limma_all_genes.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_named_gene_effects.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_programme_contrasts.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_programme_coverage.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_programme_leave_one_gene_out.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_programme_scores.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_run_info.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_sample_correlation.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/gse290753_sample_qc.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/output_manifest.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/sessionInfo.txt"
+    ],
+    "required_metadata": []
+  },
+  {
+    "id": "serial_selection",
+    "script": "analyze_gata6_serial_metastatic_selection_projection.R",
+    "reads": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/frozen_gene_sets_long.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_rec_coexistence_locked_genes.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase3_external_regulatory_projection/frozen_external_regulatory_gene_sets_long.tsv",
+      "data_sources/Goto_2026_GATA6/GSE290752/GSE290752_ngoto_RNAseq_met_Ct.txt.gz",
+      "data_sources/Goto_2026_GATA6/GSE290752/GSE290752_series_matrix.txt.gz",
+      "data_sources/Goto_2026_GATA6/reference/Mus_musculus.GRCm38.101.gtf.gz",
+      "metadata/gata6_serial_metastatic_selection_projection_spec_2026-09-01.md"
+    ],
+    "writes": [
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/analysis_summary.md",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_camera_results.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_contextual_group_means.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_gene_mapping_qc.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_limma_all_genes.tsv.gz",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_main_sample_correlation.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_named_gene_effects.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_programme_contrasts.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_programme_coverage.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_programme_leave_one_gene_out.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_programme_scores.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_run_info.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/gse290752_sample_qc.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/output_manifest.tsv",
+      "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/sessionInfo.txt"
+    ],
+    "required_metadata": []
+  }
+]

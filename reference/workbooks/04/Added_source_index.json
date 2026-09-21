@@ -1,0 +1,242 @@
+[
+  [
+    "table",
+    "sheet",
+    "source",
+    "source_sha256",
+    "rows",
+    "columns",
+    "unit",
+    "operation"
+  ],
+  [
+    "4",
+    "Bulk_patient_scores",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/patient_scores.tsv",
+    "98902fac5cd13c20960a657aca9115a4ae8e2e9e4a79469213417122cad2e90f",
+    "15",
+    "12",
+    "patient",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Bulk_full_disjoint",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+    "c08d62b0b1f29b474e18841df4a71b93f4855610517cea06d0a88d38d8f904ab",
+    "6",
+    "9",
+    "programme comparison",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Bulk_composition_models",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/composition_models.tsv",
+    "525216e780a5cfdb16bb9fba07913d71ec682f0295df65353809d63b66808cc2",
+    "4",
+    "9",
+    "separate adjusted model",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Bulk_patient_omissions",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/patient_omissions.tsv",
+    "3e4bacaa250fafda4fa02e35e1763dabacff25b761b878f5f487ac73615faebf",
+    "180",
+    "4",
+    "omitted patient",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Bulk_REC50_omissions",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/REC50_patient_omissions.tsv",
+    "903bdb60bc75cfa4e1055c8581282e97acc18d144b40268eeba98a2be132ee2f",
+    "15",
+    "2",
+    "omitted patient",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Bulk_adjusted_omissions",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/composition_patient_omissions.tsv",
+    "7f962df0c11fe8af12439005a8ac90e1104716c18c1f20805a5922b364da6d0a",
+    "60",
+    "5",
+    "omitted patient/model",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Bulk_gene_directions",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/gene_directions.tsv",
+    "769bc06f97366024192f0e703640eff03f926110eccf176a420aea1513b0a201",
+    "246",
+    "3",
+    "gene",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Bulk_CAMERA",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/camera_tests.tsv",
+    "990c6d6112c49ae8e55759f682fc3389ff4724c9c8fb2865b32661280c446129",
+    "4",
+    "8",
+    "gene-set test",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "REC44_cross_context",
+    "manuscript/rec_molecular_oncology_final_2026-09-09/source_data/supplementary_figure_2/figure3e.tsv",
+    "8afad573d716bbea6d844d849aa6bc36a3c43946ebe8a36fe6db4c72c8a3efc6",
+    "44",
+    "20",
+    "gene/source context; archived auxiliary projection",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "REC50_near_deep",
+    "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/supplementary_figure_3/figure4d.tsv",
+    "0b6757e564ce0a70b59b40cabe25967d6bef664bec491a07792c58cc6ed65897",
+    "12",
+    "10",
+    "patient/region",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Spatial_localization_effects",
+    "analysis_results/rec_evidence_bridge_2026-09-16/spatial/region_effects.tsv",
+    "615939e730bb707b733fafd92475002c1c56c6544c3f1594b116ea4b4b04677a",
+    "128",
+    "15",
+    "region/hop/score comparison",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Spatial_region_scores",
+    "analysis_results/rec_evidence_bridge_2026-09-16/spatial/region_scores.tsv",
+    "7d8d6cf9f99e1f10c4ebfa36802c1283f43b1a1ab9f54d985776344cf83a88cf",
+    "576",
+    "14",
+    "patient/region",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Near_coverage_normalization",
+    "analysis_results/rec_evidence_bridge_2026-09-16/integration/coverage_only_claudin_HGP.tsv",
+    "91c5e6aae1ed9eefe4c805cb9e85e50add8b2991940d0754497a7e29477a4f9b",
+    "8",
+    "11",
+    "membership/normalization",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Normalization_patients",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/diagnostics/patient_normalization_diagnostics.tsv",
+    "ea634d57051aee2a1918153007dac3b20636f2c454fa3118d8aa6d654ebaff01",
+    "27",
+    "19",
+    "patient/context",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Normalization_summary",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/diagnostics/normalization_summary.tsv",
+    "db4f8bb0566819fc865904a31868b871052e9b928f981ea3d0c593b8f040fb59",
+    "3",
+    "8",
+    "context",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Low_count_scores_90_29",
+    "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_scores.tsv",
+    "9ea2e1207d1972bf28a36ce29e9c8d9b6ae817dd89f9db2a6490898c7012451e",
+    "176",
+    "17",
+    "patient/region/transform; historical 90 HRC/29 junction",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Low_count_effects_90_29",
+    "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_score_sensitivity.tsv",
+    "850769be9751398bb8be2fcad0ad18e1958e77a5e3b9bb957754a5312d6779be",
+    "64",
+    "14",
+    "historical transform comparison",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Zero_count_floors",
+    "analysis_results/rec_junction_context_2026-09-16/measurement_qc/regional_zero_count_baseline.tsv",
+    "8319371d67419892e21fb867e0fd3f85eeac85902334668b680299b7447ef9e1",
+    "22",
+    "4",
+    "patient/region",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Same_section_TMM_baseline",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/shared_gene_comparison_TMM.tsv",
+    "a5921583f4ddd02fa18c90afd4569f9e1cdc153cab89668aef57d0391c089eab",
+    "24",
+    "3",
+    "gene; current count membership",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Same_section_library_baseline",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/shared_gene_comparison_library_only.tsv",
+    "8d93f4cfcf8b2c4819cfa759855aad5f1368c5cf463a0d4889afbe8ae4d2afd8",
+    "24",
+    "3",
+    "gene",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    "4",
+    "Bulk_28_gene_display",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/logcpm.tsv.gz",
+    "094ea9a115a1689aa039f2b495105fc31baa87fd0d73aa59d6d6a823484616bd",
+    "28",
+    "16",
+    "gene/patient",
+    "existing sample-SD z display transformation; no new inference"
+  ],
+  [
+    "4",
+    "Archived_MA_20_bin_medians",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/diagnostics/MA_gene_summaries.tsv.gz",
+    "77ddd1b65f8fecacb8fa82b297852561bf71094497d3db82f119827aca889135",
+    "120",
+    "5",
+    "abundance bin/context",
+    "same twenty-bin medians as original archived panel; no inference"
+  ],
+  [
+    4.0,
+    "Spatial_region_counts",
+    "manuscript/rec_figure_polish_2026-09-20/source_data/panels/Supplementary_Figure_4_region_counts.tsv",
+    "db69e5b71fd1a97c8285db4a76a16dbfcc7caf019bc373b5a3adadd6d287b617",
+    24.0,
+    4.0,
+    "patient / frozen display-region",
+    "copy frozen four-region counts; no new inference"
+  ]
+]

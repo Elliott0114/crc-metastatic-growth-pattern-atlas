@@ -1,0 +1,8 @@
+context	programme	source_set_id	effect	lower	upper	p_value	evidence	inference	post_inspection
+Acute Plexin B2	REC programme	REC_PROGRAM_TOP50	0.0123879201122972				1 library per condition; descriptive	cell-summary only	False
+Acute Plexin B2	Broad tight junction	REACTOME_TIGHT_JUNCTION_INTERACTIONS	-0.0054366989479692				1 library per condition; descriptive	cell-summary only	False
+Acute Plexin B2	Core HRC	CORE_HRC	-0.0343204055113555				1 library per condition; descriptive	cell-summary only	False
+Acute Plexin B2	Partial EMT	PARTIAL_EMT	-0.0108747038031475				1 library per condition; descriptive	cell-summary only	False
+Acute Plexin B2	E2F targets	HALLMARK_E2F_TARGETS	-0.0063005995781957				1 library per condition; descriptive	cell-summary only	False
+Acute Plexin B2	G2M checkpoint	HALLMARK_G2M_CHECKPOINT	-0.0178432380881032				1 library per condition; descriptive	cell-summary only	False
+Acute Plexin B2	Focused junction five	JUNB_TIGHT_JUNCTION_TARGETS_5_POSTHOC	0.069718823700459				1 library per condition; descriptive	cell-summary only	True

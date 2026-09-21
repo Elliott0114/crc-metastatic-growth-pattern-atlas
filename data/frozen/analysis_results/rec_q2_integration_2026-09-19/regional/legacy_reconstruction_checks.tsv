@@ -1,0 +1,5 @@
+dataset	normalization	n_shared	max_logFC_error	max_p_error
+all_pairs	TMM	24	4.44089209850063e-15	4.71844785465692e-16
+all_pairs	library_only	24	1.77635683940025e-15	4.44089209850063e-16
+same_section	TMM	14555	5.10702591327572e-15	6.66133814775094e-16
+same_section	library_only	14555	5.32907051820075e-15	6.66133814775094e-16

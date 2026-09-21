@@ -1,0 +1,35 @@
+context	programme	source_set_id	effect	lower	upper	p_value	evidence	inference	post_inspection
+"Patient rHGP
+vs dHGP"	"REC programme"	"FROZEN_REC_TOP50"	0.505162955238302	0.295798851719234	0.721711738476517	0.000599400599400599	"15 patient tumours; HGP-labelled"	"patient-level"	FALSE
+"Patient rHGP
+vs dHGP"	"Broad tight junction"	"REACTOME_TIGHT_JUNCTION_INTERACTIONS"	0.29361686001193	0.139690163108673	0.47590991047984	0.00659340659340659	"15 patient tumours; HGP-labelled"	"patient-level"	FALSE
+"Patient rHGP
+vs dHGP"	"Focused junction five"	"JUNB_TIGHT_JUNCTION_TARGETS_5"	-0.227611972583902	-0.742424895438867	0.316191087191137	0.455944055944056	"15 patient tumours; HGP-labelled"	"patient-level"	FALSE
+"Serial liver-metastatic
+selection"	"REC programme"	"REC_PROGRAM_TOP50"	0.62020045298756	0.264984822722545	1.00374241423438	0.02	"12 libraries; generation-adjusted"	"library-level"	FALSE
+"Serial liver-metastatic
+selection"	"Core HRC"	"CORE_HRC"	0.274974259828983	-0.120355486369286	0.676057170605667	0.265	"12 libraries; generation-adjusted"	"library-level"	FALSE
+"Serial liver-metastatic
+selection"	"Partial EMT"	"PARTIAL_EMT"	-0.346235412255189	-0.636488548252985	-0.0361368484390548	0.085	"12 libraries; generation-adjusted"	"library-level"	FALSE
+"Serial liver-metastatic
+selection"	"Broad tight junction"	"REACTOME_TIGHT_JUNCTION_INTERACTIONS"	0.116871391949752	-0.113231299863352	0.324914169568343	0.39	"12 libraries; generation-adjusted"	"library-level"	FALSE
+"Serial liver-metastatic
+selection"	"Focused junction five"	"JUNB_TIGHT_JUNCTION_TARGETS_5"	1.10762434841672	0.561281573931373	1.6930492939195	0.01	"12 libraries; generation-adjusted"	"library-level"	FALSE
+"Serial liver-metastatic
+selection"	"E2F targets"	"HALLMARK_E2F_TARGETS"	-0.193025414950395	-0.690597061115583	0.266781362349811	0.555	"12 libraries; generation-adjusted"	"library-level"	FALSE
+"Serial liver-metastatic
+selection"	"G2M checkpoint"	"HALLMARK_G2M_CHECKPOINT"	-0.125050921655645	-0.50719676093576	0.205821283537748	0.63	"12 libraries; generation-adjusted"	"library-level"	FALSE
+"GATA6 knockout"	"REC programme"	"REC_PROGRAM_TOP50"	-0.865877845857565	-1.15886549956471	-0.440632916733404	0.1	"3 knockout + 3 control libraries"	"library-level"	FALSE
+"GATA6 knockout"	"Core HRC"	"CORE_HRC"	-0.711553863868243	-1.21506819485718	-0.358498111399518	0.1	"3 knockout + 3 control libraries"	"library-level"	FALSE
+"GATA6 knockout"	"Partial EMT"	"PARTIAL_EMT"	-0.576403442042064	-0.915925372299847	-0.331570361399037	0.1	"3 knockout + 3 control libraries"	"library-level"	FALSE
+"GATA6 knockout"	"Broad tight junction"	"REACTOME_TIGHT_JUNCTION_INTERACTIONS"	-0.986573561276757	-1.20506038422809	-0.655015081462292	0.1	"3 knockout + 3 control libraries"	"library-level"	FALSE
+"GATA6 knockout"	"Focused junction five"	"JUNB_TIGHT_JUNCTION_TARGETS_5"	-1.7088530919029	-2.15850992176057	-1.36187516031791	0.1	"3 knockout + 3 control libraries"	"library-level"	FALSE
+"GATA6 knockout"	"E2F targets"	"HALLMARK_E2F_TARGETS"	0.294184215549665	-0.410939907183599	1.05950667199357	0.8	"3 knockout + 3 control libraries"	"library-level"	FALSE
+"GATA6 knockout"	"G2M checkpoint"	"HALLMARK_G2M_CHECKPOINT"	0.259834950967531	-0.233839960587836	0.775407700253022	0.5	"3 knockout + 3 control libraries"	"library-level"	FALSE
+"Acute Plexin B2"	"REC programme"	"REC_PROGRAM_TOP50"	0.0123879201122972	NA	NA	NA	"1 library per condition; descriptive"	"cell-summary only"	FALSE
+"Acute Plexin B2"	"Broad tight junction"	"REACTOME_TIGHT_JUNCTION_INTERACTIONS"	-0.00543669894796921	NA	NA	NA	"1 library per condition; descriptive"	"cell-summary only"	FALSE
+"Acute Plexin B2"	"Core HRC"	"CORE_HRC"	-0.0343204055113555	NA	NA	NA	"1 library per condition; descriptive"	"cell-summary only"	FALSE
+"Acute Plexin B2"	"Partial EMT"	"PARTIAL_EMT"	-0.0108747038031475	NA	NA	NA	"1 library per condition; descriptive"	"cell-summary only"	FALSE
+"Acute Plexin B2"	"E2F targets"	"HALLMARK_E2F_TARGETS"	-0.00630059957819578	NA	NA	NA	"1 library per condition; descriptive"	"cell-summary only"	FALSE
+"Acute Plexin B2"	"G2M checkpoint"	"HALLMARK_G2M_CHECKPOINT"	-0.0178432380881032	NA	NA	NA	"1 library per condition; descriptive"	"cell-summary only"	FALSE
+"Acute Plexin B2"	"Focused junction five"	"JUNB_TIGHT_JUNCTION_TARGETS_5_POSTHOC"	0.069718823700459	NA	NA	NA	"1 library per condition; descriptive"	"cell-summary only"	TRUE

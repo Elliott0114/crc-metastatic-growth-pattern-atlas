@@ -1,0 +1,52 @@
+[
+  [
+    "table",
+    "sheet",
+    "source",
+    "source_sha256",
+    "rows",
+    "columns",
+    "unit",
+    "operation"
+  ],
+  [
+    7.0,
+    "Fig3_A",
+    "manuscript/rec_figure_redesign_2026-09-20/source_data/panels/Figure_3_A.tsv",
+    "b20bf385f6086ffb212645e98927c36b960750994190135c5ad25f76e778a3a3",
+    240.0,
+    4.0,
+    "gene/source",
+    "frozen estimates; Fisher-z back-transformation for display only"
+  ],
+  [
+    7.0,
+    "Fig3_B",
+    "manuscript/rec_figure_redesign_2026-09-20/source_data/panels/Figure_3_B.tsv",
+    "22486f598e1d6a7d06ebbd3411d14b35428d97830d4f8d9acb113eedfe5382fe",
+    30.0,
+    14.0,
+    "gene/source",
+    "frozen estimates; Fisher-z back-transformation for display only"
+  ],
+  [
+    7.0,
+    "Fig3_C",
+    "manuscript/rec_figure_redesign_2026-09-20/source_data/panels/Figure_3_C.tsv",
+    "be10f3cb9912b4ca5c2efa379a49fc402791644bb4b4eca01568f4ba26a9a300",
+    30.0,
+    19.0,
+    "gene/source",
+    "frozen estimates; Fisher-z back-transformation for display only"
+  ],
+  [
+    7.0,
+    "Fig3_D",
+    "manuscript/rec_figure_redesign_2026-09-20/source_data/panels/Figure_3_D.tsv",
+    "a6771cfba2986710cecef2b134c9845c23c046638ca59b86bcb3221f0cd5d2c5",
+    150.0,
+    12.0,
+    "gene/source",
+    "frozen estimates; Fisher-z back-transformation for display only"
+  ]
+]

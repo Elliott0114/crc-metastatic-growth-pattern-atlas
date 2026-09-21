@@ -1,0 +1,9 @@
+qc	method	adjustment	n_patients	status	rho	CI_low	CI_high	p_signflip	n_positive	bootstrap_B	p_BH_two_adjustments
+existing_reconstruction	gene_z	technical_only	5	estimable	0.12556710766001794	0.0547654594753416	0.17147825755036408	0.125	4	10000	0.125
+existing_reconstruction	gene_z	technical_plus_RSC	5	estimable	0.10247529678863956	0.029045247107032563	0.1748052621320719	0.125	4	10000	0.125
+existing_reconstruction	matched	technical_only	5	estimable	0.05834638410554394	-0.040915642517850355	0.16541503701689184	0.5	3	10000	0.5
+existing_reconstruction	matched	technical_plus_RSC	5	estimable	0.07394021983789674	-0.02193567925183409	0.18987655397194078	0.3125	3	10000	0.5
+strict_300genes_20pct_mt	gene_z	technical_only	4	estimable	0.07411657807780044	-0.015628289721938162	0.16267680700166928	0.375	3	10000	0.375
+strict_300genes_20pct_mt	gene_z	technical_plus_RSC	4	estimable	0.11421847771566818	0.03733451792437626	0.17165148254807694	0.125	4	10000	0.25
+strict_300genes_20pct_mt	matched	technical_only	4	estimable	0.21611353423996	0.06409577562326954	0.3636988829487052	0.125	4	10000	0.125
+strict_300genes_20pct_mt	matched	technical_plus_RSC	4	estimable	0.17005622160927947	0.04451420825422883	0.2903106508641421	0.125	4	10000	0.125

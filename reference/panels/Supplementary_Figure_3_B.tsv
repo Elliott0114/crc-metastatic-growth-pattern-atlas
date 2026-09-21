@@ -1,0 +1,6 @@
+scoring	model	endpoint	excluded_study	k	estimate	low	high	p
+fixed_background	common	Claudin_minus_Polarity	Che_2021_Cell_Discov	4	0.086144998201932	-0.0028757008729685	0.175165697276833	0.0541511410639271
+fixed_background	common	Claudin_minus_Polarity	Giguelay_2022_Theranostics	4	0.065661768453546	0.0276009101154918	0.1037226267916	0.0118879010804377
+fixed_background	common	Claudin_minus_Polarity	Liu_2024_Cancer_Res	4	0.0942091186407678	-0.0075134094878994	0.195931646769435	0.0601511472281941
+fixed_background	common	Claudin_minus_Polarity	Sathe_2023_Clin_Cancer_Res	4	0.106609607879632	0.0254793941860065	0.187739821573257	0.0249150777020331
+fixed_background	common	Claudin_minus_Polarity	Wang_2023_Sci_Adv	4	0.0925631552221853	0.0080209064008	0.177105404043571	0.0399286170678352

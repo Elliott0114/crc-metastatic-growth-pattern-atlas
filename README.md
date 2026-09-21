@@ -1,96 +1,78 @@
-# Regenerative-like epithelial programme in colorectal liver metastases
+# CRC Regenerative and Junction Programmes
 
-This repository contains the core analysis code and panel-level source data for the manuscript:
+Analysis code for **Claudin and polarity-complex transcription differ in their
+associations with regenerative expression in colorectal liver metastases**,
+Biology Direct manuscript draft, 21 September 2026.
 
-> **Cross-platform mapping links a regenerative-like epithelial programme to replacement growth and lesion size in colorectal liver metastases**
+This export targets five main figures, six supplementary figures (52 panels),
+and eight supplementary workbooks (127 worksheets). It does not typeset the
+manuscript or reproduce unused exploratory analyses. Original scientific
+scripts retain their statistical methods, random seeds, patient eligibility,
+gene definitions, and multiple-testing families.
 
-The study integrates targeted in situ sequencing, single-cell RNA sequencing, bulk RNA sequencing and spatial transcriptomics to connect the NC3 neoplastic state with a source-defined regenerative epithelial cell (REC) programme and to test that programme across histopathological growth-pattern and lesion-size contexts.
+## Run
 
-## Repository scope
-
-This is a reader-facing release of the analyses used in the current manuscript. It includes:
-
-- patient-level analysis of neoplastic-state composition and tumour–liver proximity;
-- cross-platform NC3-to-REC state mapping;
-- source-only derivation of the fixed 50-gene REC programme;
-- projection into GSE151165, the Latacz interface study, E-MTAB-12022, E-MTAB-12043 and GSE294385;
-- cross-context gene-level and REC–hypoxia component analyses;
-- the fixed REC-programme table, analysis specifications and dataset-role metadata;
-- panel-level source data for all six main figures and five supplementary figures.
-
-Only analyses supporting the current manuscript are retained; superseded exploratory and figure-development branches are excluded.
-
-## Repository layout
-
-| Path | Contents |
-|---|---|
-| `scripts/` | Core Python and R analysis scripts |
-| `metadata/` | Source-specific analysis specifications, dataset roles and the GSE294385 sample manifest |
-| `analysis_results/ogden_anchor_program/selected_anchor_program_top50.tsv` | Fixed 50-gene REC-programme definition used for projection |
-| `source_data/figure_source_data/` | Panel-level values underlying the displayed figures |
-| `source_data/supplementary_tables/` | Supplementary Tables 1 and 2 in TSV and XLSX formats |
-| `environment.yml` | Conda environment used for the reported analyses |
-
-## Reproducibility boundary
-
-Raw public datasets are not redistributed. Several source studies provide large or study-specific objects, so this release separates data acquisition/reconstruction from the statistical analysis layer:
-
-- the scripts in `scripts/` implement the reported patient-level analyses from the expected analysis-ready inputs;
-- the exact expected input paths and source accessions are documented in [`docs/DATA_INPUTS.md`](docs/DATA_INPUTS.md);
-- the fixed programme and panel-level source data are included directly so the analysed gene set and all displayed quantitative values can be inspected without downloading the raw datasets.
-
-The repository does not claim a single turnkey raw-FASTQ-to-manuscript workflow across all platforms. Source-specific preprocessing must reproduce the analysis-ready files described in `docs/DATA_INPUTS.md` before the corresponding analysis script is run.
-
-## Environment
-
-Create the recorded environment from the repository root:
+Use the versions in `environment.yml`. This repository uses Conda, not renv.
+Create a separate environment on a new machine:
 
 ```bash
 conda env create -f environment.yml
+conda activate crc-metastatic-growth
+python reproduce.py check --mode quick
+python reproduce.py quick --output-dir /absolute/path/to/quick-run
+python reproduce.py verify --output-dir /absolute/path/to/quick-run
 ```
 
-Run Python and R scripts with:
+Quick reproduction uses bundled frozen numerical results and image assets;
+it does **not** refit models. Every invocation uses a new output directory.
+
+For count-matrix analysis, obtain the exact inputs described in
+[DATA.md](docs/DATA.md), including the separately distributed E-MTAB companion:
 
 ```bash
-conda run -n crc-metastatic-growth python scripts/<script.py>
-conda run -n crc-metastatic-growth Rscript scripts/<script.R>
+python reproduce.py check --mode full --data-dir /absolute/path/to/inputs
+python reproduce.py full --data-dir /absolute/path/to/inputs --output-dir /absolute/path/to/full-run
+python reproduce.py verify --output-dir /absolute/path/to/full-run
 ```
 
-All scripts resolve paths relative to the repository root. Random procedures use seeds recorded in the scripts and analysis specifications.
+The full route must not substitute frozen results for missing analysis inputs.
+It starts at deposited or reconstructed matrices and metadata, not FASTQ.
+Only paths declared in the input manifest are staged. Historical date-stamped
+paths inside a run are stable internal identifiers, not dependencies on old
+manuscript directories outside this repository.
 
-## Computational dependency order
+## Contents
 
-The order below reflects file dependencies, not the inferential priority assigned to each dataset in the manuscript.
+- `analysis/`: selected R/Python calculations in dependency order.
+- `plotting/`: final 21 September figure implementation.
+- `data/frozen/`: quick-route numerical inputs, annotations and image sources.
+- `metadata/`: file checksums, run order, panel and worksheet recipes.
+- `reference/`: independent manuscript baselines used only for validation.
+- `docs/`: data acquisition, provenance and operating instructions.
+- `reports/`: actual validation coverage and outstanding limitations.
 
-1. `scripts/analyze_hgp_interface_ecology.py`
-2. `scripts/analyze_cross_platform_state_anchor.py`
-3. `scripts/analyze_ogden_anchor_program.R`
-4. `scripts/analyze_rec_program_hgp_scrna_projection.py`
-5. `scripts/analyze_rec_program_hgp_spatial_projection.py`
-6. `scripts/analyze_rec_program_cross_modal_concordance.py`
-7. `scripts/analyze_gse294385_rec_program_extension.py`
-8. `scripts/analyze_rec_program_two_axis_interpretation.py`
-9. `scripts/analyze_rec_program_gse151165_bulk_projection.R`
-10. `scripts/analyze_rec_program_gse151165_tissue_context.R`
-11. `scripts/analyze_rec_program_latacz_interface_summary.R`
-12. `scripts/analyze_rec_program_multisource_core.R`
-13. `scripts/analyze_rec_program_reader_facing_specificity_R.R`
-14. `scripts/prepare_rec_program_spatial_display.py`
+Generated results include `figures/`, `tables/`, `source_data/`, `logs/`,
+`run.json`, and `verification.json`. Numeric verification uses absolute
+tolerance `1e-8` and relative tolerance `1e-6`; discrete identifiers, membership,
+order and missingness must agree. Existing stricter scientific checks are retained.
+PNG equality is environment-dependent and is reported separately from numbers.
 
-The primary GSE151165 endpoint uses the source-derived 50-gene programme. Its position in this computational order only allows the same script to append secondary gene subsets created by later cross-context summaries; it does not alter the frozen primary score.
+Repository: [Elliott0114/crc-metastatic-growth-pattern-atlas](https://github.com/Elliott0114/crc-metastatic-growth-pattern-atlas).
+See [Chinese instructions](docs/使用说明.md) and [release instructions](docs/GITHUB.md).
+The GSE294385 source regional annotation is not redistributed; obtain it from
+the authors for the full route. Quick reproduction does not require that file.
 
-## Statistical unit
+The [execution order](docs/RUN_ORDER.md), [panel/worksheet source map](metadata/reproduction_map.tsv),
+and [measured validation report](reports/VALIDATION.md) document the selected workflow.
+`CHECKSUMS.tsv` records every distributed file except the checksum list itself.
 
-Patients are the inferential units throughout. Cells, spots, regions of interest and computational resamples are not treated as independent biological replicates. The source-specific specifications in `metadata/` define eligibility rules, endpoints and interpretation boundaries.
+The inherited REC44 supplementary table uses a pre-correction spatial mask.
+Its isolated compatibility branch is documented in [WORKFLOW.md](docs/WORKFLOW.md);
+it does not replace the corrected main analysis.
 
-## Data access
+## Citation And Terms
 
-The principal public accessions are GEO **GSE151165** and **GSE294385**, and ArrayExpress/BioStudies **E-MTAB-12022** and **E-MTAB-12043**. The targeted ISS, Ogden multiomic and Latacz interface resources are identified in `docs/DATA_INPUTS.md` and in the manuscript Data availability statement.
-
-## Citation
-
-Please cite this repository using [`CITATION.cff`](CITATION.cff). A versioned snapshot is available from the GitHub Releases page.
-
-## Contact
-
-Correspondence about the manuscript and code: Sheng Dai, Department of Colorectal Surgery, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine.
+Author information follows the current draft; see [CITATION.cff](CITATION.cff).
+The manuscript is not represented here as an accepted or published article.
+Original code is MIT-licensed. Third-party data and annotations are **not**
+relicensed under MIT; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

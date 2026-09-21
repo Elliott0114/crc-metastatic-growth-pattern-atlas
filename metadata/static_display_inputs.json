@@ -1,0 +1,17 @@
+[
+  {
+    "path": "data/frozen/manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/supplementary_figure_3/Sample3_tissue_hires_image.png",
+    "workspace_path": "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/supplementary_figure_3/Sample3_tissue_hires_image.png",
+    "role": "image or fixed crop geometry; not an analysis result"
+  },
+  {
+    "path": "data/frozen/manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/supplementary_figure_3/Sample6_tissue_hires_image.png",
+    "workspace_path": "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/supplementary_figure_3/Sample6_tissue_hires_image.png",
+    "role": "image or fixed crop geometry; not an analysis result"
+  },
+  {
+    "path": "data/frozen/manuscript/rec_figure1_matched_frames_2026-09-10/review/crop_definition.json",
+    "workspace_path": "manuscript/rec_figure1_matched_frames_2026-09-10/review/crop_definition.json",
+    "role": "image or fixed crop geometry; not an analysis result"
+  }
+]

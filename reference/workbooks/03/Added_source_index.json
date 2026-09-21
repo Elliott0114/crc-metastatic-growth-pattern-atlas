@@ -1,0 +1,142 @@
+[
+  [
+    "table",
+    "sheet",
+    "source",
+    "source_sha256",
+    "rows",
+    "columns",
+    "unit",
+    "operation"
+  ],
+  [
+    3.0,
+    "Original_components",
+    "analysis_results/rec_junction_context_2026-09-16/cells/component_summary.tsv",
+    "a4190a1a94383c7c7f40d5509eda11c362501b9787c5aef77c909e7c5668bec5",
+    24.0,
+    13.0,
+    "patient-summary test",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "Original_patient_components",
+    "analysis_results/rec_junction_context_2026-09-16/cells/patient_partial_correlations.tsv",
+    "654ff9f98b73654514c3aae850802c2d473b8584f886678d939e2957fcca1591",
+    184.0,
+    8.0,
+    "patient/model/component",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "Original_gene_correlations",
+    "analysis_results/rec_junction_context_2026-09-16/cells/gene_summary.tsv",
+    "6b0f1004ed3153cfba277518bf6897fe1c1917b359ed87f991f4545bb49abbda",
+    60.0,
+    11.0,
+    "gene",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "Matching_comparisons",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/comparison_summary.tsv",
+    "a97bed4d9ca68626fb0e95a90e15b8908a78adce911b83a37c3f27377c84bba9",
+    6.0,
+    12.0,
+    "frozen matching specification",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "Subset_500_differences",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/subset_mean_differences.tsv",
+    "9d9364b6cc9d10cab3f1b69e624fee4828c2826e49ca59b1a747e31954806141",
+    1000.0,
+    3.0,
+    "gene subset/scoring; no independent biological replication",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "Matching_features",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/matching_features.tsv",
+    "c6e290e4c190c8bea920f956e13b6c54f5f5d9b3ac4c9a3ee65ca41c1af3fa64",
+    28.0,
+    7.0,
+    "gene",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "Matching_pairs",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/measurement_matching_pairs.tsv",
+    "7b0720af60385bca40b8a05475cfcbba4614589497976e37b8c480b4e8719849",
+    7.0,
+    5.0,
+    "fixed pair",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "C8_enrichment",
+    "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/Figure_3/rec_c8_tight_junction_bridge_evidence.tsv",
+    "173bee1d9e818bab91862c41a9b8a250a21e44ca77734eb63cddd74066869f71",
+    22.0,
+    12.0,
+    "source comparison",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "State_programmes",
+    "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/Figure_3/ogden_program_paired_contrasts.tsv",
+    "264c66c9807959d7a1e7aca7a89a73bb7584f4ea55790c054e87d24e28f31f66",
+    21.0,
+    9.0,
+    "paired patient summary",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "Regulon_overlap",
+    "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/supplementary_figure_6/figure_phase2_regulatory_target_overlap_source_data.tsv",
+    "d4b506b654a6b5b49519c62d1161db18319b9f9c0a2f954e293a945bc68696e2",
+    8.0,
+    10.0,
+    "regulon",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "Regulon_patient_correlations",
+    "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/supplementary_figure_6/figure_phase2_regulatory_coexistence_patient_source_data.tsv",
+    "23b42e4930da8c1ffb62457a8988cc4c8f5c747066d4c3b4580fbfe14721ddda",
+    72.0,
+    9.0,
+    "patient",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "Regulon_summary",
+    "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/supplementary_figure_6/figure_phase2_regulatory_coexistence_summary_source_data.tsv",
+    "79cbb8ab0b309bdf7138a23c0777512b3203b08afce811b4d05a6bc8a37ac85a",
+    8.0,
+    18.0,
+    "regulon comparison",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    3.0,
+    "Regulon_state_activity",
+    "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/supplementary_figure_6/figure_phase2_regulatory_state_activity_source_data.tsv",
+    "cdbb20aac8bca829d825ff09e574faabc4dc13594c5bacef01c91340626b9f47",
+    24.0,
+    13.0,
+    "patient/state",
+    "copy existing numerical result; no model refit"
+  ]
+]

@@ -1,4 +1,0 @@
-comparison	program	n_pairs	positive_n	negative_n	mean_difference	median_difference	bootstrap_ci_lower	bootstrap_ci_upper	paired_standardized_effect	exact_signflip_p_one_sided	exact_signflip_p_two_sided	n_exact_sign_assignments	program_label	family	p_label
-macro_minus_micro_tumour	rec_equal_gene	11	9	2	0.333381083189169	0.34976165535954	0.110996232055662	0.551622569582664	0.845419242949346	0.009765625	0.01953125	2048	REC programme	REC-related	9/11; P = 0.020
-macro_minus_micro_tumour	rec_pooled_log2_cpm	11	11	0	0.268901574594598	0.227778506616273	0.163638546108931	0.376586627440546	1.41626114007136	0.00048828125	0.0009765625	2048	Pooled REC expression	REC-related	11/11; P = 9.8e-04
-macro_minus_micro_tumour	source_micrometastasis_six_gene	11	1	10	-0.3708028391036	-0.469135835476523	-0.637326164855112	-0.0954664289726424	-0.769465965170081	0.984375	0.0322265625	2048	Micrometastasis programme	Micrometastasis-associated	1/11; P = 0.032

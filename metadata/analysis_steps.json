@@ -1,0 +1,246 @@
+[
+  {
+    "id": "iss_ecology",
+    "script": "analyze_hgp_interface_ecology.py"
+  },
+  {
+    "id": "iss_composition",
+    "script": "analyze_escrivaconde2026_slpi_state_composition.py"
+  },
+  {
+    "id": "iss_display",
+    "script": "prepare_slpi_iss_publication_maps.py"
+  },
+  {
+    "id": "iss_adjacency",
+    "script": "analyze_iss_state_specific_liver_adjacency.py"
+  },
+  {
+    "id": "iss_topology",
+    "script": "analyze_iss_nc3_cohesive_dual_interface.py"
+  },
+  {
+    "id": "mapping",
+    "script": "analyze_cross_platform_state_anchor.py"
+  },
+  {
+    "id": "rec50",
+    "script": "analyze_ogden_anchor_program.R"
+  },
+  {
+    "id": "state_pseudobulk",
+    "script": "prepare_ogden_direct_state_pseudobulks.py"
+  },
+  {
+    "id": "state_contrasts",
+    "script": "analyze_ogden_direct_state_contrasts.R"
+  },
+  {
+    "id": "state_enrichment",
+    "script": "run_ogden_direct_state_gsea.py"
+  },
+  {
+    "id": "state_source_tables",
+    "script": "summarize_paper_state_evidence.py"
+  },
+  {
+    "id": "c8_enrichment",
+    "script": "analyze_rec_c8_tight_junction_bridge.py"
+  },
+  {
+    "id": "regulatory_overlap",
+    "script": "analyze_ogden_regulatory_junction_bridge.R"
+  },
+  {
+    "id": "regulatory_coexistence",
+    "script": "analyze_ogden_regulatory_junction_coexistence.py"
+  },
+  {
+    "id": "discovery_coexistence",
+    "script": "analyze_ogden_rec_within_cell_coexistence.py"
+  },
+  {
+    "id": "clinical_input",
+    "script": "prepare_rec_clinical_matrix.py"
+  },
+  {
+    "id": "clinical",
+    "script": "analyze_rec_public_clinical.R"
+  },
+  {
+    "id": "protein",
+    "script": "analyze_rec_public_proteomics.R"
+  },
+  {
+    "id": "specificity",
+    "script": "analyze_rec_public_specificity.R"
+  },
+  {
+    "id": "within_cell",
+    "script": "analyze_rec_public_within_cell.py"
+  },
+  {
+    "id": "paired_states",
+    "script": "analyze_rec_paired_state_correlations.py"
+  },
+  {
+    "id": "hgp_cells",
+    "script": "analyze_rec_program_hgp_scrna_projection.py"
+  },
+  {
+    "id": "hgp_coexpression",
+    "script": "analyze_rec_epithelial_coexpression.py"
+  },
+  {
+    "id": "hgp_spatial",
+    "script": "analyze_rec_program_hgp_spatial_projection.py"
+  },
+  {
+    "id": "hgp_display",
+    "script": "prepare_rec_program_spatial_display.py"
+  },
+  {
+    "id": "cross_modal",
+    "script": "analyze_rec_program_cross_modal_concordance.py"
+  },
+  {
+    "id": "regional_projection",
+    "script": "analyze_gse294385_rec_program_extension.py"
+  },
+  {
+    "id": "cross_context",
+    "script": "analyze_rec_program_two_axis_interpretation.py"
+  },
+  {
+    "id": "bulk_rec50",
+    "script": "analyze_rec_program_gse151165_bulk_projection.R"
+  },
+  {
+    "id": "latacz",
+    "script": "analyze_rec_program_latacz_interface_summary.R"
+  },
+  {
+    "id": "rec44",
+    "script": "analyze_rec_program_multisource_core.R"
+  },
+  {
+    "id": "retained_rec44_spatial",
+    "script": "reproduce_retained_rec44_spatial.py"
+  },
+  {
+    "id": "regional_counts",
+    "script": "prepare_paper_regional_counts.R"
+  },
+  {
+    "id": "historical_rivals",
+    "script": "analyze_rec_external_rival_programs.R"
+  },
+  {
+    "id": "rival_clean",
+    "script": "summarize_paper_rivals.R"
+  },
+  {
+    "id": "historical_bulk",
+    "script": "analyze_paper_hgp_reference.R"
+  },
+  {
+    "id": "bulk_context",
+    "script": "analyze_paper_bulk_context.R"
+  },
+  {
+    "id": "junction_cells",
+    "script": "analyze_rec_junction_cells.py"
+  },
+  {
+    "id": "junction_origins",
+    "script": "summarize_paper_compartments.py"
+  },
+  {
+    "id": "junction_context",
+    "script": "analyze_rec_junction_contexts.py"
+  },
+  {
+    "id": "junction_neighbourhood",
+    "script": "analyze_rec_junction_neighbourhoods.py"
+  },
+  {
+    "id": "junction_sensitivity",
+    "script": "analyze_rec_junction_sensitivities.py"
+  },
+  {
+    "id": "junction_measurement",
+    "script": "audit_rec_junction_measurement.py"
+  },
+  {
+    "id": "hgp_spatial_bridge",
+    "script": "analyze_rec_evidence_bridge_spatial.py"
+  },
+  {
+    "id": "hgp_counts",
+    "script": "analyze_rec_evidence_bridge_counts.R"
+  },
+  {
+    "id": "hgp_score_bridge",
+    "script": "summarize_paper_hgp_scores.py"
+  },
+  {
+    "id": "matching",
+    "script": "analyze_rec_reinforcement_cells.py"
+  },
+  {
+    "id": "same_section_input",
+    "script": "prepare_rec_reinforcement_sections.py"
+  },
+  {
+    "id": "same_section",
+    "script": "analyze_rec_reinforcement_sections.R"
+  },
+  {
+    "id": "canonical_bulk",
+    "script": "analyze_rec_reinforcement_bulk.R"
+  },
+  {
+    "id": "bulk_rec50_omissions",
+    "script": "summarize_paper_rec50_omissions.py"
+  },
+  {
+    "id": "member_summary",
+    "script": "summarize_paper_members.py"
+  },
+  {
+    "id": "normalization",
+    "script": "diagnose_rec_reinforcement_normalization.R"
+  },
+  {
+    "id": "external",
+    "script": "analyze_rec_q2_external.py"
+  },
+  {
+    "id": "meta",
+    "script": "meta_rec_q2_external.R"
+  },
+  {
+    "id": "regional_adjustment",
+    "script": "analyze_rec_q2_regional.R"
+  },
+  {
+    "id": "mrtx_pseudobulk",
+    "script": "prepare_rec_mapk_pseudobulk.py"
+  },
+  {
+    "id": "mrtx",
+    "script": "analyze_rec_public_mapk.R"
+  },
+  {
+    "id": "plexin",
+    "script": "analyze_plexinb2_functional_projection.py"
+  },
+  {
+    "id": "gata6",
+    "script": "analyze_gata6_functional_competitor_projection.R"
+  },
+  {
+    "id": "serial_selection",
+    "script": "analyze_gata6_serial_metastatic_selection_projection.R"
+  }
+]

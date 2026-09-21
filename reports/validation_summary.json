@@ -1,0 +1,13 @@
+{
+  "quick_checks": 204,
+  "full_checks": 205,
+  "numeric_claims": 144,
+  "modules": 61,
+  "intermediate_tables": 417,
+  "explained_differences": 18,
+  "input_files": 180,
+  "bundled_input_files": 36,
+  "external_input_files": 144,
+  "cold_full_validation_bundled_input_files": 37,
+  "publication_change": "The identical GSE294385 source annotation is now an external input; no statistical code or input hash changed."
+}

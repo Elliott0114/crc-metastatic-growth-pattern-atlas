@@ -1,0 +1,7 @@
+k	state	metric	value_type	hgp	n_patients	effect	bootstrap_ci_lower	bootstrap_ci_upper	n_positive	n_negative	n_zero
+10	NC3	dhc_dual_interface	spatial_null_residual	EHGP	7	-0.0023881792121643	-0.0120591688818824	0.0042797581492656	3	3	1
+10	NC3	dhc_dual_interface	spatial_null_residual	RHGP	8	0.0154226774070993	-5.3632050285489474e-06	0.0342008463747559	6	2	0
+10	NC3	hc1_dual_interface	spatial_null_residual	EHGP	7	0.0001633915756199	-0.005143353525624	0.0058182655438953	1	4	2
+10	NC3	hc1_dual_interface	spatial_null_residual	RHGP	8	-0.0006927890225873	-0.0023386336265879	0.0007151084251142	3	4	1
+10	NC3	homotypic_any_neighbour	spatial_null_residual	EHGP	7	0.0875881871816098	0.0628774141860012	0.1109091140060348	7	0	0
+10	NC3	homotypic_any_neighbour	spatial_null_residual	RHGP	8	-0.0067821234685581	-0.0222663417688569	0.0054272530013341	4	4	0

@@ -1,0 +1,622 @@
+[
+  [
+    "Analysis",
+    "Neighbourhood feature or programme",
+    "Comparison or adjustment",
+    "Sample size",
+    "Effect measure",
+    "Estimate (95% CI)",
+    "P",
+    "Adjusted P / FDR"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and damaged hepatocyte",
+    "NC1; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.03463 [-0.01595, 0.07783]",
+    "0.2016",
+    "0.2687"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and damaged hepatocyte",
+    "NC1; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.003004 [-0.01529, 0.02253]",
+    "0.7995",
+    "0.7995"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and HC1 hepatocyte",
+    "NC1; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.003917 [-0.0143, 0.005007]",
+    "0.4517",
+    "0.4517"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and HC1 hepatocyte",
+    "NC1; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.003547 [-0.01245, 0.002284]",
+    "0.4816",
+    "0.6421"
+  ],
+  [
+    "Cell neighbourhoods",
+    "At least one same-state neighbour",
+    "NC1; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.3094 [-0.6226, 0.05096]",
+    "0.1099",
+    "0.2197"
+  ],
+  [
+    "Cell neighbourhoods",
+    "At least one same-state neighbour",
+    "NC1; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.0341 [-0.003993, 0.07331]",
+    "0.1571",
+    "0.3142"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Fraction of neighbours in the same state",
+    "NC1; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.3481 [-0.5331, -0.13]",
+    "0.01228",
+    "0.04911"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Fraction of neighbours in the same state",
+    "NC1; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.03497 [-0.07146, -0.002634]",
+    "0.05843",
+    "0.2337"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and damaged hepatocyte",
+    "NC2; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.1601 [0.1011, 0.2192]",
+    "0.000777",
+    "0.003108"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and damaged hepatocyte",
+    "NC2; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.0008728 [-0.01872, 0.01594]",
+    "0.9382",
+    "0.9382"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and HC1 hepatocyte",
+    "NC2; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.006526 [0.001836, 0.01191]",
+    "0.02486",
+    "0.04973"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and HC1 hepatocyte",
+    "NC2; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.003129 [0.0009248, 0.005723]",
+    "0.02968",
+    "0.1187"
+  ],
+  [
+    "Cell neighbourhoods",
+    "At least one same-state neighbour",
+    "NC2; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.1448 [-0.1018, 0.3874]",
+    "0.28",
+    "0.3734"
+  ],
+  [
+    "Cell neighbourhoods",
+    "At least one same-state neighbour",
+    "NC2; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.01408 [-0.08574, 0.05111]",
+    "0.7256",
+    "0.9382"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Fraction of neighbours in the same state",
+    "NC2; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.01486 [-0.2525, 0.1991]",
+    "0.9021",
+    "0.9021"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Fraction of neighbours in the same state",
+    "NC2; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.02295 [-0.004199, 0.05144]",
+    "0.1568",
+    "0.3136"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and damaged hepatocyte",
+    "NC3; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.2137 [0.1365, 0.2931]",
+    "0.0004662",
+    "0.001865"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and damaged hepatocyte",
+    "NC3; Desmoplastic; observed minus expected",
+    "7 patients",
+    "Proportion difference",
+    "-0.002388 [-0.01206, 0.00428]",
+    "0.8125",
+    "1"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and damaged hepatocyte",
+    "NC3; Replacement; observed minus expected",
+    "8 patients",
+    "Proportion difference",
+    "0.01542 [-5.363e-06, 0.0342]",
+    "0.1406",
+    "0.5625"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and damaged hepatocyte",
+    "NC3; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.01781 [-9.895e-05, 0.03814]",
+    "0.1184",
+    "0.1579"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and HC1 hepatocyte",
+    "NC3; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.003157 [-0.003109, 0.008012]",
+    "0.2951",
+    "0.2951"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and HC1 hepatocyte",
+    "NC3; Desmoplastic; observed minus expected",
+    "7 patients",
+    "Proportion difference",
+    "0.0001634 [-0.005143, 0.005818]",
+    "1",
+    "1"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and HC1 hepatocyte",
+    "NC3; Replacement; observed minus expected",
+    "8 patients",
+    "Proportion difference",
+    "-0.0006928 [-0.002339, 0.0007151]",
+    "0.4531",
+    "0.6042"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and HC1 hepatocyte",
+    "NC3; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.0008562 [-0.006347, 0.004361]",
+    "0.7242",
+    "0.7242"
+  ],
+  [
+    "Cell neighbourhoods",
+    "At least one same-state neighbour",
+    "NC3; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.3861 [0.2306, 0.5344]",
+    "0.001088",
+    "0.002176"
+  ],
+  [
+    "Cell neighbourhoods",
+    "At least one same-state neighbour",
+    "NC3; Desmoplastic; observed minus expected",
+    "7 patients",
+    "Proportion difference",
+    "0.08759 [0.06288, 0.1109]",
+    "0.01562",
+    "0.03125"
+  ],
+  [
+    "Cell neighbourhoods",
+    "At least one same-state neighbour",
+    "NC3; Replacement; observed minus expected",
+    "8 patients",
+    "Proportion difference",
+    "-0.006782 [-0.02227, 0.005427]",
+    "0.4531",
+    "0.6042"
+  ],
+  [
+    "Cell neighbourhoods",
+    "At least one same-state neighbour",
+    "NC3; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.09437 [-0.1226, -0.06748]",
+    "0.0001554",
+    "0.0006216"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Fraction of neighbours in the same state",
+    "NC3; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.1693 [0.09759, 0.2383]",
+    "0.002486",
+    "0.003315"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Fraction of neighbours in the same state",
+    "NC3; Desmoplastic; observed minus expected",
+    "7 patients",
+    "Proportion difference",
+    "0.02853 [0.01655, 0.04218]",
+    "0.01562",
+    "0.03125"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Fraction of neighbours in the same state",
+    "NC3; Replacement; observed minus expected",
+    "8 patients",
+    "Proportion difference",
+    "8.714e-05 [-0.007063, 0.009195]",
+    "0.9844",
+    "0.9844"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Fraction of neighbours in the same state",
+    "NC3; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.02844 [-0.04391, -0.01317]",
+    "0.004351",
+    "0.008702"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and damaged hepatocyte",
+    "NCγ; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.007229 [-0.02198, 0.03899]",
+    "0.7455",
+    "0.7455"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and damaged hepatocyte",
+    "NCγ; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "0.01457 [-0.006317, 0.04338]",
+    "0.4361",
+    "0.4361"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and HC1 hepatocyte",
+    "NCγ; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.001905 [-0.005714, 0]",
+    "0.4667",
+    "0.6222"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Contact with same-state cell and HC1 hepatocyte",
+    "NCγ; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.00164 [-0.004676, 0.0002427]",
+    "0.1963",
+    "0.2617"
+  ],
+  [
+    "Cell neighbourhoods",
+    "At least one same-state neighbour",
+    "NCγ; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.5306 [-0.6971, -0.3407]",
+    "0.0004662",
+    "0.0009324"
+  ],
+  [
+    "Cell neighbourhoods",
+    "At least one same-state neighbour",
+    "NCγ; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.08109 [-0.1292, -0.03036]",
+    "0.01554",
+    "0.03108"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Fraction of neighbours in the same state",
+    "NCγ; Replacement − desmoplastic; observed",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.179 [-0.2517, -0.1016]",
+    "0.0003108",
+    "0.0009324"
+  ],
+  [
+    "Cell neighbourhoods",
+    "Fraction of neighbours in the same state",
+    "NCγ; Replacement − desmoplastic; observed minus expected",
+    "7 vs 8 patients",
+    "Proportion difference",
+    "-0.09381 [-0.132, -0.05548]",
+    "0.0001554",
+    "0.0006216"
+  ],
+  [
+    "NC3 reference mapping",
+    "Pearson correlation",
+    "REC similarity minus next-closest state",
+    "94 genes",
+    "Similarity difference",
+    "0.2098",
+    "—",
+    "—"
+  ],
+  [
+    "NC3 reference mapping",
+    "Spearman correlation",
+    "REC similarity minus next-closest state",
+    "94 genes",
+    "Similarity difference",
+    "0.2173",
+    "—",
+    "—"
+  ],
+  [
+    "NC3 reference mapping",
+    "Cosine similarity",
+    "REC similarity minus next-closest state",
+    "94 genes",
+    "Similarity difference",
+    "0.1476",
+    "—",
+    "—"
+  ],
+  [
+    "NC3 reference mapping",
+    "Pearson correlation after removing six NC3 markers",
+    "REC similarity minus next-closest state",
+    "88 genes",
+    "Similarity difference",
+    "0.1712",
+    "—",
+    "—"
+  ],
+  [
+    "NC3 reference mapping",
+    "Gene bootstrap (10,000 resamples)",
+    "Proportion of resamples with REC ranked first",
+    "10,000 resamples",
+    "Proportion",
+    "0.9362",
+    "—",
+    "—"
+  ],
+  [
+    "Epithelial co-expression",
+    "HRC and tight junction",
+    "Standard cell filtering; sequencing depth",
+    "5 patients",
+    "Spearman ρ",
+    "0.05835 [-0.04092, 0.1654]",
+    "0.5",
+    "0.5"
+  ],
+  [
+    "Epithelial co-expression",
+    "HRC and tight junction",
+    "Standard cell filtering; sequencing depth and RSC",
+    "5 patients",
+    "Spearman ρ",
+    "0.07394 [-0.02194, 0.1899]",
+    "0.3125",
+    "0.5"
+  ],
+  [
+    "Epithelial co-expression",
+    "HRC and tight junction",
+    "Stricter cell filtering; sequencing depth",
+    "4 patients",
+    "Spearman ρ",
+    "0.2161 [0.0641, 0.3637]",
+    "0.125",
+    "0.125"
+  ],
+  [
+    "Epithelial co-expression",
+    "HRC and tight junction",
+    "Stricter cell filtering; sequencing depth and RSC",
+    "4 patients",
+    "Spearman ρ",
+    "0.1701 [0.04451, 0.2903]",
+    "0.125",
+    "0.125"
+  ],
+  [
+    "HGP spatial co-expression",
+    "Claudin",
+    "Adjusted HRC partial correlation; all tumour",
+    "6 patients",
+    "Partial Spearman rho",
+    "0.3102 [0.1942, 0.4177]",
+    "0.03125",
+    "0.0625"
+  ],
+  [
+    "HGP spatial co-expression",
+    "Polarity",
+    "Adjusted HRC partial correlation; all tumour",
+    "6 patients",
+    "Partial Spearman rho",
+    "0.07276 [0.02074, 0.1255]",
+    "0.0625",
+    "0.0625"
+  ],
+  [
+    "HGP spatial co-expression",
+    "Claudin",
+    "Adjusted HRC partial correlation; epithelial high",
+    "6 patients",
+    "Partial Spearman rho",
+    "0.2836 [0.1433, 0.3937]",
+    "0.0625",
+    "0.125"
+  ],
+  [
+    "HGP spatial co-expression",
+    "Polarity",
+    "Adjusted HRC partial correlation; epithelial high",
+    "6 patients",
+    "Partial Spearman rho",
+    "0.06792 [0.01781, 0.1224]",
+    "0.125",
+    "0.125"
+  ],
+  [
+    "HGP spatial direct comparison",
+    "Claudin − polarity",
+    "all tumour; post-primary comparison",
+    "6 patients",
+    "Paired Fisher-z difference",
+    "0.2479 [0.1039, 0.3967]",
+    "0.0625",
+    "—"
+  ],
+  [
+    "HGP spatial direct comparison",
+    "Claudin − polarity",
+    "epithelial high; post-primary comparison",
+    "6 patients",
+    "Paired Fisher-z difference",
+    "0.2236 [0.06565, 0.3695]",
+    "0.0625",
+    "—"
+  ],
+  [
+    "Local tissue context",
+    "Claudin",
+    "liver fraction; conditional",
+    "11 patients",
+    "Partial Spearman rho",
+    "-0.03439 [-0.05896, -0.009757]",
+    "0.02637",
+    "0.03516"
+  ],
+  [
+    "Local tissue context",
+    "Polarity",
+    "liver fraction; conditional",
+    "11 patients",
+    "Partial Spearman rho",
+    "-0.07027 [-0.105, -0.04064]",
+    "0.001953",
+    "0.007812"
+  ],
+  [
+    "Local tissue context",
+    "Claudin",
+    "stroma fraction; conditional",
+    "11 patients",
+    "Partial Spearman rho",
+    "-0.02192 [-0.08127, 0.03106]",
+    "0.5059",
+    "0.5059"
+  ],
+  [
+    "Local tissue context",
+    "Polarity",
+    "stroma fraction; conditional",
+    "11 patients",
+    "Partial Spearman rho",
+    "-0.04736 [-0.07123, -0.02327]",
+    "0.005859",
+    "0.01172"
+  ],
+  [
+    "Held-out-patient prediction",
+    "Claudin",
+    "Neighbour fractions added; descriptive",
+    "11 patients; 3 improved",
+    "Mean RMSE reduction (%)",
+    "-0.7727",
+    "—",
+    "—"
+  ],
+  [
+    "Held-out-patient prediction",
+    "Polarity",
+    "Neighbour fractions added; descriptive",
+    "11 patients; 9 improved",
+    "Mean RMSE reduction (%)",
+    "1.45",
+    "—",
+    "—"
+  ]
+]

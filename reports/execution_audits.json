@@ -1,0 +1,214 @@
+{
+  "quick": {
+    "returncode": 0,
+    "original_project_reads": [],
+    "relocated_repository": true,
+    "external_data_supplied": false
+  },
+  "full": {
+    "returncode": 0,
+    "elapsed_seconds": 6891.37,
+    "relocated_repository": true,
+    "external_file_count": 143,
+    "companion_extracted_separately": true,
+    "unexpected_original_project_access": [],
+    "frozen_result_fallback": false
+  },
+  "companion": {
+    "files": [
+      {
+        "path": "analysis_results/e_mtab_12022_primary_reconstruction.h5ad",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/filtered_feature_bc_matrix.h5",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/spatial/scalefactors_json.json",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample1/outs/spatial/tissue_positions.csv",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/filtered_feature_bc_matrix.h5",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/spatial/scalefactors_json.json",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample3/outs/spatial/tissue_positions.csv",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/filtered_feature_bc_matrix.h5",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/spatial/scalefactors_json.json",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample4/outs/spatial/tissue_positions.csv",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/filtered_feature_bc_matrix.h5",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/spatial/scalefactors_json.json",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample5/outs/spatial/tissue_positions.csv",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/filtered_feature_bc_matrix.h5",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/spatial/scalefactors_json.json",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample6/outs/spatial/tissue_positions.csv",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/filtered_feature_bc_matrix.h5",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/spatial/scalefactors_json.json",
+        "passed": true
+      },
+      {
+        "path": "analysis_work/e_mtab_12043_spatial_full/Sample7/outs/spatial/tissue_positions.csv",
+        "passed": true
+      },
+      {
+        "path": "data_sources/E_MTAB_HGP_CRLM/E-MTAB-12043_L1_spatial_pilot_download_manifest.tsv",
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "archive_sha256": "7c79588b28c676f7c67864ec03f543290eb67f03f0e3ffc92863a56c88878238"
+  },
+  "cli_failures": [
+    {
+      "case": "missing bundled input",
+      "exit_code": 1,
+      "passed": true,
+      "error": "Missing input: data/frozen/analysis_results/cross_platform_state_anchor/leave_one_patient_out_mapping.tsv; source: the same repository release; see README.md\n"
+    },
+    {
+      "case": "tampered bundled input",
+      "exit_code": 1,
+      "passed": true,
+      "error": "Checksum mismatch: data/frozen/analysis_results/cross_platform_state_anchor/leave_one_patient_out_mapping.tsv; restore the recorded version (the same repository release; see README.md)\n"
+    },
+    {
+      "case": "full has no frozen fallback",
+      "exit_code": 1,
+      "passed": true,
+      "error": "Missing input: analysis_results/e_mtab_12022_primary_reconstruction.h5ad; source: GitHub Release companion emtab-matrix-inputs-2026-09-21.tar.gz (delivered locally; no remote URL yet)\nMissing input: analysis_work/e_mtab_12043_spatial_full/Sample1/outs/filtered_feature_bc_matrix.h5; source: GitHub Release companion emtab-matrix-inputs-2026-09-21.tar.gz (delivered locally; no remote URL yet)\nMissing input: analysis_work/e_mtab_12043_spatial_full/Sample1/outs/spatial/scalefactors_json.json; source: GitHub Release companion emtab-matrix-inputs-2026-09-21.tar.gz (delivered locally; no remote URL yet)\nMissing input: analysis_work/e_mtab_12043_spatial_full/Sample1/outs/spatial/tissue_positions.csv; source: GitHub Release companion emtab-matrix-inputs-2026-09-21.tar.gz (delivered locally; no remote URL yet)\nMissing input: analysis_work/e_mtab_12043_spatial_full/Sample3/outs/filtered_feature_bc_matrix.h5; source: GitHub Release companion emtab-matrix-inputs-2026-09-21.tar.gz (delivered locally; no remote URL yet)\nMissing input: analysis_work/e_mtab_12043_spatial_full/Sample3/outs/spatial/scalefactors_json.json; source: GitHub Release companion emtab-matrix-inputs-2026-09-21.tar.gz (delivered locally; no remote URL yet)\nMissing input: analysis_work/e_mtab_12043_spatial_full/Sample3/outs/spatial/tissue_positions.csv; source: GitHub Release companion emtab-matrix-inputs-2026-09-21.tar.gz (delivered locally; no remote URL yet)\nMissing input: analysis_work/e_mtab_12043_spatial_full/Sample4/outs/filtered_feature_bc_matrix.h5; source: GitHub Release companion emtab-matrix-inputs-2026-09-21"
+    },
+    {
+      "case": "existing output is preserved",
+      "exit_code": 1,
+      "passed": true,
+      "error": "Use a new --output-dir; an existing run is preserved: <cli-test>/occupied output\n"
+    }
+  ],
+  "final_verifier": {
+    "returncode": 0,
+    "original_project_reads": [],
+    "relocated_repository": true,
+    "unchanged_scientific_and_plotting_files": [
+      "analysis/analyze_cross_platform_state_anchor.py",
+      "analysis/analyze_escrivaconde2026_slpi_state_composition.py",
+      "analysis/analyze_gata6_functional_competitor_projection.R",
+      "analysis/analyze_gata6_serial_metastatic_selection_projection.R",
+      "analysis/analyze_gse294385_rec_program_extension.py",
+      "analysis/analyze_hgp_interface_ecology.py",
+      "analysis/analyze_iss_nc3_cohesive_dual_interface.py",
+      "analysis/analyze_iss_state_specific_liver_adjacency.py",
+      "analysis/analyze_ogden_anchor_program.R",
+      "analysis/analyze_ogden_direct_state_contrasts.R",
+      "analysis/analyze_ogden_rec_within_cell_coexistence.py",
+      "analysis/analyze_ogden_regulatory_junction_bridge.R",
+      "analysis/analyze_ogden_regulatory_junction_coexistence.py",
+      "analysis/analyze_paper_bulk_context.R",
+      "analysis/analyze_paper_hgp_reference.R",
+      "analysis/analyze_plexinb2_functional_projection.py",
+      "analysis/analyze_rec_c8_tight_junction_bridge.py",
+      "analysis/analyze_rec_epithelial_coexpression.py",
+      "analysis/analyze_rec_evidence_bridge_counts.R",
+      "analysis/analyze_rec_evidence_bridge_spatial.py",
+      "analysis/analyze_rec_external_rival_programs.R",
+      "analysis/analyze_rec_junction_cells.py",
+      "analysis/analyze_rec_junction_contexts.py",
+      "analysis/analyze_rec_junction_neighbourhoods.py",
+      "analysis/analyze_rec_junction_sensitivities.py",
+      "analysis/analyze_rec_paired_state_correlations.py",
+      "analysis/analyze_rec_program_cross_modal_concordance.py",
+      "analysis/analyze_rec_program_gse151165_bulk_projection.R",
+      "analysis/analyze_rec_program_hgp_scrna_projection.py",
+      "analysis/analyze_rec_program_hgp_spatial_projection.py",
+      "analysis/analyze_rec_program_latacz_interface_summary.R",
+      "analysis/analyze_rec_program_multisource_core.R",
+      "analysis/analyze_rec_program_two_axis_interpretation.py",
+      "analysis/analyze_rec_public_clinical.R",
+      "analysis/analyze_rec_public_mapk.R",
+      "analysis/analyze_rec_public_proteomics.R",
+      "analysis/analyze_rec_public_specificity.R",
+      "analysis/analyze_rec_public_within_cell.py",
+      "analysis/analyze_rec_q2_external.py",
+      "analysis/analyze_rec_q2_regional.R",
+      "analysis/analyze_rec_reinforcement_bulk.R",
+      "analysis/analyze_rec_reinforcement_cells.py",
+      "analysis/analyze_rec_reinforcement_sections.R",
+      "analysis/audit_rec_junction_measurement.py",
+      "analysis/diagnose_rec_reinforcement_normalization.R",
+      "analysis/meta_rec_q2_external.R",
+      "analysis/prepare_ogden_direct_state_pseudobulks.py",
+      "analysis/prepare_paper_regional_counts.R",
+      "analysis/prepare_rec_clinical_matrix.py",
+      "analysis/prepare_rec_mapk_pseudobulk.py",
+      "analysis/prepare_rec_program_spatial_display.py",
+      "analysis/prepare_rec_reinforcement_sections.py",
+      "analysis/prepare_slpi_iss_publication_maps.py",
+      "analysis/rec_junction_context_common.py",
+      "analysis/rec_public_upgrade_common.R",
+      "analysis/rec_public_upgrade_common.py",
+      "analysis/reproduce_retained_rec44_spatial.py",
+      "analysis/run_ogden_direct_state_gsea.py",
+      "analysis/summarize_paper_compartments.py",
+      "analysis/summarize_paper_hgp_scores.py",
+      "analysis/summarize_paper_members.py",
+      "analysis/summarize_paper_rec50_omissions.py",
+      "analysis/summarize_paper_rivals.R",
+      "analysis/summarize_paper_state_evidence.py",
+      "plotting/build_figure1_framework.py",
+      "plotting/build_main_figures.py",
+      "plotting/build_review.py",
+      "plotting/build_supplementary_figures.py",
+      "plotting/figure_common.py",
+      "plotting/figure_legends.py",
+      "plotting/redraw_all.py"
+    ],
+    "final_verifier_sha256": "a1950dd7961b8c0b3f196d1fb4b3671477ab6c4d5d482c62ae7195a2f1cf0191"
+  },
+  "unit_tests": {
+    "returncode": 0,
+    "count": 6,
+    "output": "test_direct_connections (test_contract.Contracts.test_direct_connections) ... ok\ntest_discrete_order_missingness_and_float_tolerance (test_contract.Contracts.test_discrete_order_missingness_and_float_tolerance) ... ok\ntest_missing_and_modified_inputs_stop (test_contract.Contracts.test_missing_and_modified_inputs_stop) ... ok\ntest_source_index_cannot_omit_a_declared_source (test_contract.Contracts.test_source_index_cannot_omit_a_declared_source) ... ok\ntest_unsafe_input_path (test_contract.Contracts.test_unsafe_input_path) ... ok\ntest_workbook_roundtrip (test_contract.Contracts.test_workbook_roundtrip) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.028s\n\nOK\n",
+    "test_sha256": "5014746af2579c6a87d6de25c171d8b650def9117226b91c866dd7129a3921f9"
+  }
+}

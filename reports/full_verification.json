@@ -1,0 +1,2386 @@
+{
+  "mode": "full",
+  "analysis_steps_completed": 61,
+  "models_refitted": true,
+  "figures": 11,
+  "workbooks": 8,
+  "worksheets": 127,
+  "passed": true,
+  "checks": [
+    {
+      "item": "figures/Figure_1.png",
+      "passed": true,
+      "png_bytes_equal": true,
+      "method": "RGBA pixels and dimensions; PNG bytes recorded separately"
+    },
+    {
+      "item": "figures/Figure_2.png",
+      "passed": true,
+      "png_bytes_equal": true,
+      "method": "RGBA pixels and dimensions; PNG bytes recorded separately"
+    },
+    {
+      "item": "figures/Figure_3.png",
+      "passed": true,
+      "png_bytes_equal": true,
+      "method": "RGBA pixels and dimensions; PNG bytes recorded separately"
+    },
+    {
+      "item": "figures/Figure_4.png",
+      "passed": true,
+      "png_bytes_equal": true,
+      "method": "RGBA pixels and dimensions; PNG bytes recorded separately"
+    },
+    {
+      "item": "figures/Figure_5.png",
+      "passed": true,
+      "png_bytes_equal": true,
+      "method": "RGBA pixels and dimensions; PNG bytes recorded separately"
+    },
+    {
+      "item": "figures/Supplementary_Figure_1.png",
+      "passed": true,
+      "png_bytes_equal": true,
+      "method": "RGBA pixels and dimensions; PNG bytes recorded separately"
+    },
+    {
+      "item": "figures/Supplementary_Figure_2.png",
+      "passed": true,
+      "png_bytes_equal": true,
+      "method": "RGBA pixels and dimensions; PNG bytes recorded separately"
+    },
+    {
+      "item": "figures/Supplementary_Figure_3.png",
+      "passed": true,
+      "png_bytes_equal": true,
+      "method": "RGBA pixels and dimensions; PNG bytes recorded separately"
+    },
+    {
+      "item": "figures/Supplementary_Figure_4.png",
+      "passed": true,
+      "png_bytes_equal": true,
+      "method": "RGBA pixels and dimensions; PNG bytes recorded separately"
+    },
+    {
+      "item": "figures/Supplementary_Figure_5.png",
+      "passed": true,
+      "png_bytes_equal": true,
+      "method": "RGBA pixels and dimensions; PNG bytes recorded separately"
+    },
+    {
+      "item": "figures/Supplementary_Figure_6.png",
+      "passed": true,
+      "png_bytes_equal": true,
+      "method": "RGBA pixels and dimensions; PNG bytes recorded separately"
+    },
+    {
+      "item": "panels/Figure_1_A.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_1_B.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_1_C.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_1_D.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_1_E.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_1_F.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_2_A.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_2_B.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_2_C.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_2_D.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_3_A.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_3_B.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_3_C.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_3_D.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_4_A.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_4_B.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_4_C.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_4_D.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_4_E.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_5_A.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_5_B.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_5_C.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_5_C_programme_tests.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Figure_5_D.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_1_A.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_1_B.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_1_C.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_1_D.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_2_A.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_2_B.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_2_B_patient_values.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_2_C.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_2_D.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_2_E.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_2_E_pairs.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_2_F.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_3_A.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_3_B.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_3_C.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_3_D.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_4_A.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_4_B.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_4_C.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_4_D.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_4_E.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_4_F.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_4_region_counts.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_5_A.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_5_A_measurement_status.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_5_B.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_5_C.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_5_D.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_5_E.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_6_A.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_6_B.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_6_C.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_6_D.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "panels/Supplementary_Figure_6_D_model_diagnostics.tsv",
+      "passed": true,
+      "method": "columns, ordering, missingness and values",
+      "detail": ""
+    },
+    {
+      "item": "Table 1/worksheet order",
+      "passed": true,
+      "method": "exact worksheet names and order"
+    },
+    {
+      "item": "Table 2/worksheet order",
+      "passed": true,
+      "method": "exact worksheet names and order"
+    },
+    {
+      "item": "Table 3/worksheet order",
+      "passed": true,
+      "method": "exact worksheet names and order"
+    },
+    {
+      "item": "Table 4/worksheet order",
+      "passed": true,
+      "method": "exact worksheet names and order"
+    },
+    {
+      "item": "Table 5/worksheet order",
+      "passed": true,
+      "method": "exact worksheet names and order"
+    },
+    {
+      "item": "Table 6/worksheet order",
+      "passed": true,
+      "method": "exact worksheet names and order"
+    },
+    {
+      "item": "Table 7/worksheet order",
+      "passed": true,
+      "method": "exact worksheet names and order"
+    },
+    {
+      "item": "Table 8/worksheet order",
+      "passed": true,
+      "method": "exact worksheet names and order"
+    },
+    {
+      "item": "Table 1/Table_1",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 1/Fixed_programmes",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 1/Figure_panel_index",
+      "passed": true,
+      "method": "source index rebuilt for this run"
+    },
+    {
+      "item": "Table 1/Added_source_index",
+      "passed": true,
+      "method": "source index rebuilt for this run"
+    },
+    {
+      "item": "Table 2/Table_2",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/NC3_patient_abundance",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/Liver_contact_patients",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/Reference_matrix",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/Mapping_omissions",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/All_neighbour_scales",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/REC50_epithelial_patients",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/REC50_spatial_patients",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/Spatial_patient_correlations",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/Neighbour_patient_correlations",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/Neighbour_context_summary",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/Held_out_patient_prediction",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/Prediction_summary",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 2/Added_source_index",
+      "passed": true,
+      "method": "source index rebuilt for this run"
+    },
+    {
+      "item": "Table 3/Table_3",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Original_components",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Original_patient_components",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Original_gene_correlations",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Matching_comparisons",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Subset_500_differences",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Matching_features",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Matching_pairs",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/C8_enrichment",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/State_programmes",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Regulon_overlap",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Regulon_patient_correlations",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Regulon_summary",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Regulon_state_activity",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 3/Added_source_index",
+      "passed": true,
+      "method": "source index rebuilt for this run"
+    },
+    {
+      "item": "Table 4/Table_4",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Bulk_patient_scores",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Bulk_full_disjoint",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Bulk_composition_models",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Bulk_patient_omissions",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Bulk_REC50_omissions",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Bulk_adjusted_omissions",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Bulk_gene_directions",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Bulk_CAMERA",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/REC44_cross_context",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/REC50_near_deep",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Spatial_localization_effects",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Spatial_region_scores",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Near_coverage_normalization",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Normalization_patients",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Normalization_summary",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Low_count_scores_90_29",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Low_count_effects_90_29",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Zero_count_floors",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Same_section_TMM_baseline",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Same_section_library_baseline",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Bulk_28_gene_display",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Archived_MA_20_bin_medians",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 4/Added_source_index",
+      "passed": true,
+      "method": "source index rebuilt for this run"
+    },
+    {
+      "item": "Table 4/Spatial_region_counts",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Table_5",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Protein_disjoint_patient_scores",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Protein_all_correlations",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Protein_coverage",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Protein_gene_sets",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Protein_RNA18_concordance",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Clinical_Cox_models",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Clinical_all_coefficients",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Clinical_curves",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Clinical_sample_manifest",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Clinical_patient_flow",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Clinical_sampling_sensitivity",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Clinical_PH_tests",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 5/Added_source_index",
+      "passed": true,
+      "method": "source index rebuilt for this run"
+    },
+    {
+      "item": "Table 6/Table_6",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/MRTX_mouse_scores",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/MRTX_all_programme_effects",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/MRTX_coverage",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/MRTX_displayed_effects",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/Plexin_displayed_effects",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/Plexin_all_endpoints",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/Plexin_coverage",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/Plexin_cell_subsampling",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/GATA6_library_scores",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/Serial_selection_library_scores",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/Experimental_context_effects",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 6/Added_source_index",
+      "passed": true,
+      "method": "source index rebuilt for this run"
+    },
+    {
+      "item": "Table 7/Sources",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Patient_eligibility",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Gene_control_lock",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Patient_components",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Study_components",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Random_effects",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Study_omissions",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Meta_weights",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Patient_members",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Study_members",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Patient_detection",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Design_checks",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Projection_checks",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Meta_numerical_checks",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Fig3_A",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Fig3_B",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Fig3_C",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Fig3_D",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 7/Added_source_index",
+      "passed": true,
+      "method": "source index rebuilt for this run"
+    },
+    {
+      "item": "Table 7/Source_selection_notes",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/All_30_members",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Programme_tests",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Patient_proxies",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Patient_display_scores",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Proxy_definitions",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Proxy_coverage",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/All_pairs_eligibility",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Same_section_eligibility",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Design_checks",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Within_patient_VIF",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Proxy_correlations",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Reconstruction_checks",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Same_section_TMM_baseline",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Same_section_library_baseline",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/HRC_88_paired_coefficients",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/HRC_programme_test_source",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Complete_8_specifications",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Adjusted_TMM_full_intervals",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Directional_mixed_tests",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Panel_VIF",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Panel_residual_df",
+      "passed": true,
+      "method": "typed cell content"
+    },
+    {
+      "item": "Table 8/Added_source_index",
+      "passed": true,
+      "method": "source index rebuilt for this run"
+    },
+    {
+      "item": "analysis completion",
+      "passed": true,
+      "method": "all declared modules completed"
+    }
+  ],
+  "manuscript_claims": [
+    {
+      "claim": "Discovery patients (Fig. 2A)",
+      "actual": 14,
+      "expected": 14,
+      "passed": true
+    },
+    {
+      "claim": "Independent validation patients (Fig. 2B)",
+      "actual": 28,
+      "expected": 28,
+      "passed": true
+    },
+    {
+      "claim": "Independent validation studies",
+      "actual": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "claim": "Independent malignant cells",
+      "actual": 59095,
+      "expected": 59095,
+      "passed": true
+    },
+    {
+      "claim": "Positive patient component differences",
+      "actual": 23,
+      "expected": 23,
+      "passed": true
+    },
+    {
+      "claim": "Study patient counts, sorted",
+      "actual": [
+        3,
+        4,
+        4,
+        5,
+        12
+      ],
+      "expected": [
+        3,
+        4,
+        4,
+        5,
+        12
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Predefined junction members",
+      "actual": 30,
+      "expected": 30,
+      "passed": true
+    },
+    {
+      "claim": "Study-by-member estimates",
+      "actual": 125,
+      "expected": 125,
+      "passed": true
+    },
+    {
+      "claim": "Unavailable study-by-member entries",
+      "actual": 25,
+      "expected": 25,
+      "passed": true
+    },
+    {
+      "claim": "Fisher-z display inversion",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "claim": "HRC coefficient pairs",
+      "actual": 88,
+      "expected": 88,
+      "passed": true
+    },
+    {
+      "claim": "Median HRC unadjusted coefficient",
+      "actual": 0.5594326213527335,
+      "expected": 0.559432621,
+      "passed": true
+    },
+    {
+      "claim": "Median HRC source_adjusted coefficient",
+      "actual": 0.13716332890732752,
+      "expected": 0.137163329,
+      "passed": true
+    },
+    {
+      "claim": "Regional specifications",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "claim": "Eligible junction genes in every specification",
+      "actual": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "expected": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "passed": true
+    },
+    {
+      "claim": "HGP spatial patients",
+      "actual": 6,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "claim": "Mutually exclusive displayed spatial spots",
+      "actual": 21629,
+      "expected": 21629,
+      "passed": true
+    },
+    {
+      "claim": "nc3_fraction_neoplastic_equal_roi mean_difference_RHGP_minus_EHGP",
+      "section": "Results 1",
+      "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+      "actual": 44.372695426777696,
+      "expected": 44.37,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "nc3_fraction_neoplastic_equal_roi mean_difference_bootstrap_CI_low",
+      "section": "Results 1",
+      "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+      "actual": 32.94097133740868,
+      "expected": 32.94,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "nc3_fraction_neoplastic_equal_roi mean_difference_bootstrap_CI_high",
+      "section": "Results 1",
+      "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+      "actual": 55.979073765512396,
+      "expected": 55.98,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "liver_epithelial_k10__any_target_neighbour_rate_equal_roi mean_difference_RHGP_minus_EHGP",
+      "section": "Results 1",
+      "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+      "actual": 43.8085706331662,
+      "expected": 43.81,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "liver_epithelial_k10__any_target_neighbour_rate_equal_roi mean_difference_bootstrap_CI_low",
+      "section": "Results 1",
+      "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+      "actual": 29.84381570074504,
+      "expected": 29.84,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "liver_epithelial_k10__any_target_neighbour_rate_equal_roi mean_difference_bootstrap_CI_high",
+      "section": "Results 1",
+      "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+      "actual": 56.95817643773202,
+      "expected": 56.96,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "NC3 exact allocation P",
+      "section": "Results 1",
+      "source": "result:analysis_results/hgp_interface_ecology/primary_effects.tsv",
+      "actual": 0.0003108003108003,
+      "expected": 0.000311,
+      "rounding_atol": 5.00001e-07,
+      "passed": true
+    },
+    {
+      "claim": "NC3 reference correlation REC",
+      "section": "Results 1",
+      "source": "panel:Figure_1_F.tsv",
+      "actual": 0.3871204257035075,
+      "expected": 0.387,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "NC3 reference correlation Goblet",
+      "section": "Results 1",
+      "source": "panel:Figure_1_F.tsv",
+      "actual": 0.1772809304980236,
+      "expected": 0.177,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "NC3 abundance rHGP",
+      "section": "Results 1",
+      "source": "panel:Figure_1_C.tsv",
+      "actual": 52.153130289900965,
+      "expected": 52.15,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "NC3 abundance dHGP",
+      "section": "Results 1",
+      "source": "panel:Figure_1_C.tsv",
+      "actual": 7.7804348631232605,
+      "expected": 7.78,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "Liver neighbour rate rHGP",
+      "section": "Results 1",
+      "source": "panel:Figure_1_D.tsv",
+      "actual": 55.89358312239783,
+      "expected": 55.89,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "Liver neighbour rate dHGP",
+      "section": "Results 1",
+      "source": "panel:Figure_1_D.tsv",
+      "actual": 12.085012489231616,
+      "expected": 12.09,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "NC3 conditional residual RHGP homotypic_any_neighbour effect",
+      "section": "Results 1",
+      "source": "panel:Figure_1_E.tsv",
+      "actual": -0.67821234685581,
+      "expected": -0.68,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "NC3 conditional residual RHGP homotypic_any_neighbour bootstrap_ci_lower",
+      "section": "Results 1",
+      "source": "panel:Figure_1_E.tsv",
+      "actual": -2.22663417688569,
+      "expected": -2.23,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "NC3 conditional residual RHGP homotypic_any_neighbour bootstrap_ci_upper",
+      "section": "Results 1",
+      "source": "panel:Figure_1_E.tsv",
+      "actual": 0.54272530013341,
+      "expected": 0.54,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "NC3 conditional residual EHGP homotypic_any_neighbour effect",
+      "section": "Results 1",
+      "source": "panel:Figure_1_E.tsv",
+      "actual": 8.75881871816098,
+      "expected": 8.76,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "NC3 conditional residual EHGP homotypic_any_neighbour bootstrap_ci_lower",
+      "section": "Results 1",
+      "source": "panel:Figure_1_E.tsv",
+      "actual": 6.2877414186001195,
+      "expected": 6.29,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "NC3 conditional residual EHGP homotypic_any_neighbour bootstrap_ci_upper",
+      "section": "Results 1",
+      "source": "panel:Figure_1_E.tsv",
+      "actual": 11.09091140060348,
+      "expected": 11.09,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "NC3 conditional residual RHGP dhc_dual_interface effect",
+      "section": "Results 1",
+      "source": "panel:Figure_1_E.tsv",
+      "actual": 1.54226774070993,
+      "expected": 1.54,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "NC3 conditional residual RHGP dhc_dual_interface bootstrap_ci_lower",
+      "section": "Results 1",
+      "source": "panel:Figure_1_E.tsv",
+      "actual": -0.0005363205028548947,
+      "expected": -0.001,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "NC3 conditional residual RHGP dhc_dual_interface bootstrap_ci_upper",
+      "section": "Results 1",
+      "source": "panel:Figure_1_E.tsv",
+      "actual": 3.4200846374755898,
+      "expected": 3.42,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "Independent component meta-analysis estimate",
+      "section": "Results 2",
+      "source": "panel:Figure_2_C.tsv",
+      "actual": 0.0880079933785356,
+      "expected": 0.088,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Independent component meta-analysis low",
+      "section": "Results 2",
+      "source": "panel:Figure_2_C.tsv",
+      "actual": 0.0239232592438564,
+      "expected": 0.024,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Independent component meta-analysis high",
+      "section": "Results 2",
+      "source": "panel:Figure_2_C.tsv",
+      "actual": 0.152092727513215,
+      "expected": 0.152,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Independent component meta-analysis p",
+      "section": "Results 2",
+      "source": "panel:Figure_2_C.tsv",
+      "actual": 0.0188928617314232,
+      "expected": 0.019,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Independent component meta-analysis I2",
+      "section": "Results 2",
+      "source": "panel:Figure_2_C.tsv",
+      "actual": 34.7266291204384,
+      "expected": 34.7,
+      "rounding_atol": 0.050000000001,
+      "passed": true
+    },
+    {
+      "claim": "Independent component meta-analysis tau2",
+      "section": "Results 2",
+      "source": "panel:Figure_2_C.tsv",
+      "actual": 0.0010532688344345,
+      "expected": 0.00105,
+      "rounding_atol": 5.000001000000001e-06,
+      "passed": true
+    },
+    {
+      "claim": "Harmonized discovery common estimate",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "actual": 0.1123909759772071,
+      "expected": 0.112,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Harmonized discovery common low",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "actual": 0.0818343220672266,
+      "expected": 0.082,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Harmonized discovery common high",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "actual": 0.1416228754282681,
+      "expected": 0.142,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Harmonized discovery common p_signflip",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "actual": 0.000244140625,
+      "expected": 0.000244,
+      "rounding_atol": 5.00001e-07,
+      "passed": true
+    },
+    {
+      "claim": "Harmonized discovery state_enhanced estimate",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "actual": 0.093467248629858,
+      "expected": 0.093,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Harmonized discovery state_enhanced low",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "actual": 0.0613294854073353,
+      "expected": 0.061,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Harmonized discovery state_enhanced high",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "actual": 0.1254334656758111,
+      "expected": 0.125,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Harmonized discovery state_enhanced p_signflip",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "actual": 0.00048828125,
+      "expected": 0.000488,
+      "rounding_atol": 5.00001e-07,
+      "passed": true
+    },
+    {
+      "claim": "Claudin harmonized discovery rho",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "actual": 0.16985708675546027,
+      "expected": 0.17,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Polarity harmonized discovery rho",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/study_component_effects.tsv",
+      "actual": 0.05905971304481815,
+      "expected": 0.059,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Target-mean independent meta estimate",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/random_effects_meta.tsv",
+      "actual": 0.0545549744330012,
+      "expected": 0.055,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Target-mean independent meta low",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/random_effects_meta.tsv",
+      "actual": 0.0050662888861188,
+      "expected": 0.005,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Target-mean independent meta high",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/random_effects_meta.tsv",
+      "actual": 0.104043659979883,
+      "expected": 0.104,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Target-mean independent meta p",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/random_effects_meta.tsv",
+      "actual": 0.0376336106033428,
+      "expected": 0.038,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Study-omission estimate min",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/leave_one_study.tsv",
+      "actual": 0.065661768453546,
+      "expected": 0.066,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Study-omission estimate max",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/external/leave_one_study.tsv",
+      "actual": 0.106609607879632,
+      "expected": 0.107,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Positive size-matched subsets percent",
+      "section": "Results 2",
+      "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/cells/subset_perturbation_summary.tsv",
+      "actual": 79.4,
+      "expected": 79.4,
+      "rounding_atol": 0.050000000001,
+      "passed": true
+    },
+    {
+      "claim": "Discovery sensitivity full_reference effect",
+      "section": "Results 2",
+      "source": "panel:Figure_2_D.tsv",
+      "actual": 0.0964586485302861,
+      "expected": 0.096,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Discovery sensitivity size_matched effect",
+      "section": "Results 2",
+      "source": "panel:Figure_2_D.tsv",
+      "actual": 0.0460740535140846,
+      "expected": 0.046,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Discovery sensitivity size_matched low",
+      "section": "Results 2",
+      "source": "panel:Figure_2_D.tsv",
+      "actual": 0.0195982360743338,
+      "expected": 0.02,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Discovery sensitivity size_matched high",
+      "section": "Results 2",
+      "source": "panel:Figure_2_D.tsv",
+      "actual": 0.0713711154201861,
+      "expected": 0.071,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Discovery sensitivity size_matched q_four_secondary_tests",
+      "section": "Results 2",
+      "source": "panel:Figure_2_D.tsv",
+      "actual": 0.0086263020833333,
+      "expected": 0.00863,
+      "rounding_atol": 5.000001000000001e-06,
+      "passed": true
+    },
+    {
+      "claim": "Discovery sensitivity measurement_matched effect",
+      "section": "Results 2",
+      "source": "panel:Figure_2_D.tsv",
+      "actual": 0.1179677288524534,
+      "expected": 0.118,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Discovery sensitivity measurement_matched low",
+      "section": "Results 2",
+      "source": "panel:Figure_2_D.tsv",
+      "actual": 0.0910442267025485,
+      "expected": 0.091,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Discovery sensitivity measurement_matched high",
+      "section": "Results 2",
+      "source": "panel:Figure_2_D.tsv",
+      "actual": 0.1479034772086718,
+      "expected": 0.148,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Discovery sensitivity measurement_matched q_four_secondary_tests",
+      "section": "Results 2",
+      "source": "panel:Figure_2_D.tsv",
+      "actual": 0.00048828125,
+      "expected": 0.00049,
+      "rounding_atol": 5.000001000000001e-06,
+      "passed": true
+    },
+    {
+      "claim": "CLDN1 pooled rho",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.0631575607892245,
+      "expected": 0.063,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN1 member BH q",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.019146464612081,
+      "expected": 0.019,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CRB3 pooled rho",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.064495837789836,
+      "expected": 0.064,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CRB3 member BH q",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.019146464612081,
+      "expected": 0.019,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "F11R pooled rho",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.1210007615557457,
+      "expected": 0.121,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "F11R member BH q",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.0210565568242234,
+      "expected": 0.021,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN3 pooled rho",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.1461229550291385,
+      "expected": 0.146,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN3 member BH q",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.0707921688765232,
+      "expected": 0.071,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN4 pooled rho",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.2091342405464261,
+      "expected": 0.209,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN4 member BH q",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.0707921688765232,
+      "expected": 0.071,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN7 pooled rho",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.1566119942902991,
+      "expected": 0.157,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN7 member BH q",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.0707921688765232,
+      "expected": 0.071,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN2 display_rho",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": -0.0432581849551891,
+      "expected": -0.043,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN2 display_rho_low",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": -0.1263188218903069,
+      "expected": -0.126,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN2 display_rho_high",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 0.0404047900226182,
+      "expected": 0.04,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN2 n_patients",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 23.0,
+      "expected": 23.0,
+      "rounding_atol": 0.500000000001,
+      "passed": true
+    },
+    {
+      "claim": "CLDN5 evaluable patients",
+      "section": "Results 3",
+      "source": "panel:Figure_3_C.tsv",
+      "actual": 13.0,
+      "expected": 13.0,
+      "rounding_atol": 0.500000000001,
+      "passed": true
+    },
+    {
+      "claim": "Spatial Claudin effect",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+      "actual": 0.3102266696778163,
+      "expected": 0.31,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Spatial Claudin low",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+      "actual": 0.1941631704368383,
+      "expected": 0.194,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Spatial Claudin high",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+      "actual": 0.4177246759630033,
+      "expected": 0.418,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Spatial Claudin q",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+      "actual": 0.0625,
+      "expected": 0.0625,
+      "rounding_atol": 5.0000001000000005e-05,
+      "passed": true
+    },
+    {
+      "claim": "Spatial Polarity effect",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+      "actual": 0.0727606410072176,
+      "expected": 0.073,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Spatial Polarity low",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+      "actual": 0.0207362509918534,
+      "expected": 0.021,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Spatial Polarity high",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+      "actual": 0.1254785357540321,
+      "expected": 0.125,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Spatial Polarity q",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/spatial/correlation_summary.tsv",
+      "actual": 0.0625,
+      "expected": 0.0625,
+      "rounding_atol": 5.0000001000000005e-05,
+      "passed": true
+    },
+    {
+      "claim": "Near-region Claudin fixed score TMM effect",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+      "actual": 0.9192417780404432,
+      "expected": 0.919,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Near-region Claudin fixed score TMM low",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+      "actual": 0.4563151927312825,
+      "expected": 0.456,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Near-region Claudin fixed score TMM high",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+      "actual": 1.382168363349603,
+      "expected": 1.382,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Near-region Claudin fixed score TMM p",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+      "actual": 0.1,
+      "expected": 0.1,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "Near-region Claudin fixed score library_only effect",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+      "actual": 0.7866105569858313,
+      "expected": 0.787,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Near-region Claudin fixed score library_only low",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+      "actual": 0.26940775885486,
+      "expected": 0.269,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Near-region Claudin fixed score library_only high",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+      "actual": 1.3038133551168023,
+      "expected": 1.304,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Near-region Claudin fixed score library_only p",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/integration/matched_gene_patient_HGP_effects.tsv",
+      "actual": 0.2,
+      "expected": 0.2,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "Bulk_rHGP_minus_dHGP Claudin count directional q TMM",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+      "actual": 0.212745562875578,
+      "expected": 0.213,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Bulk_rHGP_minus_dHGP Claudin count directional q library_only",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+      "actual": 0.299175713454562,
+      "expected": 0.299,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Bulk_rHGP_minus_dHGP HRC count directional q TMM",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+      "actual": 0.0365804875170075,
+      "expected": 0.0366,
+      "rounding_atol": 5.0000001000000005e-05,
+      "passed": true
+    },
+    {
+      "claim": "Bulk_rHGP_minus_dHGP HRC count directional q library_only",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+      "actual": 0.299175713454562,
+      "expected": 0.299,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Spatial_rHGP_minus_dHGP_near Claudin count directional q TMM",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+      "actual": 0.0318179787165737,
+      "expected": 0.0318,
+      "rounding_atol": 5.0000001000000005e-05,
+      "passed": true
+    },
+    {
+      "claim": "Spatial_rHGP_minus_dHGP_near Claudin count directional q library_only",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_evidence_bridge_2026-09-16/counts/programme_tests.tsv",
+      "actual": 0.16397449930669,
+      "expected": 0.164,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Bulk fixed-score HRC effect",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+      "actual": 0.51191690747033,
+      "expected": 0.512,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Bulk fixed-score HRC low",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+      "actual": 0.197639190870028,
+      "expected": 0.198,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Bulk fixed-score HRC high",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+      "actual": 0.827496126168346,
+      "expected": 0.827,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Bulk fixed-score HRC q",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+      "actual": 0.0187812187812188,
+      "expected": 0.0188,
+      "rounding_atol": 5.0000001000000005e-05,
+      "passed": true
+    },
+    {
+      "claim": "Bulk fixed-score Junction effect",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+      "actual": 0.286126842073442,
+      "expected": 0.286,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Bulk fixed-score Junction low",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+      "actual": 0.139558367000978,
+      "expected": 0.14,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Bulk fixed-score Junction high",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+      "actual": 0.446114749960016,
+      "expected": 0.446,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Bulk fixed-score Junction q",
+      "section": "Results 4",
+      "source": "result:analysis_results/rec_manuscript_reinforcement_2026-09-17/bulk/score_effects.tsv",
+      "actual": 0.0187812187812188,
+      "expected": 0.0188,
+      "rounding_atol": 5.0000001000000005e-05,
+      "passed": true
+    },
+    {
+      "claim": "Regional CLDN3 unadjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": 0.424281824512207,
+      "expected": 0.424,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Regional CLDN3 source_adjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": -0.263378967050451,
+      "expected": -0.263,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Regional CLDN4 unadjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": 0.259817027613646,
+      "expected": 0.26,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Regional CLDN4 source_adjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": -0.116559215087702,
+      "expected": -0.117,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Regional CLDN7 unadjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": 0.549291052013112,
+      "expected": 0.549,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Regional CLDN7 source_adjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": -0.187141491086961,
+      "expected": -0.187,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Regional CLDN5 unadjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": -1.00863569052773,
+      "expected": -1.009,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Regional CLDN5 source_adjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": 0.453529663120546,
+      "expected": 0.454,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Regional CRB3 unadjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": 0.496328769031662,
+      "expected": 0.496,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Regional CRB3 source_adjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": 0.188349795666062,
+      "expected": 0.188,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Regional CLDN2 unadjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": 0.828735678694252,
+      "expected": 0.829,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Regional CLDN2 source_adjusted",
+      "section": "Results 5",
+      "source": "panel:Figure_5_D.tsv",
+      "actual": 1.1469368895421,
+      "expected": 1.147,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "HRC positive coefficients TMM",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "actual": 80.0,
+      "expected": 80.0,
+      "rounding_atol": 0.500000000001,
+      "passed": true
+    },
+    {
+      "claim": "HRC unadjusted directional q TMM",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "actual": 4.96735162345945e-05,
+      "expected": 5e-05,
+      "rounding_atol": 5.00001e-07,
+      "passed": true
+    },
+    {
+      "claim": "HRC positive coefficients library_only",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "actual": 77.0,
+      "expected": 77.0,
+      "rounding_atol": 0.500000000001,
+      "passed": true
+    },
+    {
+      "claim": "HRC unadjusted directional q library_only",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "actual": 0.0001326713047273,
+      "expected": 0.000133,
+      "rounding_atol": 5.00001e-07,
+      "passed": true
+    },
+    {
+      "claim": "HRC adjusted directional q",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "actual": 0.33234825872717,
+      "expected": 0.332,
+      "rounding_atol": 0.000500000001,
+      "passed": true
+    },
+    {
+      "claim": "Same-section adjusted HRC mixed q TMM",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "actual": 0.0024832359831183,
+      "expected": 0.00248,
+      "rounding_atol": 5.000001000000001e-06,
+      "passed": true
+    },
+    {
+      "claim": "Same-section adjusted Claudin mixed q TMM",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "actual": 8.98382908271433e-05,
+      "expected": 8.98e-05,
+      "rounding_atol": 5.0001e-08,
+      "passed": true
+    },
+    {
+      "claim": "Same-section adjusted Junction mixed q TMM",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "actual": 0.0002229698617275,
+      "expected": 0.000223,
+      "rounding_atol": 5.00001e-07,
+      "passed": true
+    },
+    {
+      "claim": "Same-section adjusted HRC mixed q library_only",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "actual": 0.0020441295165639,
+      "expected": 0.00204,
+      "rounding_atol": 5.000001000000001e-06,
+      "passed": true
+    },
+    {
+      "claim": "Same-section adjusted Claudin mixed q library_only",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "actual": 7.05831062369261e-05,
+      "expected": 7.06e-05,
+      "rounding_atol": 5.0001e-08,
+      "passed": true
+    },
+    {
+      "claim": "Same-section adjusted Junction mixed q library_only",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/programme_tests.tsv",
+      "actual": 0.0001981568571425,
+      "expected": 0.000198,
+      "rounding_atol": 5.00001e-07,
+      "passed": true
+    },
+    {
+      "claim": "Adjusted VIF macro",
+      "section": "Results 5",
+      "source": "panel:Supplementary_Figure_6_D.tsv",
+      "actual": 5.46867083268631,
+      "expected": 5.47,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "Adjusted VIF Liver",
+      "section": "Results 5",
+      "source": "panel:Supplementary_Figure_6_D.tsv",
+      "actual": 10.4876395305675,
+      "expected": 10.49,
+      "rounding_atol": 0.0050000000010000005,
+      "passed": true
+    },
+    {
+      "claim": "Adjusted eleven-pair residual degrees of freedom",
+      "section": "Results 5",
+      "source": "result:analysis_results/rec_q2_integration_2026-09-19/regional/model_diagnostics.tsv",
+      "actual": 7.0,
+      "expected": 7.0,
+      "rounding_atol": 0.500000000001,
+      "passed": true
+    }
+  ],
+  "tolerance": {
+    "atol": 1e-08,
+    "rtol": 1e-06
+  }
+}

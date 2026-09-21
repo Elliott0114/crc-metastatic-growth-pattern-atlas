@@ -1,0 +1,50 @@
+[
+  [
+    "study",
+    "doi",
+    "bioproject",
+    "assays",
+    "n_patients",
+    "n_cells"
+  ],
+  [
+    "Che_2021_Cell_Discov",
+    "10.1038/s41421-021-00312-y",
+    "PRJNA725335",
+    "10x 3' v2",
+    5.0,
+    3944.0
+  ],
+  [
+    "Giguelay_2022_Theranostics",
+    "10.7150/thno.72853",
+    "PRJNA666199",
+    "10x 3' v2;10x 3' v3",
+    4.0,
+    3405.0
+  ],
+  [
+    "Liu_2024_Cancer_Res",
+    "10.1158/0008-5472.CAN-23-2123",
+    "PRJNA1028966",
+    "10x 5' v2",
+    12.0,
+    31540.0
+  ],
+  [
+    "Sathe_2023_Clin_Cancer_Res",
+    "10.1158/1078-0432.CCR-22-2041",
+    "NA",
+    "10x 3' v2",
+    3.0,
+    6713.0
+  ],
+  [
+    "Wang_2023_Sci_Adv",
+    "10.1126/sciadv.adf5464",
+    "PRJNA937723",
+    "BD Rhapsody Whole Transcriptome Analysis",
+    4.0,
+    13493.0
+  ]
+]

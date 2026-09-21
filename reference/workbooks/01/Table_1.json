@@ -1,0 +1,122 @@
+[
+  [
+    "Programme",
+    "Source / version",
+    "Role",
+    "Genes in set",
+    "Genes measured in Ogden cohort",
+    "Genes measured in HGP cohort"
+  ],
+  [
+    "REC50",
+    "Derived in this study",
+    "Reference score for REC transcription",
+    "50",
+    "50",
+    "48"
+  ],
+  [
+    "HRC",
+    "Cañellas-Socias [14]; gene list in Ogden Supplementary Table 3 [19]",
+    "Regenerative transcription",
+    "100",
+    "95",
+    "97"
+  ],
+  [
+    "Tight junction",
+    "MSigDB Reactome 2025.1.Hs; MPP5→PALS1",
+    "Cell-junction transcription",
+    "30",
+    "29",
+    "28"
+  ],
+  [
+    "E2F",
+    "MSigDB Hallmark 2025.1.Hs [32]",
+    "Cell-cycle activity",
+    "200",
+    "198",
+    "194"
+  ],
+  [
+    "G2M",
+    "MSigDB Hallmark 2025.1.Hs [32]",
+    "Cell-cycle activity",
+    "200",
+    "193",
+    "188"
+  ],
+  [
+    "RSC",
+    "White [20]; one-to-one orthologs",
+    "Comparison with established epithelial states",
+    "210",
+    "204",
+    "188"
+  ],
+  [
+    "CBC",
+    "White [20]; one-to-one orthologs",
+    "Comparison with established epithelial states",
+    "352",
+    "347",
+    "330"
+  ],
+  [
+    "iCMS2",
+    "Joanito [21]; iCMS marker genes",
+    "Comparison with established epithelial states",
+    "356",
+    "350",
+    "329"
+  ],
+  [
+    "iCMS3",
+    "Joanito [21]; iCMS marker genes",
+    "Comparison with established epithelial states",
+    "347",
+    "342",
+    "330"
+  ],
+  [
+    "Junction, symbol harmonized",
+    "Same fixed set; MPP5 mapped to PALS1",
+    "Human component/count analyses and full-programme bulk projection; variable or detected score coverage",
+    "30",
+    "29",
+    "28"
+  ],
+  [
+    "Claudin component",
+    "Fixed CLDN-family members of the 30-gene junction set",
+    "Component coupling and tissue association",
+    "21",
+    "20",
+    "20"
+  ],
+  [
+    "Polarity component",
+    "CRB3, PALS1/MPP5, PARD3, PARD6A/B/G, PATJ, PRKCI",
+    "Component coupling and tissue association",
+    "8",
+    "8",
+    "7"
+  ],
+  [
+    "HRC, junction-disjoint",
+    "Published HRC minus all junction members",
+    "Component/count extensions; measured, before abundance filtering",
+    "98",
+    "93",
+    "95"
+  ],
+  [
+    "HRC, spatial mask-disjoint",
+    "HRC minus junction members and CEACAM5",
+    "HGP spatial analysis: 87 genes assayed; count eligibility reported separately",
+    "97",
+    "—",
+    "—"
+  ]
+]

@@ -1,0 +1,11 @@
+gene_order	gene	role
+1	JUNB	candidate_regulator
+2	FOSL2	candidate_regulator
+3	RELB	candidate_regulator
+4	ITPR3	literature_upstream_RELB_anchor
+5	NFKB2	noncanonical_NFKB_partner
+6	CLDN3	JUNB_direct_junction_target
+7	CLDN4	JUNB_direct_junction_target
+8	CLDN7	JUNB_direct_junction_target
+9	CRB3	JUNB_direct_junction_target
+10	F11R	JUNB_direct_junction_target

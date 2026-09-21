@@ -1,0 +1,112 @@
+{
+  "e_mtab_12022_kallisto_bus_run_info": {
+    "study_accession": "E-MTAB-12022",
+    "reference": "GENCODE v32 transcriptome",
+    "chemistry": "10xv3",
+    "barcode_correction": "10x 3M-february-2018 whitelist archived at Zenodo 3457880",
+    "kallisto": "kallisto, version 0.52.0",
+    "bustools": "bustools, version 0.45.1",
+    "python": "3.11.15",
+    "patients": [
+      "PT52",
+      "PT55",
+      "PT61",
+      "PT44",
+      "PT54",
+      "PT59"
+    ],
+    "patients_requested": [
+      "PT59"
+    ],
+    "threads": 20,
+    "patients_completed": [
+      "PT52",
+      "PT55",
+      "PT61",
+      "PT44",
+      "PT54",
+      "PT59"
+    ]
+  },
+  "analysis_results_e_mtab_12022_hgp_scrna_run_info": {
+    "cell_calling_primary": "all corrected barcodes with >=150 genes and <=70% mitochondrial UMIs",
+    "cell_calling_sensitivity": "published-recovery-matched high-UMI set and ordmag-only m/10 set; neither reconstructs manual cluster removal or EmptyDrops",
+    "annotation": "cellwise broad compartments from Trebo T0 CRLM reference-marker means with deterministic PCA/K-means cluster audit",
+    "annotation_reference_validation": "six-fold leave-one-Trebo-patient transfer; see e_mtab_12022_trebo_reference_loo_metrics.tsv",
+    "annotation_target_leakage_control": "Trebo reference and canonical sensitivity panels are globally disjoint from all tested module genes",
+    "annotation_sensitivity": "target-disjoint canonical-marker cellwise label retained for concordance auditing only",
+    "inferential_unit": "patient",
+    "random_seed": 20260710,
+    "minimum_features": 150,
+    "maximum_mt_fraction": 0.7,
+    "n_cells": 38425,
+    "n_genes": 59368,
+    "python": "3.11.15",
+    "anndata": "0.12.19"
+  },
+  "analysis_results_e_mtab_12022_trebo_reference_run_info": {
+    "reference": "data_sources/Trebo_MolCancer_2025/CRLM_SingleCell/adata_CRLM_NMP.h5ad",
+    "reference_scope": "T0 CRLM cells with mapped broad source labels",
+    "reference_aggregation": "patient-balanced cell-type means and detection fractions",
+    "reference_patients": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "reference_cells": 22247,
+    "reference_cell_types": [
+      "B cells",
+      "CRC/epithelial",
+      "Dendritic cells",
+      "Endothelial",
+      "Fibroblasts",
+      "Hepatocytes",
+      "Mast cells",
+      "Monocytes/macrophages",
+      "NK cells",
+      "Neutrophils",
+      "Plasma cells",
+      "T cells"
+    ],
+    "shared_candidate_genes": 26537,
+    "markers_per_cell_type": 30,
+    "minimum_reference_detection": 0.1,
+    "reference_log1p_normalization_target": [
+      10000.000325202942,
+      10000.001220703125,
+      10000.00094985962
+    ],
+    "tested_module_genes_excluded": 27,
+    "tested_module_overlap": 0,
+    "leave_one_patient_out_gates": {
+      "target_overlap_zero": true,
+      "mean_balanced_accuracy_ge_0_90": true,
+      "mean_macro_f1_ge_0_80": true,
+      "minimum_neutrophil_recall_ge_0_90": true,
+      "minimum_neutrophil_precision_ge_0_80": true
+    }
+  },
+  "space_ranger": {
+    "version": "4.1.0",
+    "martian": "v4.0.15",
+    "reference": "GRCh38-2020-A",
+    "probe_set": "Visium_Human_Transcriptome_Probe_Set_v1.0_GRCh38-2020-A",
+    "r2_length": 50,
+    "filter_probes": true,
+    "targeting_method": "templated_ligation",
+    "chemistry": "SPATIAL3Pv1",
+    "image_reorientation": "rotation+mirror",
+    "tissue_detection": true,
+    "invocation_sha256": {
+      "Sample1": "f621ea1817a878229f7af423e09fcc1a92e8a1f5603ed4bdccaa59d5dd6539aa",
+      "Sample3": "5432c48294f326c648ddb58fc294280f11a48d21cc487331a7af88af00f3cf07",
+      "Sample4": "96e65f7f3435fde35f43b39fe80476305eee92dd55384420a00600dd6e208ce1",
+      "Sample5": "1dbfc0ebe3c8134266641e28b2c0511a78cc316e64bfbb50927d81285b4ea5ab",
+      "Sample6": "79913bd08f403177cc5b70d9eeffeeb600f4c729967b29e425922d50fb2b94d2",
+      "Sample7": "a625523bc523d89b842da8daadac0ae01ac1214eb834505f1b6b92903b0077d5"
+    }
+  }
+}

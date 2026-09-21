@@ -1,0 +1,106 @@
+[
+  [
+    "patient",
+    "hgp",
+    "endpoint",
+    "raw_value",
+    "standardized_abundance",
+    "endpoint_label"
+  ],
+  [
+    "PT36",
+    "rHGP",
+    "rec_program_score",
+    0.29867445369802,
+    1.12284647789949,
+    "Equal-gene score"
+  ],
+  [
+    "PT36",
+    "rHGP",
+    "pooled_program_log2_cpm",
+    12.938889528296,
+    1.00813948246338,
+    "Pooled expression"
+  ],
+  [
+    "PT55",
+    "dHGP",
+    "rec_program_score",
+    0.0605088798414638,
+    0.339098715896595,
+    "Equal-gene score"
+  ],
+  [
+    "PT55",
+    "dHGP",
+    "pooled_program_log2_cpm",
+    12.5271705633641,
+    -0.445338046703795,
+    "Pooled expression"
+  ],
+  [
+    "PT68",
+    "dHGP",
+    "rec_program_score",
+    0.218695128990538,
+    0.859653037592513,
+    "Equal-gene score"
+  ],
+  [
+    "PT68",
+    "dHGP",
+    "pooled_program_log2_cpm",
+    12.5994044914292,
+    -0.190333054880402,
+    "Pooled expression"
+  ],
+  [
+    "PT44",
+    "rHGP",
+    "rec_program_score",
+    -0.291138110223552,
+    -0.818090112932632,
+    "Equal-gene score"
+  ],
+  [
+    "PT44",
+    "rHGP",
+    "pooled_program_log2_cpm",
+    12.8033916621084,
+    0.529795950762229,
+    "Pooled expression"
+  ],
+  [
+    "PT54",
+    "rHGP",
+    "rec_program_score",
+    -0.0470873870908295,
+    -0.0149756872278482,
+    "Equal-gene score"
+  ],
+  [
+    "PT54",
+    "rHGP",
+    "pooled_program_log2_cpm",
+    12.8759873318698,
+    0.786077987054747,
+    "Pooled expression"
+  ],
+  [
+    "PT61",
+    "dHGP",
+    "rec_program_score",
+    -0.494872381906199,
+    -1.48853243122812,
+    "Equal-gene score"
+  ],
+  [
+    "PT61",
+    "dHGP",
+    "pooled_program_log2_cpm",
+    12.1750712553247,
+    -1.68834231869616,
+    "Pooled expression"
+  ]
+]

@@ -1,0 +1,88 @@
+{
+  "headers": [
+    "Programme",
+    "Source / version",
+    "Role",
+    "Genes in set",
+    "Genes measured in Ogden cohort",
+    "Genes measured in HGP cohort"
+  ],
+  "labels": [
+    [
+      "REC50",
+      "Derived in this study",
+      "Reference score for REC transcription"
+    ],
+    [
+      "HRC",
+      "Cañellas-Socias [14]; gene list in Ogden Supplementary Table 3 [19]",
+      "Regenerative transcription"
+    ],
+    [
+      "Tight junction",
+      "MSigDB Reactome 2025.1.Hs; MPP5→PALS1",
+      "Cell-junction transcription"
+    ],
+    [
+      "E2F",
+      "MSigDB Hallmark 2025.1.Hs [32]",
+      "Cell-cycle activity"
+    ],
+    [
+      "G2M",
+      "MSigDB Hallmark 2025.1.Hs [32]",
+      "Cell-cycle activity"
+    ],
+    [
+      "RSC",
+      "White [20]; one-to-one orthologs",
+      "Comparison with established epithelial states"
+    ],
+    [
+      "CBC",
+      "White [20]; one-to-one orthologs",
+      "Comparison with established epithelial states"
+    ],
+    [
+      "iCMS2",
+      "Joanito [21]; iCMS marker genes",
+      "Comparison with established epithelial states"
+    ],
+    [
+      "iCMS3",
+      "Joanito [21]; iCMS marker genes",
+      "Comparison with established epithelial states"
+    ],
+    [
+      "Junction, symbol harmonized",
+      "Same fixed set; MPP5 mapped to PALS1",
+      "Human component/count analyses and full-programme bulk projection; variable or detected score coverage"
+    ],
+    [
+      "Claudin component",
+      "Fixed CLDN-family members of the 30-gene junction set",
+      "Component coupling and tissue association"
+    ],
+    [
+      "Polarity component",
+      "CRB3, PALS1/MPP5, PARD3, PARD6A/B/G, PATJ, PRKCI",
+      "Component coupling and tissue association"
+    ],
+    [
+      "HRC, junction-disjoint",
+      "Published HRC minus all junction members",
+      "Component/count extensions; measured, before abundance filtering"
+    ],
+    [
+      "HRC, spatial mask-disjoint",
+      "HRC minus junction members and CEACAM5",
+      "HGP spatial analysis: 87 genes assayed; count eligibility reported separately"
+    ]
+  ],
+  "sources": [
+    "analysis_results/rec_public_upgrade_2026-09-07/specificity/program_coverage.tsv",
+    "analysis_results/rec_junction_context_2026-09-16/definitions.tsv",
+    "analysis_results/rec_junction_context_2026-09-16/cells/gene_control_lock.tsv",
+    "analysis_results/rec_junction_context_2026-09-16/contexts/gene_coverage.tsv"
+  ]
+}

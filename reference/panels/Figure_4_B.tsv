@@ -1,0 +1,13 @@
+patient	hgp	restriction	model	component	n_spots	rho	design_rank
+PT36	rHGP	all_tumour	adjusted	Claudin	1276	0.290760259072207	5
+PT36	rHGP	all_tumour	adjusted	Polarity	1276	0.0187919857694107	5
+PT55	dHGP	all_tumour	adjusted	Claudin	1601	0.1184616081975877	5
+PT55	dHGP	all_tumour	adjusted	Polarity	1601	0.0305147315901316	5
+PT68	dHGP	all_tumour	adjusted	Claudin	1492	0.4755669418928429	5
+PT68	dHGP	all_tumour	adjusted	Polarity	1492	-0.018787869087563	5
+PT44	rHGP	all_tumour	adjusted	Claudin	828	0.4530280668778707	5
+PT44	rHGP	all_tumour	adjusted	Polarity	828	0.1143983039827906	5
+PT54	rHGP	all_tumour	adjusted	Claudin	868	0.1409600890868785	5
+PT54	rHGP	all_tumour	adjusted	Polarity	868	0.1641307123052974	5
+PT61	dHGP	all_tumour	adjusted	Claudin	1146	0.3440786514430735	5
+PT61	dHGP	all_tumour	adjusted	Polarity	1146	0.1256112790594664	5

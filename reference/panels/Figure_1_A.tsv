@@ -1,0 +1,7 @@
+role	source	n_patients
+discovery	Ogden	14
+external	five original studies via Atlas	28
+bulk HGP	GSE151165	15
+spatial HGP	E-MTAB-12043	6
+regional	GSE294385	11
+same-section subset	GSE294385	10

@@ -1,0 +1,113 @@
+study	patient	scoring	model	n_cells	n_samples	design_columns	design_rank	residual_df	finite_comparison	covariates
+Che_2021_Cell_Discov	Che_2021_Cell_Discov.COL07	fixed_background	common	1872	1	6	6	1866	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Che_2021_Cell_Discov	Che_2021_Cell_Discov.COL12	fixed_background	common	294	1	6	6	288	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Che_2021_Cell_Discov	Che_2021_Cell_Discov.COL15	fixed_background	common	1265	1	6	6	1259	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Che_2021_Cell_Discov	Che_2021_Cell_Discov.COL16	fixed_background	common	251	1	6	6	245	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Che_2021_Cell_Discov	Che_2021_Cell_Discov.COL18	fixed_background	common	262	1	6	6	256	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Giguelay_2022_Theranostics	Giguelay_2022_Theranostics.P1	fixed_background	common	806	2	7	7	799	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Giguelay_2022_EPCAM_Pos.19G00081
+Giguelay_2022_Theranostics	Giguelay_2022_Theranostics.P2	fixed_background	common	530	2	7	7	523	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Giguelay_2022_EPCAM_Pos.19G00619
+Giguelay_2022_Theranostics	Giguelay_2022_Theranostics.P3	fixed_background	common	550	1	6	6	544	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Giguelay_2022_Theranostics	Giguelay_2022_Theranostics.P4	fixed_background	common	1519	4	9	9	1510	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Giguelay_2022_CAF.19G02977B;sample_Giguelay_2022_EPCAM_Pos.19G02977A;sample_Giguelay_2022_EPCAM_Pos.19G02977B
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt01	fixed_background	common	2830	1	6	6	2824	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt02	fixed_background	common	2225	1	6	6	2219	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt03	fixed_background	common	2377	1	6	6	2371	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt04	fixed_background	common	3307	1	6	6	3301	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt05	fixed_background	common	438	2	7	7	431	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Liu_2024_mixCD45PosCD45Neg.Pt05_T3
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt06	fixed_background	common	1169	2	7	7	1162	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Liu_2024_mixCD45PosCD45Neg.Pt06_T3
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt07	fixed_background	common	829	1	6	6	823	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt08	fixed_background	common	6787	2	7	7	6780	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Liu_2024_mixCD45PosCD45Neg.Pt08_T4
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt11	fixed_background	common	661	1	6	6	655	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt15	fixed_background	common	5121	1	6	6	5115	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt17	fixed_background	common	187	1	6	6	181	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt18	fixed_background	common	5609	1	6	6	5603	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Sathe_2023_Clin_Cancer_Res	Sathe_2023_Clin_Cancer_Res.P5915	fixed_background	common	1138	1	6	6	1132	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Sathe_2023_Clin_Cancer_Res	Sathe_2023_Clin_Cancer_Res.P6198	fixed_background	common	5333	1	6	6	5327	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Sathe_2023_Clin_Cancer_Res	Sathe_2023_Clin_Cancer_Res.P6335	fixed_background	common	242	1	6	6	236	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Wang_2023_Sci_Adv	Wang_2023_Sci_Adv.P0107	fixed_background	common	121	1	6	6	115	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Wang_2023_Sci_Adv	Wang_2023_Sci_Adv.P0813	fixed_background	common	3124	2	7	7	3117	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Wang_2023_CD45Pos.LM0813
+Wang_2023_Sci_Adv	Wang_2023_Sci_Adv.P0920	fixed_background	common	9962	2	7	7	9955	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Wang_2023_CD45Pos.LM0920
+Wang_2023_Sci_Adv	Wang_2023_Sci_Adv.P1231	fixed_background	common	286	1	6	6	280	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Che_2021_Cell_Discov	Che_2021_Cell_Discov.COL07	target_mean	common	1872	1	6	6	1866	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Che_2021_Cell_Discov	Che_2021_Cell_Discov.COL12	target_mean	common	294	1	6	6	288	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Che_2021_Cell_Discov	Che_2021_Cell_Discov.COL15	target_mean	common	1265	1	6	6	1259	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Che_2021_Cell_Discov	Che_2021_Cell_Discov.COL16	target_mean	common	251	1	6	6	245	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Che_2021_Cell_Discov	Che_2021_Cell_Discov.COL18	target_mean	common	262	1	6	6	256	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Giguelay_2022_Theranostics	Giguelay_2022_Theranostics.P1	target_mean	common	806	2	7	7	799	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Giguelay_2022_EPCAM_Pos.19G00081
+Giguelay_2022_Theranostics	Giguelay_2022_Theranostics.P2	target_mean	common	530	2	7	7	523	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Giguelay_2022_EPCAM_Pos.19G00619
+Giguelay_2022_Theranostics	Giguelay_2022_Theranostics.P3	target_mean	common	550	1	6	6	544	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Giguelay_2022_Theranostics	Giguelay_2022_Theranostics.P4	target_mean	common	1519	4	9	9	1510	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Giguelay_2022_CAF.19G02977B;sample_Giguelay_2022_EPCAM_Pos.19G02977A;sample_Giguelay_2022_EPCAM_Pos.19G02977B
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt01	target_mean	common	2830	1	6	6	2824	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt02	target_mean	common	2225	1	6	6	2219	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt03	target_mean	common	2377	1	6	6	2371	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt04	target_mean	common	3307	1	6	6	3301	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt05	target_mean	common	438	2	7	7	431	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Liu_2024_mixCD45PosCD45Neg.Pt05_T3
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt06	target_mean	common	1169	2	7	7	1162	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Liu_2024_mixCD45PosCD45Neg.Pt06_T3
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt07	target_mean	common	829	1	6	6	823	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt08	target_mean	common	6787	2	7	7	6780	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Liu_2024_mixCD45PosCD45Neg.Pt08_T4
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt11	target_mean	common	661	1	6	6	655	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt15	target_mean	common	5121	1	6	6	5115	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt17	target_mean	common	187	1	6	6	181	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Liu_2024_Cancer_Res	Liu_2024_Cancer_Res.Pt18	target_mean	common	5609	1	6	6	5603	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Sathe_2023_Clin_Cancer_Res	Sathe_2023_Clin_Cancer_Res.P5915	target_mean	common	1138	1	6	6	1132	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Sathe_2023_Clin_Cancer_Res	Sathe_2023_Clin_Cancer_Res.P6198	target_mean	common	5333	1	6	6	5327	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Sathe_2023_Clin_Cancer_Res	Sathe_2023_Clin_Cancer_Res.P6335	target_mean	common	242	1	6	6	236	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Wang_2023_Sci_Adv	Wang_2023_Sci_Adv.P0107	target_mean	common	121	1	6	6	115	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Wang_2023_Sci_Adv	Wang_2023_Sci_Adv.P0813	target_mean	common	3124	2	7	7	3117	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Wang_2023_CD45Pos.LM0813
+Wang_2023_Sci_Adv	Wang_2023_Sci_Adv.P0920	target_mean	common	9962	2	7	7	9955	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;sample_Wang_2023_CD45Pos.LM0920
+Wang_2023_Sci_Adv	Wang_2023_Sci_Adv.P1231	target_mean	common	286	1	6	6	280	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC01	fixed_background	common	342	1	6	6	336	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC01	fixed_background	state_enhanced	342	1	14	14	328	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Hypoxia;state_Intermediate;state_REC;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC02	fixed_background	common	706	1	6	6	700	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC02	fixed_background	state_enhanced	706	1	17	17	689	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC
+Ogden_2025	CRC03	fixed_background	common	452	1	6	6	446	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC03	fixed_background	state_enhanced	452	1	17	17	435	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC
+Ogden_2025	CRC04	fixed_background	common	2678	1	6	6	2672	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC04	fixed_background	state_enhanced	2678	1	16	16	2662	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC05	fixed_background	common	654	1	6	6	648	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC05	fixed_background	state_enhanced	654	1	16	16	638	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC06	fixed_background	common	997	1	6	6	991	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC06	fixed_background	state_enhanced	997	1	16	16	981	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC07	fixed_background	common	436	1	6	6	430	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC07	fixed_background	state_enhanced	436	1	15	15	421	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_Tuft;state_UPR
+Ogden_2025	CRC08	fixed_background	common	3323	1	6	6	3317	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC08	fixed_background	state_enhanced	3323	1	18	18	3305	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Enteroendocrine;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC
+Ogden_2025	CRC09	fixed_background	common	1323	1	6	6	1317	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC09	fixed_background	state_enhanced	1323	1	16	16	1307	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC10	fixed_background	common	1500	1	6	6	1494	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC10	fixed_background	state_enhanced	1500	1	18	18	1482	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Enteroendocrine;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC
+Ogden_2025	CRC11	fixed_background	common	952	1	6	6	946	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC11	fixed_background	state_enhanced	952	1	16	16	936	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC12	fixed_background	common	341	1	6	6	335	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC12	fixed_background	state_enhanced	341	1	17	17	324	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC
+Ogden_2025	CRC14	fixed_background	common	1554	1	6	6	1548	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC14	fixed_background	state_enhanced	1554	1	17	17	1537	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Enteroendocrine;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC15	fixed_background	common	729	1	6	6	723	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC15	fixed_background	state_enhanced	729	1	17	17	712	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC
+Ogden_2025	CRC01	target_mean	common	342	1	6	6	336	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC01	target_mean	state_enhanced	342	1	14	14	328	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Hypoxia;state_Intermediate;state_REC;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC02	target_mean	common	706	1	6	6	700	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC02	target_mean	state_enhanced	706	1	17	17	689	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC
+Ogden_2025	CRC03	target_mean	common	452	1	6	6	446	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC03	target_mean	state_enhanced	452	1	17	17	435	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC
+Ogden_2025	CRC04	target_mean	common	2678	1	6	6	2672	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC04	target_mean	state_enhanced	2678	1	16	16	2662	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC05	target_mean	common	654	1	6	6	648	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC05	target_mean	state_enhanced	654	1	16	16	638	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC06	target_mean	common	997	1	6	6	991	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC06	target_mean	state_enhanced	997	1	16	16	981	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC07	target_mean	common	436	1	6	6	430	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC07	target_mean	state_enhanced	436	1	15	15	421	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_Tuft;state_UPR
+Ogden_2025	CRC08	target_mean	common	3323	1	6	6	3317	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC08	target_mean	state_enhanced	3323	1	18	18	3305	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Enteroendocrine;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC
+Ogden_2025	CRC09	target_mean	common	1323	1	6	6	1317	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC09	target_mean	state_enhanced	1323	1	16	16	1307	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC10	target_mean	common	1500	1	6	6	1494	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC10	target_mean	state_enhanced	1500	1	18	18	1482	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Enteroendocrine;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC
+Ogden_2025	CRC11	target_mean	common	952	1	6	6	946	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC11	target_mean	state_enhanced	952	1	16	16	936	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC12	target_mean	common	341	1	6	6	335	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC12	target_mean	state_enhanced	341	1	17	17	324	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC
+Ogden_2025	CRC14	target_mean	common	1554	1	6	6	1548	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC14	target_mean	state_enhanced	1554	1	17	17	1537	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Enteroendocrine;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_UPR;state_iREC
+Ogden_2025	CRC15	target_mean	common	729	1	6	6	723	True	Intercept;log_library;log_genes;RSC;iCMS;E2F
+Ogden_2025	CRC15	target_mean	state_enhanced	729	1	17	17	712	True	Intercept;log_library;log_genes;RSC;iCMS;E2F;state_Goblet;state_Hypoxia;state_Intermediate;state_REC;state_Stem;state_Stem NOTUM;state_TA1;state_TA2;state_Tuft;state_UPR;state_iREC

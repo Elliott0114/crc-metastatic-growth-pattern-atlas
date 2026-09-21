@@ -1,0 +1,34 @@
+[
+  [
+    "dataset",
+    "n_units",
+    "n_REC50_measured",
+    "n_protein18_measured",
+    "spearman_rho",
+    "interpretation"
+  ],
+  [
+    "GSE151165",
+    15.0,
+    48.0,
+    18.0,
+    0.85,
+    "Descriptive patient-level projection agreement"
+  ],
+  [
+    "Ogden_patient_state",
+    88.0,
+    50.0,
+    18.0,
+    0.945581346201261,
+    "Descriptive, correlated patient-state profiles"
+  ],
+  [
+    "GSE159216",
+    160.0,
+    42.0,
+    13.0,
+    0.847380757060823,
+    "Descriptive patient-level projection agreement"
+  ]
+]

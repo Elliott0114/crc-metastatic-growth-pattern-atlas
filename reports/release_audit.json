@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "distributed_files": 500,
+  "text_files_scanned": 495,
+  "compressed_text_scanned": true,
+  "original_project_paths_or_token_patterns_found": [],
+  "symlinks": 0,
+  "files_over_100_mib": 0,
+  "gitignore_distribution_checks_passed": true,
+  "source_analysis_files_unmodified": true,
+  "gse294385_source_annotation_redistributed": false,
+  "largest_file_bytes": 8127226,
+  "redistribution_review": "See THIRD_PARTY_NOTICES.md; source terms are not an MIT grant."
+}

@@ -1,0 +1,102 @@
+[
+  [
+    "table",
+    "sheet",
+    "source",
+    "source_sha256",
+    "rows",
+    "columns",
+    "unit",
+    "operation"
+  ],
+  [
+    8.0,
+    "Same_section_TMM_baseline",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/shared_gene_comparison_TMM.tsv",
+    "a5921583f4ddd02fa18c90afd4569f9e1cdc153cab89668aef57d0391c089eab",
+    24.0,
+    3.0,
+    "gene",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    8.0,
+    "Same_section_library_baseline",
+    "analysis_results/rec_manuscript_reinforcement_2026-09-17/sections/shared_gene_comparison_library_only.tsv",
+    "8d93f4cfcf8b2c4819cfa759855aad5f1368c5cf463a0d4889afbe8ae4d2afd8",
+    24.0,
+    3.0,
+    "gene",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    8.0,
+    "HRC_88_paired_coefficients",
+    "manuscript/rec_figure_redesign_2026-09-20/source_data/panels/Figure_5_C.tsv",
+    "3e5716a4dbee33cb2b29de678744013761cfa7fd6665f358d978d0d59dc79034",
+    88.0,
+    3.0,
+    "frozen gene/specification or diagnostic",
+    "saved panel source; no model refit"
+  ],
+  [
+    8.0,
+    "HRC_programme_test_source",
+    "manuscript/rec_figure_redesign_2026-09-20/source_data/panels/Figure_5_C_programme_tests.tsv",
+    "289282f155624bd10c1bbf122a0b65d160791be0fa1e5ded0b9504e7f28c14ed",
+    2.0,
+    15.0,
+    "frozen gene/specification or diagnostic",
+    "saved panel source; no model refit"
+  ],
+  [
+    8.0,
+    "Complete_8_specifications",
+    "manuscript/rec_figure_redesign_2026-09-20/source_data/panels/Supplementary_Figure_6_A.tsv",
+    "95868b69045b560db46256e163887ab67ab63c4d8f6a078cab80ceafa10c03d1",
+    240.0,
+    14.0,
+    "frozen gene/specification or diagnostic",
+    "saved panel source; no model refit"
+  ],
+  [
+    8.0,
+    "Adjusted_TMM_full_intervals",
+    "manuscript/rec_figure_redesign_2026-09-20/source_data/panels/Supplementary_Figure_6_B.tsv",
+    "98fe70a6049d54854e004d9fe80bacda5c7feb9dc442020ec19a325ce988d4d9",
+    60.0,
+    14.0,
+    "frozen gene/specification or diagnostic",
+    "saved panel source; no model refit"
+  ],
+  [
+    8.0,
+    "Directional_mixed_tests",
+    "manuscript/rec_figure_redesign_2026-09-20/source_data/panels/Supplementary_Figure_6_C.tsv",
+    "5f1d4403b80c92dd9cba1d3ee1a7b5e020f36439254f48cc655e899a1a68d231",
+    16.0,
+    15.0,
+    "frozen gene/specification or diagnostic",
+    "saved panel source; no model refit"
+  ],
+  [
+    8.0,
+    "Panel_VIF",
+    "manuscript/rec_figure_redesign_2026-09-20/source_data/panels/Supplementary_Figure_6_D.tsv",
+    "3fa4288991a68e33c1d24b0d0bcc717cd9630cdfc58fb29969f53e1ab0cc0378",
+    16.0,
+    4.0,
+    "frozen gene/specification or diagnostic",
+    "saved panel source; no model refit"
+  ],
+  [
+    8.0,
+    "Panel_residual_df",
+    "manuscript/rec_figure_redesign_2026-09-20/source_data/panels/Supplementary_Figure_6_D_model_diagnostics.tsv",
+    "13ab059005f1f894d8a55620377670e66cc3f0252871109c47f1cb45623eaf52",
+    8.0,
+    11.0,
+    "frozen gene/specification or diagnostic",
+    "saved panel source; no model refit"
+  ]
+]

@@ -1,0 +1,7 @@
+sample	patient	hgp	retained_spots	tumour_side	connected_tumour	epithelial_high	mask_genes_target_overlap
+Sample1	PT36	rHGP	3827	1276	1276	638	0
+Sample3	PT55	dHGP	4801	1601	1601	801	0
+Sample4	PT68	dHGP	4476	1492	1488	746	0
+Sample5	PT44	rHGP	2484	828	825	414	0
+Sample6	PT54	rHGP	2604	868	863	434	0
+Sample7	PT61	dHGP	3437	1146	1146	573	0

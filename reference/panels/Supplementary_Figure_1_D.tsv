@@ -1,0 +1,13 @@
+k	state	metric	value_type	test	hgp	n_ehgp	n_rhgp	effect	bootstrap_ci_lower	bootstrap_ci_upper	exact_p_two_sided	n_exact_assignments	fdr_bh_across_metrics_within_state	fdr_bh_across_states_within_metric
+5	NC3	dhc_dual_interface	spatial_null_residual	within_hgp_mean_vs_zero	EHGP	7.0	NA	0.0004264696334674	-0.0011643022284132	0.002371782096819	0.75	128	1.0	1.0
+5	NC3	dhc_dual_interface	spatial_null_residual	within_hgp_mean_vs_zero	RHGP	NA	8.0	0.00835805507642	-0.0025339095649104	0.0207076222388117	0.234375	256	0.46875	0.9375
+5	NC3	homotypic_any_neighbour	spatial_null_residual	within_hgp_mean_vs_zero	EHGP	7.0	NA	0.106779382058224	0.0608685818149165	0.1506916733884683	0.015625	128	0.03125	0.03125
+5	NC3	homotypic_any_neighbour	spatial_null_residual	within_hgp_mean_vs_zero	RHGP	NA	8.0	-0.0066047038708528	-0.0219945392443606	0.0058402586213281	0.4609375	256	0.6145833333333334	0.4609375
+10	NC3	dhc_dual_interface	spatial_null_residual	within_hgp_mean_vs_zero	EHGP	7.0	NA	-0.0023881792121643	-0.0120591688818824	0.0042797581492656	0.8125	128	1.0	0.8125
+10	NC3	dhc_dual_interface	spatial_null_residual	within_hgp_mean_vs_zero	RHGP	NA	8.0	0.0154226774070993	-5.3632050285489474e-06	0.0342008463747559	0.140625	256	0.5625	0.5625
+10	NC3	homotypic_any_neighbour	spatial_null_residual	within_hgp_mean_vs_zero	EHGP	7.0	NA	0.0875881871816098	0.0628774141860012	0.1109091140060348	0.015625	128	0.03125	0.0208333333333333
+10	NC3	homotypic_any_neighbour	spatial_null_residual	within_hgp_mean_vs_zero	RHGP	NA	8.0	-0.0067821234685581	-0.0222663417688569	0.0054272530013341	0.453125	256	0.6041666666666666	0.453125
+20	NC3	dhc_dual_interface	spatial_null_residual	within_hgp_mean_vs_zero	EHGP	7.0	NA	-0.0037839899777163	-0.0157405858376207	0.007652559314191	0.578125	128	0.7708333333333334	0.6875
+20	NC3	dhc_dual_interface	spatial_null_residual	within_hgp_mean_vs_zero	RHGP	NA	8.0	0.0127679658074474	-0.0040113242926685	0.0303428342718912	0.21875	256	0.4375	0.875
+20	NC3	homotypic_any_neighbour	spatial_null_residual	within_hgp_mean_vs_zero	EHGP	7.0	NA	0.0565088004359121	0.0232839410750339	0.1029031404256092	0.015625	128	0.03125	0.03125
+20	NC3	homotypic_any_neighbour	spatial_null_residual	within_hgp_mean_vs_zero	RHGP	NA	8.0	-0.004543542474298	-0.0084849274778108	-0.0011640835629425	0.046875	256	0.1875	0.0729166666666666

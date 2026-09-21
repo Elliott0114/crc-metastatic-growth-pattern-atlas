@@ -1,0 +1,110 @@
+[
+  {
+    "module": "state_contrasts",
+    "path": "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_program_effects.tsv",
+    "explanation": "Outside the current artifacts: retained registry includes HEPATOCYTE_CONTEXT_6; historical programme-score exports predate that addition. Gene-level contrasts and the retained GSEA tables are checked independently.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "state_contrasts",
+    "path": "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_direct_state_program_scores.tsv.gz",
+    "explanation": "Outside the current artifacts: retained registry includes HEPATOCYTE_CONTEXT_6; historical programme-score exports predate that addition. Gene-level contrasts and the retained GSEA tables are checked independently.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "regulatory_overlap",
+    "path": "analysis_results/deep_biology_upgrade_2026-08-31/phase2_mechanistic_specificity/ogden_regulatory_junction_bridge/ogden_regulatory_bridge_provenance.tsv",
+    "explanation": "Only the hash of a newly serialized gzip count table differs; decompressed count values are checked independently.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "hgp_display",
+    "path": "analysis_results/rec_program_spatial_display/all_spatial_spots.tsv.gz",
+    "explanation": "Only the absolute image location changes. All other columns and image basenames agree; workbook adapters use portable basenames.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "hgp_display",
+    "path": "analysis_results/rec_program_spatial_display/all_spatial_summary.tsv",
+    "explanation": "Only the absolute image location changes. All other columns and image basenames agree; workbook adapters use portable basenames.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "hgp_display",
+    "path": "analysis_results/rec_program_spatial_display/representative_spatial_spots.tsv.gz",
+    "explanation": "Only the absolute image location changes. All other columns and image basenames agree; workbook adapters use portable basenames.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "hgp_display",
+    "path": "analysis_results/rec_program_spatial_display/representative_spatial_summary.tsv",
+    "explanation": "Only the absolute image location changes. All other columns and image basenames agree; workbook adapters use portable basenames.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "bulk_rec50",
+    "path": "analysis_results/rec_program_gse151165_bulk_projection/endpoint_summary.tsv",
+    "explanation": "Outside the current artifacts: the unused HGP top-15 side output reflects the corrected spatial selection. The frozen REC50 and all other programme outputs agree.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "bulk_rec50",
+    "path": "analysis_results/rec_program_gse151165_bulk_projection/patient_scores.tsv",
+    "explanation": "Outside the current artifacts: the unused HGP top-15 side output reflects the corrected spatial selection. The frozen REC50 and all other programme outputs agree.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "bulk_rec50",
+    "path": "analysis_results/rec_program_gse151165_bulk_projection/program_coverage.tsv",
+    "explanation": "Outside the current artifacts: the unused HGP top-15 side output reflects the corrected spatial selection. The frozen REC50 and all other programme outputs agree.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "latacz",
+    "path": "analysis_results/rec_program_latacz_interface_summary/gene_effects.tsv",
+    "explanation": "The REC50 coefficient rows used by the manuscript agree. Only the unused HGP top-15 side output reflects the corrected spatial selection.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "latacz",
+    "path": "analysis_results/rec_program_latacz_interface_summary/model_summary.tsv",
+    "explanation": "The REC50 coefficient rows used by the manuscript agree. Only the unused HGP top-15 side output reflects the corrected spatial selection.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "historical_bulk",
+    "path": "analysis_results/rec_hgp_focused_revision_2026-09-07/hgp/component_contrasts.tsv",
+    "explanation": "An unused earlier 12-module q-value column was omitted from the selected numerical block; every retained column agrees.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "hgp_counts",
+    "path": "analysis_results/rec_evidence_bridge_2026-09-16/counts/source_hashes.tsv",
+    "explanation": "Runtime hashes correctly describe newly serialized intermediate files; numerical content is checked separately.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "member_summary",
+    "path": "analysis_results/rec_evidence_bridge_2026-09-16/integration/all_junction_members.tsv",
+    "explanation": "Three unused columns from the earlier GATA6/ChIP exploration were excluded from the selected member-summary block. Every retained column agrees; the current GATA6 RNA-seq supplement is independently refitted.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "member_summary",
+    "path": "analysis_results/rec_manuscript_reinforcement_2026-09-17/integration/all_junction_members.tsv",
+    "explanation": "Three unused columns from the earlier GATA6/ChIP exploration were excluded from the selected member-summary block. Every retained column agrees; the current GATA6 RNA-seq supplement is independently refitted.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "gata6",
+    "path": "analysis_results/deep_biology_upgrade_2026-08-31/phase5_gata6_functional_competitor_projection/output_manifest.tsv",
+    "explanation": "A clean first run lists outputs before writing the manifest, so it does not list itself. The historical rerun included its pre-existing output_manifest.tsv; all substantive entries agree.",
+    "scope_check_passed": true
+  },
+  {
+    "module": "serial_selection",
+    "path": "analysis_results/deep_biology_upgrade_2026-08-31/phase6_gata6_serial_metastatic_selection_projection/output_manifest.tsv",
+    "explanation": "A clean first run lists outputs before writing the manifest, so it does not list itself. The historical rerun included its pre-existing output_manifest.tsv; all substantive entries agree.",
+    "scope_check_passed": true
+  }
+]

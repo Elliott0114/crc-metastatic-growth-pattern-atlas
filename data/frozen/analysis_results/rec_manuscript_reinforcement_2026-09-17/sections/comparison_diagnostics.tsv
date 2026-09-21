@@ -1,0 +1,3 @@
+normalization	shared_junction_genes	same_direction	spearman_shared_logFC	residual_df
+TMM	24	23	0.942608695652174	9
+library_only	24	21	0.944347826086956	9

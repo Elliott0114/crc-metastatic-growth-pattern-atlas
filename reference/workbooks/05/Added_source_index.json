@@ -1,0 +1,132 @@
+[
+  [
+    "table",
+    "sheet",
+    "source",
+    "source_sha256",
+    "rows",
+    "columns",
+    "unit",
+    "operation"
+  ],
+  [
+    5.0,
+    "Protein_disjoint_patient_scores",
+    "analysis_results/rec_public_upgrade_2026-09-07/proteomics/disjoint_pair_patient_scores.tsv",
+    "bd1ac49232c265c123f9e6757c33f9f2db27d8b13c18805331500790037642b6",
+    321.0,
+    6.0,
+    "patient/programme pair; shared proteins removed",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    5.0,
+    "Protein_all_correlations",
+    "analysis_results/rec_public_upgrade_2026-09-07/proteomics/disjoint_protein_correlations.tsv",
+    "735fa76400f7462e52b1f980a93f462f5eed7a06dfae725029e9268f5c09451e",
+    32.0,
+    14.0,
+    "centre/specification/programme pair",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    5.0,
+    "Protein_coverage",
+    "analysis_results/rec_public_upgrade_2026-09-07/proteomics/rec50_protein_coverage.tsv",
+    "7eca97fb1ddf491ab7a5e8336a176051f3a7f1dd73eee20dd5569dbb68b81b79",
+    50.0,
+    4.0,
+    "protein/source coverage",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    5.0,
+    "Protein_gene_sets",
+    "analysis_results/rec_public_upgrade_2026-09-07/proteomics/disjoint_protein_gene_sets.tsv",
+    "512c7337ef695f878e1a9398f805b762319e5f1d23ed79c38c39476309712768",
+    245.0,
+    3.0,
+    "protein/programme pair",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    5.0,
+    "Protein_RNA18_concordance",
+    "manuscript/rec_discovery_reinforced_2026-09-17/source_data/preserved_figure_inputs/Supplementary_Figure_7/RNA18_REC50_concordance.tsv",
+    "ad8c9215b052ed122373693b318b4e021596b15ccad01988caefa1f0cdb9c84c",
+    3.0,
+    6.0,
+    "RNA score comparison",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    5.0,
+    "Clinical_Cox_models",
+    "analysis_results/rec_public_upgrade_2026-09-07/clinical/cox_models.tsv",
+    "8ad633b191bfe7e73db49d316249528b8d3696477dd2682ccb9b5168ad48ee71",
+    24.0,
+    21.0,
+    "patient/event; HR per SD, Wald intervals",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    5.0,
+    "Clinical_all_coefficients",
+    "analysis_results/rec_public_upgrade_2026-09-07/clinical/cox_all_coefficients.tsv",
+    "33cbe4152e6d9b29341882cdd457682e9f6bf0bb5bf821c1a28c5217cd575472",
+    42.0,
+    8.0,
+    "model term",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    5.0,
+    "Clinical_curves",
+    "analysis_results/rec_public_upgrade_2026-09-07/clinical/continuous_and_timevarying_effects.tsv",
+    "44b5701c8919e0f04a656b9cf4a20cd02d64f913e107a85201e970686237a86c",
+    366.0,
+    8.0,
+    "original score/time display grid",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    5.0,
+    "Clinical_sample_manifest",
+    "analysis_results/rec_public_upgrade_2026-09-07/clinical/sample_patient_manifest.tsv",
+    "9e0a80f6cbc4d99a2806a6b41f8cc90efdd3ff9f219cd8997bc473f4e66d8a8b",
+    283.0,
+    40.0,
+    "public representative patient/sample",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    5.0,
+    "Clinical_patient_flow",
+    "analysis_results/rec_public_upgrade_2026-09-07/clinical/patient_flow.tsv",
+    "5bfa5d184c066bd9cde9fdc4fd1ff1ca00ddec538578570e08f3fb14f6fa606e",
+    5.0,
+    2.0,
+    "patient flow",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    5.0,
+    "Clinical_sampling_sensitivity",
+    "analysis_results/rec_public_upgrade_2026-09-07/clinical/sampling_sensitivity_mapping.tsv",
+    "a7bc30f04bdafbea7088eceae775d5fe707f8a06e6de7fa5a33cfcaf51cedccd",
+    160.0,
+    6.0,
+    "index/alternative sample mapping",
+    "copy existing numerical result; no model refit"
+  ],
+  [
+    5.0,
+    "Clinical_PH_tests",
+    "analysis_results/rec_public_upgrade_2026-09-07/clinical/proportional_hazards.tsv",
+    "6560f73aae4f280cba88132b981898b34aee700b1ee00a7b549f8bbb5b9ab4e3",
+    38.0,
+    6.0,
+    "model/term",
+    "copy existing numerical result; no model refit"
+  ]
+]

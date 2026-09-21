@@ -1,0 +1,2426 @@
+[
+  [
+    "fit",
+    "metafor_tau2",
+    "independent_tau2",
+    "objective_difference",
+    "numerical_refit",
+    "warning"
+  ],
+  [
+    "fixed_background common Claudin_minus_Polarity",
+    0.0010532688344345,
+    0.001053218472698,
+    2.79758438637145e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common Claudin_minus_Polarity omit Che_2021_Cell_Discov",
+    0.0014701062685666,
+    0.001470563954809,
+    1.34210580426952e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common Claudin_minus_Polarity omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common Claudin_minus_Polarity omit Liu_2024_Cancer_Res",
+    0.0023986726899197,
+    0.0023986726899197,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common Claudin_minus_Polarity omit Sathe_2023_Clin_Cancer_Res",
+    0.0008529894405731,
+    0.0008529894405731,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common Claudin_minus_Polarity omit Wang_2023_Sci_Adv",
+    0.0013803704104785,
+    0.0013803934057648,
+    4.06492617344156e-11,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common Claudin",
+    0.001854290367249,
+    0.001854290367249,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common Claudin omit Che_2021_Cell_Discov",
+    0.0007291072679897,
+    0.0007292785618105,
+    3.82008735755335e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common Claudin omit Giguelay_2022_Theranostics",
+    0.0027954528857705,
+    0.0027954528857705,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common Claudin omit Liu_2024_Cancer_Res",
+    0.004070338244215,
+    0.0040699437067286,
+    1.9674954998549802e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common Claudin omit Sathe_2023_Clin_Cancer_Res",
+    0.0015579530732609,
+    0.001557619642029,
+    5.49430723140176e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common Claudin omit Wang_2023_Sci_Adv",
+    0.0027936713336062,
+    0.0027936713336062,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common Polarity",
+    0.0038658840736088,
+    0.0038658840736088,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common Polarity omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common Polarity omit Giguelay_2022_Theranostics",
+    0.003705234196012,
+    0.003705234196012,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common Polarity omit Liu_2024_Cancer_Res",
+    0.0049450838422034,
+    0.0049457741041278,
+    1.1581151149187e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common Polarity omit Sathe_2023_Clin_Cancer_Res",
+    0.0043471783978486,
+    0.0043467432392975,
+    6.676473596201051e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common Polarity omit Wang_2023_Sci_Adv",
+    0.0051896183921988,
+    0.005188594494206,
+    2.39344810637476e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin_minus_Polarity",
+    0.0003392040497361,
+    0.0003395383291725,
+    3.6719145057873e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin_minus_Polarity omit Che_2021_Cell_Discov",
+    0.0009321958632911,
+    0.0009323691824892,
+    3.79315689968962e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin_minus_Polarity omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin_minus_Polarity omit Liu_2024_Cancer_Res",
+    0.0009948238872171,
+    0.0009943968087483,
+    2.39574076132953e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin_minus_Polarity omit Sathe_2023_Clin_Cancer_Res",
+    0.0001291617212974,
+    0.0001291617212974,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin_minus_Polarity omit Wang_2023_Sci_Adv",
+    0.0005334836669689,
+    0.0005334836669689,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin",
+    0.0031146027253639,
+    0.003115639126032,
+    3.6678651227362e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin omit Giguelay_2022_Theranostics",
+    0.0051750092479369,
+    0.0051750117272061,
+    9.68114477473137e-14,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin omit Liu_2024_Cancer_Res",
+    0.0048222837792474,
+    0.0048222659851432,
+    4.51727544259484e-12,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin omit Sathe_2023_Clin_Cancer_Res",
+    0.0030350512618608,
+    0.0030355831879951,
+    7.7502768647264e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Claudin omit Wang_2023_Sci_Adv",
+    0.0041029787101768,
+    0.0041017050480753,
+    3.14909494036897e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Polarity",
+    0.0023963175323491,
+    0.0023963175323491,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common Polarity omit Che_2021_Cell_Discov",
+    0.0001460610127417,
+    0.0001460610127417,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common Polarity omit Giguelay_2022_Theranostics",
+    0.0027128008193473,
+    0.0027121626601057,
+    1.31610029541207e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Polarity omit Liu_2024_Cancer_Res",
+    0.0043067276978897,
+    0.0043065050045495,
+    9.97199656183057e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common Polarity omit Sathe_2023_Clin_Cancer_Res",
+    0.0033902547783881,
+    0.0033902547783881,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common Polarity omit Wang_2023_Sci_Adv",
+    0.0039387784197567,
+    0.0039377431651777,
+    2.53408360961771e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN1",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN1 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN1 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN1 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN1 omit Sathe_2023_Clin_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN1 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN10",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN10 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN10 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN10 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN10 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN11",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN11 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN11 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN11 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN12",
+    0.0005270287977168,
+    0.0005270287977168,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN12 omit Che_2021_Cell_Discov",
+    0.0004800446505966,
+    0.0004800446505966,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN12 omit Giguelay_2022_Theranostics",
+    0.0002452198462944,
+    0.0002452198462944,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN12 omit Liu_2024_Cancer_Res",
+    0.0010530458903639,
+    0.001052797918369,
+    1.60891149292297e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN12 omit Sathe_2023_Clin_Cancer_Res",
+    0.0008433109961503,
+    0.000842886525839,
+    6.23046583214659e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN12 omit Wang_2023_Sci_Adv",
+    0.0001572145065662,
+    0.0001572145065662,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN14",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN14 omit Giguelay_2022_Theranostics",
+    0.0008214802249594,
+    0.0008214802242967,
+    4.44089209850063e-16,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN14 omit Liu_2024_Cancer_Res",
+    0.0001003860774327,
+    0.0001003860973287,
+    8.881784197001249e-16,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN14 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN15",
+    0.0001489278801609,
+    0.0001487861671152,
+    6.07084373882572e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN15 omit Che_2021_Cell_Discov",
+    0.0001726825146036,
+    0.0001726768919785,
+    7.953815384098559e-11,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN15 omit Giguelay_2022_Theranostics",
+    0.0001469273472318,
+    0.0001469273472318,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN15 omit Liu_2024_Cancer_Res",
+    0.0002393945004679,
+    0.0002395641033745,
+    3.02390725792634e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN15 omit Sathe_2023_Clin_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN15 omit Wang_2023_Sci_Adv",
+    0.0003825676097298,
+    0.0003825676097298,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN16",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN16 omit Che_2021_Cell_Discov",
+    7.69395745426332e-06,
+    7.69395745426332e-06,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN16 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN16 omit Liu_2024_Cancer_Res",
+    1.42086783208947e-05,
+    1.42086783208947e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN16 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN19",
+    0.0006871677797382,
+    0.0006871677970257,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN2",
+    0.0029666562052802,
+    0.0029670399627041,
+    6.680647146595221e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN2 omit Che_2021_Cell_Discov",
+    0.0037335967684692,
+    0.0037320140374323,
+    6.27018827970005e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN2 omit Giguelay_2022_Theranostics",
+    0.0041624881236603,
+    0.0041633825446691,
+    1.32596849056199e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN2 omit Liu_2024_Cancer_Res",
+    0.0048817108946838,
+    0.0048813535748381,
+    2.1055983623341502e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN2 omit Sathe_2023_Clin_Cancer_Res",
+    0.0012097242419673,
+    0.0012099733668166,
+    8.44455083637286e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN2 omit Wang_2023_Sci_Adv",
+    0.0021341657732235,
+    0.0021342114536105,
+    1.73848491158424e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN23",
+    0.0009871665847362,
+    0.0009876248779993,
+    6.2155276481235e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN23 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN23 omit Giguelay_2022_Theranostics",
+    0.001566538375771,
+    0.0015665151274395,
+    5.65369973060115e-11,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN23 omit Liu_2024_Cancer_Res",
+    0.0014720726717882,
+    0.00147227978716,
+    4.03536137838501e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN23 omit Wang_2023_Sci_Adv",
+    0.0009005484733167,
+    0.0009005484733167,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN3",
+    0.0051240522647677,
+    0.0051241897384104,
+    3.16466852723352e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN3 omit Che_2021_Cell_Discov",
+    0.0033993102283913,
+    0.0033989309397471,
+    3.6850451579084603e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN3 omit Giguelay_2022_Theranostics",
+    0.005522922073148,
+    0.0055230038708758,
+    6.702016719373209e-11,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN3 omit Liu_2024_Cancer_Res",
+    0.0074492085834739,
+    0.0074491836595753,
+    4.2694736634984996e-12,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN3 omit Sathe_2023_Clin_Cancer_Res",
+    0.0038681958168944,
+    0.0038681782393862,
+    5.55377965838488e-12,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN3 omit Wang_2023_Sci_Adv",
+    0.0058930126390926,
+    0.0058925682035841,
+    2.2865860316301202e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN4",
+    0.0111155541908691,
+    0.0111145404363859,
+    4.15437995116008e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN4 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN4 omit Giguelay_2022_Theranostics",
+    0.0165898290817855,
+    0.016589440715035,
+    2.5311974738428903e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN4 omit Liu_2024_Cancer_Res",
+    0.0152395872056028,
+    0.015239271473574,
+    1.84630977173583e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN4 omit Sathe_2023_Clin_Cancer_Res",
+    0.0140144874685504,
+    0.0140138693080995,
+    8.72650396388508e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN4 omit Wang_2023_Sci_Adv",
+    0.016257522961344,
+    0.0162571672179259,
+    2.19260609668481e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN5",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN5 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN5 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN5 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN6",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN6 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN6 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN6 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN6 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN7",
+    0.0074509504672618,
+    0.007450460112015,
+    2.7151365600275304e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN7 omit Che_2021_Cell_Discov",
+    0.0084946543121914,
+    0.0084945712865807,
+    4.892886096286019e-11,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN7 omit Giguelay_2022_Theranostics",
+    0.0091826969020208,
+    0.0091836758849611,
+    4.744392434474781e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN7 omit Liu_2024_Cancer_Res",
+    0.0108594324385505,
+    0.0108600465107412,
+    1.6148211656741302e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN7 omit Sathe_2023_Clin_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN7 omit Wang_2023_Sci_Adv",
+    0.0075776492100857,
+    0.0075785341729239,
+    7.460577933215971e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN8",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN9",
+    0.0009811583822063,
+    0.0009811583822063,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN9 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN9 omit Giguelay_2022_Theranostics",
+    0.0018424919737607,
+    0.0018424919737607,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN9 omit Liu_2024_Cancer_Res",
+    0.000982158885223,
+    0.000981543038463,
+    5.56396031470285e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CLDN9 omit Wang_2023_Sci_Adv",
+    0.0007149525560135,
+    0.0007149525560135,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common CRB3",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CRB3 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CRB3 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CRB3 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CRB3 omit Sathe_2023_Clin_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common CRB3 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common F11R",
+    0.0005614741753168,
+    0.0005614741753168,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common F11R omit Che_2021_Cell_Discov",
+    0.0006026736792608,
+    0.0006026403703817,
+    3.73370667716699e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common F11R omit Giguelay_2022_Theranostics",
+    0.0008040137693158,
+    0.0008034605095339,
+    5.57455859251377e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common F11R omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common F11R omit Sathe_2023_Clin_Cancer_Res",
+    0.0005981903958067,
+    0.0005981903958067,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common F11R omit Wang_2023_Sci_Adv",
+    0.000578722308587,
+    0.000578722308587,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PALS1",
+    0.0003104750778261,
+    0.0003104750778261,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PALS1 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PALS1 omit Giguelay_2022_Theranostics",
+    0.0008543004668678,
+    0.0008537887398795,
+    8.08918283468074e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PALS1 omit Liu_2024_Cancer_Res",
+    0.0004421842813154,
+    0.0004418336728557,
+    5.84749795251582e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PALS1 omit Sathe_2023_Clin_Cancer_Res",
+    0.0002908913467852,
+    0.0002908913467852,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PALS1 omit Wang_2023_Sci_Adv",
+    0.0006601661020095,
+    0.0006601661020095,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD3",
+    0.000128733423037,
+    0.000128733423037,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD3 omit Che_2021_Cell_Discov",
+    5.20385274795396e-05,
+    5.20385274795396e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD3 omit Giguelay_2022_Theranostics",
+    0.0002996811877403,
+    0.0002996811877403,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD3 omit Liu_2024_Cancer_Res",
+    0.0004774796415367,
+    0.0004774796415367,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD3 omit Sathe_2023_Clin_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD3 omit Wang_2023_Sci_Adv",
+    0.0004929825883624,
+    0.0004929825883624,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6A",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6A omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6A omit Giguelay_2022_Theranostics",
+    6.58033343023539e-05,
+    6.58033343023539e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6A omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6A omit Sathe_2023_Clin_Cancer_Res",
+    3.31326514908379e-06,
+    3.27215270293145e-06,
+    2.70972293492378e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6A omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6B",
+    0.0049171654327962,
+    0.0049171654327962,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6B omit Che_2021_Cell_Discov",
+    0.0013958846951286,
+    0.0013958846951286,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6B omit Giguelay_2022_Theranostics",
+    0.0030009369610391,
+    0.0030009369610391,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6B omit Liu_2024_Cancer_Res",
+    0.0067809697897326,
+    0.0067800898979324,
+    1.01140793518084e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6B omit Sathe_2023_Clin_Cancer_Res",
+    0.0062196957242581,
+    0.0062202706721606,
+    5.169488836997971e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6B omit Wang_2023_Sci_Adv",
+    0.0060431487758808,
+    0.0060433249971037,
+    5.12079267878107e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6G",
+    1.32095644662476e-05,
+    1.32095644662476e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6G omit Giguelay_2022_Theranostics",
+    6.71170697588048e-05,
+    6.71170793913452e-05,
+    4.44089209850063e-16,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6G omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PARD6G omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PATJ",
+    0.0013384201118188,
+    0.0013384201118188,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PATJ omit Che_2021_Cell_Discov",
+    0.0006247517798919,
+    0.0006247517798919,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PATJ omit Giguelay_2022_Theranostics",
+    0.0013281383964953,
+    0.0013281383964953,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PATJ omit Liu_2024_Cancer_Res",
+    0.002689396685965,
+    0.0026888251384275,
+    1.54628434501092e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PATJ omit Sathe_2023_Clin_Cancer_Res",
+    0.0021789291753864,
+    0.0021789291753864,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PATJ omit Wang_2023_Sci_Adv",
+    0.0007193258694939,
+    0.0007193258694939,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PRKCI",
+    0.0012818444641429,
+    0.0012818444641429,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PRKCI omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PRKCI omit Giguelay_2022_Theranostics",
+    0.0014994980527288,
+    0.0014988378097076,
+    5.20581284746413e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PRKCI omit Liu_2024_Cancer_Res",
+    0.0021034661093434,
+    0.0021033108613279,
+    2.0376749176875803e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "fixed_background common PRKCI omit Sathe_2023_Clin_Cancer_Res",
+    0.0018366030736668,
+    0.0018366030736668,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "fixed_background common PRKCI omit Wang_2023_Sci_Adv",
+    0.0020415981605761,
+    0.0020411678213873,
+    1.63976974221214e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN1",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN1 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN1 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN1 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN1 omit Sathe_2023_Clin_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN1 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN10",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN10 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN10 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN10 omit Liu_2024_Cancer_Res",
+    0.0003831521514518,
+    0.0003831521514518,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN10 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN11",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN11 omit Giguelay_2022_Theranostics",
+    0.0001505957995949,
+    0.0001505957945649,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN11 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN11 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN12",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN12 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN12 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN12 omit Liu_2024_Cancer_Res",
+    0.0002242587326851,
+    0.0002242587326851,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN12 omit Sathe_2023_Clin_Cancer_Res",
+    0.0002398526947715,
+    0.0002398526947715,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN12 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN14",
+    6.03272146026808e-05,
+    6.03272146026808e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN14 omit Giguelay_2022_Theranostics",
+    0.0012129237964076,
+    0.0012129237636752,
+    8.881784197001249e-16,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN14 omit Liu_2024_Cancer_Res",
+    0.0001274366028849,
+    0.00012743662182,
+    4.44089209850063e-16,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN14 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN15",
+    0.0006366223037571,
+    0.0006366223037571,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN15 omit Che_2021_Cell_Discov",
+    0.0007058890685094,
+    0.0007058890685094,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN15 omit Giguelay_2022_Theranostics",
+    0.0006403348399511,
+    0.0006403348399511,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN15 omit Liu_2024_Cancer_Res",
+    0.0008154546201016,
+    0.0008154546201016,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN15 omit Sathe_2023_Clin_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN15 omit Wang_2023_Sci_Adv",
+    0.0008710048382048,
+    0.0008710048382048,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN16",
+    8.7633734367951e-06,
+    8.7633734367951e-06,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN16 omit Che_2021_Cell_Discov",
+    2.84090165492024e-05,
+    2.84090165492024e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN16 omit Giguelay_2022_Theranostics",
+    6.6760245099326e-05,
+    6.6760245099326e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN16 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN16 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN19",
+    0.0004675113552504,
+    0.0004675113558548,
+    4.44089209850063e-16,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN2",
+    0.0008308466392268,
+    0.0008308466392268,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN2 omit Che_2021_Cell_Discov",
+    0.0004086602967665,
+    0.0004086602967665,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN2 omit Giguelay_2022_Theranostics",
+    0.0032704906932308,
+    0.0032684838154446,
+    7.44341548397642e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN2 omit Liu_2024_Cancer_Res",
+    0.0017724162266232,
+    0.0017724162266232,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN2 omit Sathe_2023_Clin_Cancer_Res",
+    0.0014584665010842,
+    0.0014584665010842,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN2 omit Wang_2023_Sci_Adv",
+    0.000298281319608,
+    0.000298281319608,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN23",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN23 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN23 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN23 omit Liu_2024_Cancer_Res",
+    3.3883513631261e-05,
+    3.38835153097671e-05,
+    1.77635683940025e-15,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN23 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN3",
+    0.0023143675537275,
+    0.0023138300862027,
+    1.89733508904055e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN3 omit Che_2021_Cell_Discov",
+    0.0006361989899356,
+    0.0006369382400312,
+    5.27786960802246e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN3 omit Giguelay_2022_Theranostics",
+    0.0028866684832537,
+    0.0028862415459683,
+    7.3387251831036304e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN3 omit Liu_2024_Cancer_Res",
+    0.0028419427667345,
+    0.0028420032265955,
+    1.11976206085274e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN3 omit Sathe_2023_Clin_Cancer_Res",
+    0.0022256038147347,
+    0.002225708992812,
+    5.73251668356534e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN3 omit Wang_2023_Sci_Adv",
+    0.0023992823993615,
+    0.0023996180012881,
+    6.19506845822571e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN4",
+    0.0100555831235207,
+    0.0100557898282898,
+    2.47361242600164e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN4 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN4 omit Giguelay_2022_Theranostics",
+    0.0133978382494934,
+    0.0133980500729873,
+    1.23439924948343e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN4 omit Liu_2024_Cancer_Res",
+    0.0124112969575194,
+    0.0124121783626169,
+    2.2577610891971703e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN4 omit Sathe_2023_Clin_Cancer_Res",
+    0.0134513857251369,
+    0.0134513706069684,
+    6.399325513939399e-13,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN4 omit Wang_2023_Sci_Adv",
+    0.0124317425756091,
+    0.0124314072816016,
+    3.6421532456643004e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN5",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN5 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN5 omit Liu_2024_Cancer_Res",
+    6.93594739371587e-05,
+    6.93594783468997e-05,
+    8.881784197001249e-16,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN5 omit Wang_2023_Sci_Adv",
+    4.33608102360168e-05,
+    4.336079863543e-05,
+    8.881784197001249e-16,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN6",
+    2.92187460652423e-05,
+    2.92187460652423e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN6 omit Che_2021_Cell_Discov",
+    3.37764636670819e-05,
+    3.37764636670819e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN6 omit Giguelay_2022_Theranostics",
+    3.89415750461669e-05,
+    3.89415750461669e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN6 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN6 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN7",
+    0.0009737730773999,
+    0.0009737730773999,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN7 omit Che_2021_Cell_Discov",
+    0.003279322357863,
+    0.003279322357863,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN7 omit Giguelay_2022_Theranostics",
+    0.0035353157819651,
+    0.003532210022286,
+    8.59299049693618e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN7 omit Liu_2024_Cancer_Res",
+    0.004650682117431,
+    0.0046488970520929,
+    2.57171155482183e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN7 omit Sathe_2023_Clin_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN7 omit Wang_2023_Sci_Adv",
+    0.0018800472576777,
+    0.0018800472576777,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN8",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN9",
+    0.0009937819348264,
+    0.0009937819348264,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN9 omit Che_2021_Cell_Discov",
+    0.0006112198572777,
+    0.0006112198572777,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN9 omit Giguelay_2022_Theranostics",
+    0.0015046501314523,
+    0.0015042620379021,
+    2.22143095029992e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN9 omit Liu_2024_Cancer_Res",
+    4.57284698791055e-05,
+    4.57289037885423e-05,
+    3.5527136788005e-13,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CLDN9 omit Wang_2023_Sci_Adv",
+    0.0010428029589885,
+    0.0010428029589885,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common CRB3",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CRB3 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CRB3 omit Giguelay_2022_Theranostics",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CRB3 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CRB3 omit Sathe_2023_Clin_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common CRB3 omit Wang_2023_Sci_Adv",
+    9.78981494054916e-05,
+    9.78981494054916e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common F11R",
+    0.0005130734088678,
+    0.0005130772643531,
+    7.43760608656885e-12,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common F11R omit Che_2021_Cell_Discov",
+    0.0005521066373727,
+    0.0005520038716247,
+    4.6098644901349e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common F11R omit Giguelay_2022_Theranostics",
+    0.0008883523161868,
+    0.0008876970534636,
+    8.38580431761216e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common F11R omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common F11R omit Sathe_2023_Clin_Cancer_Res",
+    0.000459844401652,
+    0.000459844401652,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common F11R omit Wang_2023_Sci_Adv",
+    0.0005067300762055,
+    0.0005064769095687,
+    2.84636323399923e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PALS1",
+    3.74371112948216e-05,
+    3.74371112948216e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PALS1 omit Che_2021_Cell_Discov",
+    6.69453395901252e-06,
+    6.69453395901252e-06,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PALS1 omit Giguelay_2022_Theranostics",
+    0.0001873707211348,
+    0.0001873707211348,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PALS1 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PALS1 omit Sathe_2023_Clin_Cancer_Res",
+    5.5129089752863e-05,
+    5.5129089752863e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PALS1 omit Wang_2023_Sci_Adv",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD3",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PARD3 omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD3 omit Giguelay_2022_Theranostics",
+    9.89814085418608e-05,
+    9.89814085418608e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PARD3 omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PARD3 omit Sathe_2023_Clin_Cancer_Res",
+    6.46053453066927e-05,
+    6.46053453066927e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PARD3 omit Wang_2023_Sci_Adv",
+    0.0001765533052664,
+    0.0001765533052664,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6A",
+    0.0012532417804698,
+    0.0012532430989199,
+    7.31859017832903e-13,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6A omit Che_2021_Cell_Discov",
+    0.0008072835572213,
+    0.0008074712497469,
+    2.41956428226331e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6A omit Giguelay_2022_Theranostics",
+    0.0018031780679094,
+    0.0018031306258825,
+    3.93262311604303e-10,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6A omit Liu_2024_Cancer_Res",
+    0.0017417945628927,
+    0.00174216260333,
+    2.49871785484856e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6A omit Sathe_2023_Clin_Cancer_Res",
+    0.000268184205994,
+    0.000268184205994,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6A omit Wang_2023_Sci_Adv",
+    0.001656098959578,
+    0.001655462706187,
+    8.25694934647459e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6B",
+    0.0037542575038219,
+    0.0037544317229683,
+    1.2486900402564102e-09,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6B omit Che_2021_Cell_Discov",
+    0.0018624920060421,
+    0.0018631561127063,
+    4.45786039193763e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6B omit Giguelay_2022_Theranostics",
+    0.0010369101302318,
+    0.0010369101302318,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6B omit Liu_2024_Cancer_Res",
+    0.0056045927927967,
+    0.0056036021998016,
+    1.59599480298311e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6B omit Sathe_2023_Clin_Cancer_Res",
+    0.0050673366270605,
+    0.0050673258925539,
+    2.1547208461924998e-12,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6B omit Wang_2023_Sci_Adv",
+    0.0048142545029693,
+    0.0048142810541371,
+    1.4477308241112001e-11,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6G",
+    0.0001697458559792,
+    0.0001697458559792,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6G omit Giguelay_2022_Theranostics",
+    0.0002247744893503,
+    0.0002247744966511,
+    4.44089209850063e-16,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6G omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PARD6G omit Wang_2023_Sci_Adv",
+    0.0001643041459805,
+    0.0001643041455524,
+    4.44089209850063e-16,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PATJ",
+    2.03950155903425e-05,
+    2.03950155903425e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PATJ omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PATJ omit Giguelay_2022_Theranostics",
+    3.78624597490023e-05,
+    3.78624597490023e-05,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PATJ omit Liu_2024_Cancer_Res",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "Fisher scoring algorithm may have gotten stuck at a local maximum.\nSetting tau^2 = 0. Check the profile likelihood plot with profile()."
+  ],
+  [
+    "target_mean common PATJ omit Sathe_2023_Clin_Cancer_Res",
+    0.0016823999130165,
+    0.0016823999130165,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PATJ omit Wang_2023_Sci_Adv",
+    2.29880305456884e-06,
+    2.29880305456884e-06,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PRKCI",
+    0.0005121906956652,
+    0.0005121906956652,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PRKCI omit Che_2021_Cell_Discov",
+    0.0,
+    0.0,
+    0.0,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PRKCI omit Giguelay_2022_Theranostics",
+    0.0003999295879453,
+    0.0003999295879453,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PRKCI omit Liu_2024_Cancer_Res",
+    0.0007702602149063,
+    0.0007700688039085,
+    1.90326057136758e-08,
+    "False",
+    "NA"
+  ],
+  [
+    "target_mean common PRKCI omit Sathe_2023_Clin_Cancer_Res",
+    0.0006651705962736,
+    0.0006651705962736,
+    0.0,
+    "True",
+    "NA"
+  ],
+  [
+    "target_mean common PRKCI omit Wang_2023_Sci_Adv",
+    0.0007716716902905,
+    0.0007714634479354,
+    2.24402079140873e-08,
+    "False",
+    "NA"
+  ]
+]

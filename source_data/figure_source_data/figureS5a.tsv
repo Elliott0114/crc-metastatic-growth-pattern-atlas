@@ -1,5 +1,0 @@
-dataset	outcome_component	covariate_component	adjusted_effect	exact_p_two_sided	n_assignments	component_correlation	dataset_label	p_label
-GSE151165 bulk tumour	REC non-hypoxia component	REC–hypoxia overlap	0.478497369053329	0.000799200799200799	5005	0.382030662928412	HGP-labelled bulk	P = 8.0e-04
-GSE151165 bulk tumour	REC–hypoxia overlap	REC non-hypoxia component	0.302309962670197	0.40959040959041	5005	0.382030662928412	HGP-labelled bulk	P = 0.410
-GSE294385 paired lesion regions	REC non-hypoxia component	REC–hypoxia overlap	0.0713461989078295	0.328125	2048	0.786349011655732	Macro vs micro	P = 0.328
-GSE294385 paired lesion regions	REC–hypoxia overlap	REC non-hypoxia component	0.105404759108318	0.5390625	2048	0.786349011655732	Macro vs micro	P = 0.539

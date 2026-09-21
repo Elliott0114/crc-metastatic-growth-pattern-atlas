@@ -1,2 +1,0 @@
-sample	patient	hgp	image_path	pixels_per_micrometre	n_retained_spots	n_liver_like	n_near_interface_tumour	n_deep_tumour	n_other_tumour_side	shared_spot_source
-Sample3	PT55	dHGP	E-MTAB-12043/Sample3/outs/spatial/tissue_hires_image.png	0.295651822720259	4801	1601	1366	235	0	figureS4_spots.tsv.gz

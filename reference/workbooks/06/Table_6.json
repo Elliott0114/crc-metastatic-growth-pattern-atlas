@@ -1,0 +1,512 @@
+[
+  [
+    "Analysis",
+    "Programme or gene",
+    "Comparison or adjustment",
+    "Sample size",
+    "Effect measure",
+    "Estimate (95% CI)",
+    "P",
+    "Adjusted P / FDR"
+  ],
+  [
+    "MRTX1133",
+    "REC50",
+    "Treated − vehicle",
+    "5 vs 3 mice",
+    "Score difference",
+    "-0.2173 [-0.6297, 0.206]",
+    "0.4464",
+    "0.6633"
+  ],
+  [
+    "MRTX1133",
+    "RSC",
+    "Treated − vehicle",
+    "5 vs 3 mice",
+    "Score difference",
+    "-0.53 [-0.7125, -0.3253]",
+    "0.01786",
+    "0.1786"
+  ],
+  [
+    "MRTX1133",
+    "CBC",
+    "Treated − vehicle",
+    "5 vs 3 mice",
+    "Score difference",
+    "0.04365 [-0.2594, 0.3397]",
+    "0.8214",
+    "0.8214"
+  ],
+  [
+    "MRTX1133",
+    "MAPK",
+    "Treated − vehicle",
+    "5 vs 3 mice",
+    "Score difference",
+    "-0.3771 [-0.7474, 0.04444]",
+    "0.2679",
+    "0.5357"
+  ],
+  [
+    "MRTX1133",
+    "WNT",
+    "Treated − vehicle",
+    "5 vs 3 mice",
+    "Score difference",
+    "-0.1768 [-0.494, 0.1011]",
+    "0.4643",
+    "0.6633"
+  ],
+  [
+    "MRTX1133",
+    "HRC",
+    "Treated − vehicle",
+    "5 vs 3 mice",
+    "Score difference",
+    "-0.5523 [-0.8407, -0.2384]",
+    "0.05357",
+    "0.2679"
+  ],
+  [
+    "MRTX1133",
+    "Tight junction",
+    "Treated − vehicle",
+    "5 vs 3 mice",
+    "Score difference",
+    "-0.1845 [-0.4473, 0.05998]",
+    "0.2679",
+    "0.5357"
+  ],
+  [
+    "MRTX1133",
+    "Five-gene junction subset",
+    "Treated − vehicle",
+    "5 vs 3 mice",
+    "Score difference",
+    "-0.6349 [-1.519, 0.1346]",
+    "0.2679",
+    "0.5357"
+  ],
+  [
+    "MRTX1133",
+    "E2F",
+    "Treated − vehicle",
+    "5 vs 3 mice",
+    "Score difference",
+    "0.1543 [-0.3413, 0.6969]",
+    "0.6964",
+    "0.7738"
+  ],
+  [
+    "MRTX1133",
+    "G2M",
+    "Treated − vehicle",
+    "5 vs 3 mice",
+    "Score difference",
+    "0.1926 [-0.1614, 0.5962]",
+    "0.5893",
+    "0.7366"
+  ],
+  [
+    "Plexin B2",
+    "REC50",
+    "Treated − vehicle",
+    "1 vs 1 libraries",
+    "Mean difference",
+    "0.01239",
+    "—",
+    "—"
+  ],
+  [
+    "Plexin B2",
+    "Tight junction",
+    "Treated − vehicle",
+    "1 vs 1 libraries",
+    "Mean difference",
+    "-0.005437",
+    "—",
+    "—"
+  ],
+  [
+    "Plexin B2",
+    "HRC",
+    "Treated − vehicle",
+    "1 vs 1 libraries",
+    "Mean difference",
+    "-0.03432",
+    "—",
+    "—"
+  ],
+  [
+    "Plexin B2",
+    "Partial EMT",
+    "Treated − vehicle",
+    "1 vs 1 libraries",
+    "Mean difference",
+    "-0.01087",
+    "—",
+    "—"
+  ],
+  [
+    "Plexin B2",
+    "E2F",
+    "Treated − vehicle",
+    "1 vs 1 libraries",
+    "Mean difference",
+    "-0.006301",
+    "—",
+    "—"
+  ],
+  [
+    "Plexin B2",
+    "G2M",
+    "Treated − vehicle",
+    "1 vs 1 libraries",
+    "Mean difference",
+    "-0.01784",
+    "—",
+    "—"
+  ],
+  [
+    "Plexin B2",
+    "Actin turnover",
+    "Treated − vehicle",
+    "1 vs 1 libraries",
+    "Mean difference",
+    "-0.03935",
+    "—",
+    "—"
+  ],
+  [
+    "Plexin B2",
+    "Five-gene junction subset (post hoc)",
+    "Treated − vehicle",
+    "1 vs 1 libraries",
+    "Mean difference",
+    "0.06972",
+    "—",
+    "—"
+  ],
+  [
+    "Plexin B2",
+    "REC50 without shared junction genes",
+    "Treated − vehicle",
+    "1 vs 1 libraries",
+    "Mean difference",
+    "0.008635",
+    "—",
+    "—"
+  ],
+  [
+    "Plexin B2",
+    "Junction without shared REC50 genes",
+    "Treated − vehicle",
+    "1 vs 1 libraries",
+    "Mean difference",
+    "-0.01259",
+    "—",
+    "—"
+  ],
+  [
+    "GATA6 loss",
+    "REC50",
+    "GATA6 knockout − control",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.8659",
+    "—",
+    "—"
+  ],
+  [
+    "GATA6 loss",
+    "HRC",
+    "GATA6 knockout − control",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.7116",
+    "—",
+    "—"
+  ],
+  [
+    "GATA6 loss",
+    "Published fetal-like programme",
+    "GATA6 knockout − control",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.1897",
+    "—",
+    "—"
+  ],
+  [
+    "GATA6 loss",
+    "Partial EMT",
+    "GATA6 knockout − control",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.5764",
+    "—",
+    "—"
+  ],
+  [
+    "GATA6 loss",
+    "EMT",
+    "GATA6 knockout − control",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.2358",
+    "—",
+    "—"
+  ],
+  [
+    "GATA6 loss",
+    "Tight junction",
+    "GATA6 knockout − control",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.9866",
+    "—",
+    "—"
+  ],
+  [
+    "GATA6 loss",
+    "Five-gene junction subset",
+    "GATA6 knockout − control",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-1.709",
+    "—",
+    "—"
+  ],
+  [
+    "GATA6 loss",
+    "Actin turnover",
+    "GATA6 knockout − control",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.1604",
+    "—",
+    "—"
+  ],
+  [
+    "GATA6 loss",
+    "E2F",
+    "GATA6 knockout − control",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.2942",
+    "—",
+    "—"
+  ],
+  [
+    "GATA6 loss",
+    "G2M",
+    "GATA6 knockout − control",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.2598",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "REC50",
+    "Round 2: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.6574",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "REC50",
+    "Round 3: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.583",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "HRC",
+    "Round 2: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.2187",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "HRC",
+    "Round 3: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.3312",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "Published fetal-like programme",
+    "Round 2: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.1877",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "Published fetal-like programme",
+    "Round 3: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.1924",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "Partial EMT",
+    "Round 2: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.2823",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "Partial EMT",
+    "Round 3: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.4102",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "EMT",
+    "Round 2: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.345",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "EMT",
+    "Round 3: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.7621",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "Tight junction",
+    "Round 2: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.08908",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "Tight junction",
+    "Round 3: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.1447",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "Five-gene junction subset",
+    "Round 2: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.7785",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "Five-gene junction subset",
+    "Round 3: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "1.437",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "Actin turnover",
+    "Round 2: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.08899",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "Actin turnover",
+    "Round 3: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.09539",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "E2F",
+    "Round 2: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.5905",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "E2F",
+    "Round 3: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.2045",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "G2M",
+    "Round 2: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "-0.5005",
+    "—",
+    "—"
+  ],
+  [
+    "Successive liver-metastasis selection",
+    "G2M",
+    "Round 3: metastasis-derived − primary-tumour libraries",
+    "3 vs 3 libraries",
+    "Score difference",
+    "0.2504",
+    "—",
+    "—"
+  ]
+]

@@ -1,0 +1,43 @@
+pair_id	regulon_id	candidate_class	side	program_id	source_gene_count	pair_overlap_removed_count	pair_overlap_removed_genes	nonoverlap_source_gene_count	detected_target_gene_count	target_coverage_fraction	matched_control_gene_count	represented_expression_bins
+ap1_combined__tight_junction	AP1_COMBINED	primary_AP1	a	AP1_COMBINED	1152	6	CLDN18;CLDN3;CLDN4;CLDN7;CRB3;F11R	1146	1146	1.0	700	11;12;13;14;15;16;17;18;19;20;21;22;23;24
+ap1_combined__tight_junction	AP1_COMBINED	primary_AP1	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	6	CLDN18;CLDN3;CLDN4;CLDN7;CRB3;F11R	24	22	0.9166666666666666	800	0;2;5;8;10;11;12;13;14;15;17;19;20;21;23;24
+ap1_experimental_intersection__tight_junction	AP1_EXPERIMENTAL_INTERSECTION	exploratory_source_regulon	a	AP1_EXPERIMENTAL_INTERSECTION	59	0		59	59	1.0	550	13;15;16;17;18;19;20;21;22;23;24
+ap1_experimental_intersection__tight_junction	AP1_EXPERIMENTAL_INTERSECTION	exploratory_source_regulon	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+ascl2__tight_junction	ASCL2	lineage_WNT_comparator	a	ASCL2	346	1	CLDN3	345	345	1.0	500	15;16;17;18;19;20;21;22;23;24
+ascl2__tight_junction	ASCL2	lineage_WNT_comparator	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	1	CLDN3	29	27	0.9310344827586207	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+cdx2__tight_junction	CDX2	lineage_WNT_comparator	a	CDX2	219	3	CLDN15;CLDN3;CLDN4	216	216	1.0	500	15;16;17;18;19;20;21;22;23;24
+cdx2__tight_junction	CDX2	lineage_WNT_comparator	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	3	CLDN15;CLDN3;CLDN4	27	25	0.9259259259259259	800	0;2;5;8;10;11;12;13;14;15;17;19;21;22;23;24
+fos__tight_junction	FOS	exploratory_source_regulon	a	FOS	274	1	CLDN4	273	273	1.0	600	12;14;15;16;17;18;19;20;21;22;23;24
+fos__tight_junction	FOS	exploratory_source_regulon	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	1	CLDN4	29	27	0.9310344827586207	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+fosb__tight_junction	FOSB	exploratory_source_regulon	a	FOSB	189	1	CLDN18	188	188	1.0	650	12;13;14;15;16;17;18;19;20;21;22;23;24
+fosb__tight_junction	FOSB	exploratory_source_regulon	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	1	CLDN18	29	27	0.9310344827586207	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+fosl1__tight_junction	FOSL1	exploratory_source_regulon	a	FOSL1	261	0		261	261	1.0	650	11;13;14;15;16;17;18;19;20;21;22;23;24
+fosl1__tight_junction	FOSL1	exploratory_source_regulon	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+fosl2__tight_junction	FOSL2	primary_AP1	a	FOSL2	166	0		166	166	1.0	600	13;14;15;16;17;18;19;20;21;22;23;24
+fosl2__tight_junction	FOSL2	primary_AP1	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+hnf4a__tight_junction	HNF4A	lineage_WNT_comparator	a	HNF4A	453	4	CLDN1;CLDN15;CLDN16;CLDN4	449	449	1.0	550	13;15;16;17;18;19;20;21;22;23;24
+hnf4a__tight_junction	HNF4A	lineage_WNT_comparator	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	4	CLDN1;CLDN15;CLDN16;CLDN4	26	24	0.9230769230769231	800	0;2;5;8;10;11;12;13;14;15;17;19;21;22;23;24
+jun__tight_junction	JUN	exploratory_source_regulon	a	JUN	265	2	CLDN3;CLDN4	263	263	1.0	550	14;15;16;17;18;19;20;21;22;23;24
+jun__tight_junction	JUN	exploratory_source_regulon	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	2	CLDN3;CLDN4	28	26	0.9285714285714286	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+junb__tight_junction	JUNB	primary_AP1	a	JUNB	302	5	CLDN3;CLDN4;CLDN7;CRB3;F11R	297	297	1.0	650	12;13;14;15;16;17;18;19;20;21;22;23;24
+junb__tight_junction	JUNB	primary_AP1	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	5	CLDN3;CLDN4;CLDN7;CRB3;F11R	25	23	0.92	800	0;2;5;8;10;11;12;13;14;15;17;19;20;21;23;24
+jund__tight_junction	JUND	exploratory_source_regulon	a	JUND	329	2	CLDN18;F11R	327	327	1.0	600	12;14;15;16;17;18;19;20;21;22;23;24
+jund__tight_junction	JUND	exploratory_source_regulon	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	2	CLDN18;F11R	28	26	0.9285714285714286	800	0;2;5;8;10;11;12;13;14;15;17;19;20;21;23;24
+lef1__tight_junction	LEF1	lineage_WNT_comparator	a	LEF1	142	0		142	142	1.0	550	14;15;16;17;18;19;20;21;22;23;24
+lef1__tight_junction	LEF1	lineage_WNT_comparator	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+nfkb1__tight_junction	NFKB1	exploratory_source_regulon	a	NFKB1	51	0		51	51	1.0	450	14;16;18;19;20;21;22;23;24
+nfkb1__tight_junction	NFKB1	exploratory_source_regulon	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+nfkb2__tight_junction	NFKB2	exploratory_source_regulon	a	NFKB2	10	0		10	10	1.0	300	18;19;20;21;22;23
+nfkb2__tight_junction	NFKB2	exploratory_source_regulon	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+nfkb_combined__tight_junction	NFKB_COMBINED	inflammatory_comparator	a	NFKB_COMBINED	100	0		100	100	1.0	550	14;15;16;17;18;19;20;21;22;23;24
+nfkb_combined__tight_junction	NFKB_COMBINED	inflammatory_comparator	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+rel__tight_junction	REL	exploratory_source_regulon	a	REL	30	0		30	30	1.0	400	14;18;19;20;21;22;23;24
+rel__tight_junction	REL	exploratory_source_regulon	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+rela__tight_junction	RELA	exploratory_source_regulon	a	RELA	10	0		10	10	1.0	250	18;20;21;22;23
+rela__tight_junction	RELA	exploratory_source_regulon	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+relb__tight_junction	RELB	inflammatory_comparator	a	RELB	47	0		47	47	1.0	500	15;16;17;18;19;20;21;22;23;24
+relb__tight_junction	RELB	inflammatory_comparator	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+tead1__tight_junction	TEAD1	mechanotransduction_comparator	a	TEAD1	105	0		105	105	1.0	400	15;18;19;20;21;22;23;24
+tead1__tight_junction	TEAD1	mechanotransduction_comparator	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24
+tead4__tight_junction	TEAD4	mechanotransduction_comparator	a	TEAD4	99	0		99	99	1.0	450	16;17;18;19;20;21;22;23;24
+tead4__tight_junction	TEAD4	mechanotransduction_comparator	b	REACTOME_TIGHT_JUNCTION_INTERACTIONS	30	0		30	28	0.9333333333333333	850	0;2;5;8;10;11;12;13;14;15;17;19;20;21;22;23;24

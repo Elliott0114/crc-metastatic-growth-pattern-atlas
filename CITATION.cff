@@ -1,33 +1,28 @@
 cff-version: 1.2.0
-message: "If you use this code or source data, please cite this software release and the associated manuscript."
+message: "Please cite the manuscript and the original datasets used in your analysis."
+title: "Claudin and polarity-complex transcription differ in their associations with regenerative expression in colorectal liver metastases"
 type: software
-title: "Code for cross-platform mapping of a regenerative-like epithelial programme in colorectal liver metastases"
-version: 1.0.0
-date-released: 2026-08-25
+version: "2026-09-21"
+date-released: "2026-09-21"
+license: MIT
 repository-code: "https://github.com/Elliott0114/crc-metastatic-growth-pattern-atlas"
-abstract: >-
-  Patient-level analysis code, fixed programme definition, analysis specifications
-  and panel-level source data for a cross-platform study of replacement-type
-  colorectal liver metastases.
-keywords:
-  - colorectal liver metastasis
-  - histopathological growth pattern
-  - spatial transcriptomics
-  - single-cell RNA sequencing
-  - epithelial plasticity
 authors:
-  - family-names: Lv
-    given-names: Yiming
-    orcid: "https://orcid.org/0000-0003-4835-0336"
+  - family-names: Shen
+    given-names: Yanbin
+  - family-names: Zhou
+    given-names: Fengchen
   - family-names: Jia
     given-names: Xiya
   - family-names: Chen
-    given-names: Runzhi
-  - family-names: Chen
     given-names: Yiyi
-    orcid: "https://orcid.org/0000-0001-9766-6631"
+  - family-names: Chen
+    given-names: Runzi
   - family-names: Yin
     given-names: Sijie
+  - family-names: Lai
+    given-names: Chuanxi
+  - family-names: Lv
+    given-names: Yiming
   - family-names: Dai
     given-names: Sheng
-    orcid: "https://orcid.org/0000-0002-5387-8517"
+abstract: "Code associated with the 21 September 2026 Biology Direct manuscript draft. No publication DOI has been assigned in this record."

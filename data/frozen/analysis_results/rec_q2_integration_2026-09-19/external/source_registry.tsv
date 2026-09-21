@@ -1,0 +1,6 @@
+study	doi	bioproject	assays	n_patients	n_cells
+Che_2021_Cell_Discov	10.1038/s41421-021-00312-y	PRJNA725335	10x 3' v2	5	3944
+Giguelay_2022_Theranostics	10.7150/thno.72853	PRJNA666199	10x 3' v2;10x 3' v3	4	3405
+Liu_2024_Cancer_Res	10.1158/0008-5472.CAN-23-2123	PRJNA1028966	10x 5' v2	12	31540
+Sathe_2023_Clin_Cancer_Res	10.1158/1078-0432.CCR-22-2041		10x 3' v2	3	6713
+Wang_2023_Sci_Adv	10.1126/sciadv.adf5464	PRJNA937723	BD Rhapsody Whole Transcriptome Analysis	4	13493
