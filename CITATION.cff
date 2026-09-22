@@ -7,8 +7,8 @@ date-released: "2026-09-21"
 license: MIT
 repository-code: "https://github.com/Elliott0114/crc-metastatic-growth-pattern-atlas"
 authors:
-  - family-names: Shen
-    given-names: Yanbin
+  - family-names: Lv
+    given-names: Yiming
   - family-names: Zhou
     given-names: Fengchen
   - family-names: Jia
@@ -21,8 +21,6 @@ authors:
     given-names: Sijie
   - family-names: Lai
     given-names: Chuanxi
-  - family-names: Lv
-    given-names: Yiming
   - family-names: Dai
     given-names: Sheng
 abstract: "Code associated with the 21 September 2026 Biology Direct manuscript draft. No publication DOI has been assigned in this record."
